@@ -1,0 +1,65 @@
+[
+  {
+    "site": "south_2610",
+    "epoch": "M1129645568RC",
+    "ties": 454,
+    "median_error": 0.5725093090611396,
+    "local_ties": 2471
+  },
+  {
+    "site": "south_2610",
+    "epoch": "M186048671RC",
+    "ties": 63,
+    "median_error": 0.6874646673490821,
+    "local_ties": 1661
+  },
+  {
+    "site": "south_2610",
+    "epoch": "M1131999331RC",
+    "ties": 75,
+    "median_error": 0.7183800911384167,
+    "local_ties": 2148
+  },
+  {
+    "site": "south_2317",
+    "epoch": "M1129645568RC",
+    "ties": 646,
+    "median_error": 0.6153268720042664,
+    "local_ties": 2814
+  },
+  {
+    "site": "south_2317",
+    "epoch": "M186048671RC",
+    "ties": 29,
+    "median_error": 0.6015257498294163,
+    "local_ties": 3491
+  },
+  {
+    "site": "south_2317",
+    "epoch": "M1131999331RC",
+    "ties": 58,
+    "median_error": 0.7839326174205925,
+    "local_ties": 3606
+  },
+  {
+    "site": "northeast_938",
+    "epoch": "M1129645568RC",
+    "ties": 951,
+    "median_error": 0.6808446893008046,
+    "local_ties": 4445
+  },
+  {
+    "site": "northeast_938",
+    "epoch": "M186048671RC",
+    "ties": 97,
+    "median_error": 1.146487654769188,
+    "local_ties": 2798
+  },
+  {
+    "site": "northeast_938",
+    "epoch": "M1131999331RC",
+    "ties": 208,
+    "median_error": 1.0974002670025484,
+    "local_ties": 3415
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "epoch": "M1157905715RC",
+    "via": "M1415343880RC",
+    "ties": 24,
+    "median_error": 0.8326294592023374,
+    "local_ties": 476
+  },
+  {
+    "epoch": "M1160269154RC",
+    "via": "M1415343880RC",
+    "ties": 609,
+    "median_error": 0.7636320899498035,
+    "local_ties": 2836
+  },
+  {
+    "epoch": "M1297912728LC",
+    "via": "M1415343880RC",
+    "ties": 1705,
+    "median_error": 1.0958628470296095,
+    "local_ties": 7836
+  },
+  {
+    "epoch": "M1354309624RC",
+    "via": "M1415343880RC",
+    "ties": 61,
+    "median_error": 0.918699773071436,
+    "local_ties": 1112
+  },
+  {
+    "epoch": "M1197927842RC",
+    "via": "M1521927263LC",
+    "ties": 1522,
+    "median_error": 0.6020395552338349,
+    "local_ties": 5724
+  },
+  {
+    "epoch": "M1243829172RC",
+    "via": "M1521927263LC",
+    "ties": 1646,
+    "median_error": 0.5584218049647636,
+    "local_ties": 7434
+  },
+  {
+    "epoch": "M1259101030LC",
+    "via": "M1521927263LC",
+    "ties": 1717,
+    "median_error": 0.4943926891779366,
+    "local_ties": 6100
+  },
+  {
+    "epoch": "M1302615763LC",
+    "via": "M1521927263LC",
+    "ties": 361,
+    "median_error": 0.9900020679220384,
+    "local_ties": 3255
+  },
+  {
+    "epoch": "M1346065895RC",
+    "via": "M1521927263LC",
+    "ties": 35,
+    "median_error": 1.1582401280495154,
+    "local_ties": 1530
+  },
+  {
+    "epoch": "M1361355503RC",
+    "via": "M1521927263LC",
+    "ties": 41,
+    "median_error": 0.935211364157957,
+    "local_ties": 1513
+  },
+  {
+    "epoch": "M1407107740LC",
+    "via": "M1521927263LC",
+    "ties": 1710,
+    "median_error": 0.6136981671370669,
+    "local_ties": 6325
+  },
+  {
+    "epoch": "M1210886396RC",
+    "via": "M1521927263LC",
+    "ties": 26,
+    "median_error": 0.9051980359227705,
+    "local_ties": 702
+  },
+  {
+    "epoch": "M1134351922RC",
+    "via": "M1210886396RC",
+    "ties": 1425,
+    "median_error": 0.7622890605879045,
+    "local_ties": 7496
+  },
+  {
+    "epoch": "M1164966432RC",
+    "via": "M1210886396RC",
+    "ties": 1058,
+    "median_error": 0.8332609567367708,
+    "local_ties": 6236
+  },
+  {
+    "epoch": "M1346065895RC",
+    "via": "M1210886396RC",
+    "ties": 1262,
+    "median_error": 0.8186070440852038,
+    "local_ties": 6863
+  },
+  {
+    "epoch": "M1361355503RC",
+    "via": "M1210886396RC",
+    "ties": 1429,
+    "median_error": 0.6991669312980838,
+    "local_ties": 7551
+  },
+  {
+    "epoch": "M1239124122LC",
+    "via": "M186048671RC",
+    "native_tile": [
+      0,
+      -1
+    ],
+    "ties": 330,
+    "median_error": 1.050326878826528,
+    "local_ties": 3599
+  },
+  {
+    "epoch": "M1147310942RC",
+    "via": "M186048671RC",
+    "native_tile": [
+      1,
+      -2
+    ],
+    "ties": 545,
+    "median_error": 0.9794741886470701,
+    "local_ties": 3072
+  },
+  {
+    "epoch": "M1269696510LC",
+    "via": "M186048671RC",
+    "native_tile": [
+      0,
+      -1
+    ],
+    "ties": 328,
+    "median_error": 1.0756143378362313,
+    "local_ties": 3266
+  }
+]

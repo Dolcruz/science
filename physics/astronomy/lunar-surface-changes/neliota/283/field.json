@@ -1,0 +1,74 @@
+{
+  "id": 283,
+  "lon": 277.1,
+  "lat": -5.9,
+  "date": "2023-05-25",
+  "diam_m": 4.6,
+  "grid_m": 0.92,
+  "before": "M1405157120RC",
+  "after": "M1491897245LC",
+  "observations": {
+    "M1405157120RC": {
+      "date": "2022-04-21",
+      "incidence_deg": 25.27,
+      "emission": 7.68,
+      "subsolar_lat": -0.58,
+      "subsolar_lon": 301.69,
+      "bearing": 78.6667543593956,
+      "res": 0.947,
+      "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1051B/DATA/ESM4/2022111/NAC/M1405157120RC.IMG",
+      "corners": [
+        [
+          276.92,
+          -5.01
+        ],
+        [
+          276.77,
+          -5.02
+        ],
+        [
+          277.08,
+          -6.66
+        ],
+        [
+          276.92,
+          -6.68
+        ]
+      ],
+      "lines": 52224,
+      "samples": 5064,
+      "poly": "POLYGON ((276.77 -5.02, 276.92 -6.68, 277.08 -6.66, 276.92 -5.01, 276.77 -5.02))"
+    },
+    "M1491897245LC": {
+      "date": "2025-01-19",
+      "incidence_deg": 25.06,
+      "emission": 1.72,
+      "subsolar_lat": -1.36,
+      "subsolar_lon": 301.67,
+      "bearing": 80.46139173432239,
+      "res": 0.861,
+      "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1062B/DATA/ESM5/2025019/NAC/M1491897245LC.IMG",
+      "corners": [
+        [
+          276.94,
+          -5.09
+        ],
+        [
+          276.8,
+          -5.1
+        ],
+        [
+          277.08,
+          -6.38
+        ],
+        [
+          276.95,
+          -6.39
+        ]
+      ],
+      "lines": 44032,
+      "samples": 5064,
+      "poly": "POLYGON ((276.8 -5.1, 276.95 -6.39, 277.08 -6.38, 276.94 -5.09, 276.8 -5.1))"
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "M1109154536RC": {
+    "date": "2012-12-03T06:14:30",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1013/DATA/ESM/2012338/NAC/M1109154536RC.IMG",
+    "incidence_deg": 78.01,
+    "solar_azimuth_deg": 179.79,
+    "native_pixel_width_m": 2.15,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        225.97,
+        -3.83
+      ],
+      [
+        225.79,
+        -3.84
+      ],
+      [
+        226.09,
+        -7.79
+      ],
+      [
+        225.91,
+        -7.79
+      ]
+    ],
+    "sub_solar_longitude": 303.84,
+    "sub_solar_latitude": 0.44,
+    "north_azimuth": 266.74,
+    "emission_angle": 1.18,
+    "scaled_pixel_height": 2.29
+  },
+  "M1117402542LC": {
+    "date": "2013-03-08T17:21:15",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1014/DATA/ESM/2013067/NAC/M1117402542LC.IMG",
+    "incidence_deg": 9.32,
+    "solar_azimuth_deg": 112.96,
+    "native_pixel_width_m": 0.97,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        225.96,
+        -8.08
+      ],
+      [
+        226.12,
+        -8.09
+      ],
+      [
+        226.0,
+        -6.71
+      ],
+      [
+        226.16,
+        -6.72
+      ]
+    ],
+    "sub_solar_longitude": 222.76,
+    "sub_solar_latitude": 1.32,
+    "north_azimuth": 90.31,
+    "emission_angle": 1.74,
+    "scaled_pixel_height": 0.79
+  },
+  "M1148028911RC": {
+    "date": "2014-02-26T04:40:44",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1018/DATA/ESM/2014057/NAC/M1148028911RC.IMG",
+    "incidence_deg": 10.1,
+    "solar_azimuth_deg": 120.46,
+    "native_pixel_width_m": 1.02,
+    "lines": 33792,
+    "samples": 5064,
+    "corners": [
+      [
+        225.92,
+        -8.31
+      ],
+      [
+        226.09,
+        -8.32
+      ],
+      [
+        225.97,
+        -7.15
+      ],
+      [
+        226.14,
+        -7.16
+      ]
+    ],
+    "sub_solar_longitude": 221.3,
+    "sub_solar_latitude": 1.2,
+    "north_azimuth": 93.67,
+    "emission_angle": 1.25,
+    "scaled_pixel_height": 1.03
+  },
+  "M1168044929RC": {
+    "date": "2014-10-15T20:41:02",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1021/DATA/ESM2/2014288/NAC/M1168044929RC.IMG",
+    "incidence_deg": 48.19,
+    "solar_azimuth_deg": 184.49,
+    "native_pixel_width_m": 1.05,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        226.14,
+        -7.04
+      ],
+      [
+        225.96,
+        -7.05
+      ],
+      [
+        226.22,
+        -8.82
+      ],
+      [
+        226.05,
+        -8.83
+      ]
+    ],
+    "sub_solar_longitude": 273.77,
+    "sub_solar_latitude": 0.12,
+    "north_azimuth": 265.83,
+    "emission_angle": 1.17,
+    "scaled_pixel_height": 1.03
+  },
+  "M1176284678RC": {
+    "date": "2015-01-19T05:30:11",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1022/DATA/ESM2/2015019/NAC/M1176284678RC.IMG",
+    "incidence_deg": 34.01,
+    "solar_azimuth_deg": 167.61,
+    "native_pixel_width_m": 1.01,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        225.97,
+        -9.18
+      ],
+      [
+        226.13,
+        -9.19
+      ],
+      [
+        226.05,
+        -7.46
+      ],
+      [
+        226.22,
+        -7.47
+      ]
+    ],
+    "sub_solar_longitude": 193.42,
+    "sub_solar_latitude": 1.46,
+    "north_azimuth": 94.11,
+    "emission_angle": 1.17,
+    "scaled_pixel_height": 0.99
+  },
+  "M1185701417RC": {
+    "date": "2015-05-08T05:15:50",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1023/DATA/ESM2/2015128/NAC/M1185701417RC.IMG",
+    "incidence_deg": 79.79,
+    "solar_azimuth_deg": 183.26,
+    "native_pixel_width_m": 1.81,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        226.04,
+        -8.95
+      ],
+      [
+        225.89,
+        -8.95
+      ],
+      [
+        226.19,
+        -5.96
+      ],
+      [
+        226.04,
+        -5.95
+      ]
+    ],
+    "sub_solar_longitude": 305.87,
+    "sub_solar_latitude": -0.97,
+    "north_azimuth": 271.57,
+    "emission_angle": 1.17,
+    "scaled_pixel_height": 1.73
+  },
+  "M1186879028LC": {
+    "date": "2015-05-21T20:22:41",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1023/DATA/ESM2/2015141/NAC/M1186879028LC.IMG",
+    "incidence_deg": 86.75,
+    "solar_azimuth_deg": 178.08,
+    "native_pixel_width_m": 1.84,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        225.96,
+        -6.13
+      ],
+      [
+        226.11,
+        -6.12
+      ],
+      [
+        226.12,
+        -9.31
+      ],
+      [
+        226.27,
+        -9.3
+      ]
+    ],
+    "sub_solar_longitude": 139.23,
+    "sub_solar_latitude": -1.24,
+    "north_azimuth": 85.36,
+    "emission_angle": 1.73,
+    "scaled_pixel_height": 1.84
+  },
+  "M1191587829LC": {
+    "date": "2015-07-15T08:22:42",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1024/DATA/ESM2/2015196/NAC/M1191587829LC.IMG",
+    "incidence_deg": 33.03,
+    "solar_azimuth_deg": 168.83,
+    "native_pixel_width_m": 0.94,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        225.9,
+        -6.33
+      ],
+      [
+        226.06,
+        -6.32
+      ],
+      [
+        225.98,
+        -7.92
+      ],
+      [
+        226.14,
+        -7.91
+      ]
+    ],
+    "sub_solar_longitude": 193.37,
+    "sub_solar_latitude": -1.46,
+    "north_azimuth": 85.33,
+    "emission_angle": 1.73,
+    "scaled_pixel_height": 0.92
+  },
+  "M1193942227LC": {
+    "date": "2015-08-11T14:22:39",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1024/DATA/ESM2/2015223/NAC/M1193942227LC.IMG",
+    "incidence_deg": 8.36,
+    "solar_azimuth_deg": 128.68,
+    "native_pixel_width_m": 0.95,
+    "lines": 43008,
+    "samples": 5064,
+    "corners": [
+      [
+        225.87,
+        -6.71
+      ],
+      [
+        226.03,
+        -6.7
+      ],
+      [
+        225.94,
+        -7.98
+      ],
+      [
+        226.09,
+        -7.97
+      ]
+    ],
+    "sub_solar_longitude": 220.45,
+    "sub_solar_latitude": -1.06,
+    "north_azimuth": 85.3,
+    "emission_angle": 1.74,
+    "scaled_pixel_height": 0.89
+  },
+  "M1209240188LC": {
+    "date": "2016-02-04T15:48:41",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1026/DATA/ESM2/2016035/NAC/M1209240188LC.IMG",
+    "incidence_deg": 8.57,
+    "solar_azimuth_deg": 106.66,
+    "native_pixel_width_m": 0.9,
+    "lines": 35840,
+    "samples": 5064,
+    "corners": [
+      [
+        225.93,
+        -7.89
+      ],
+      [
+        226.08,
+        -7.9
+      ],
+      [
+        225.99,
+        -6.87
+      ],
+      [
+        226.14,
+        -6.88
+      ]
+    ],
+    "sub_solar_longitude": 224.08,
+    "sub_solar_latitude": 0.97,
+    "north_azimuth": 91.61,
+    "emission_angle": 1.73,
+    "scaled_pixel_height": 0.86
+  },
+  "M1229246404RC": {
+    "date": "2016-09-23T05:05:37",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1029/DATA/ESM3/2016267/NAC/M1229246404RC.IMG",
+    "incidence_deg": 52.93,
+    "solar_azimuth_deg": 183.23,
+    "native_pixel_width_m": 0.88,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        226.05,
+        -7.12
+      ],
+      [
+        225.91,
+        -7.12
+      ],
+      [
+        226.14,
+        -8.58
+      ],
+      [
+        225.99,
+        -8.59
+      ]
+    ],
+    "sub_solar_longitude": 278.45,
+    "sub_solar_latitude": 0.53,
+    "north_azimuth": 265.26,
+    "emission_angle": 1.16,
+    "scaled_pixel_height": 0.85
+  },
+  "M1446530029RC": {
+    "date": "2023-08-13T01:39:22",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1056B/DATA/ESM5/2023225/NAC/M1446530029RC.IMG",
+    "incidence_deg": 10.14,
+    "solar_azimuth_deg": 125.27,
+    "native_pixel_width_m": 1.09,
+    "lines": 29696,
+    "samples": 5064,
+    "corners": [
+      [
+        225.98,
+        -7.85
+      ],
+      [
+        226.17,
+        -7.87
+      ],
+      [
+        226.08,
+        -6.9
+      ],
+      [
+        226.26,
+        -6.92
+      ]
+    ],
+    "sub_solar_longitude": 221.13,
+    "sub_solar_latitude": 1.44,
+    "north_azimuth": 96.93,
+    "emission_angle": 1.18,
+    "scaled_pixel_height": 0.97
+  },
+  "M1526159508RC": {
+    "date": "2026-02-19T16:57:22",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1066C/DATA/ESM6/2026050/NAC/M1526159508RC.IMG",
+    "incidence_deg": 78.18,
+    "solar_azimuth_deg": 185.4,
+    "native_pixel_width_m": 1.95,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        225.89,
+        -8.21
+      ],
+      [
+        226.06,
+        -8.23
+      ],
+      [
+        226.27,
+        -4.94
+      ],
+      [
+        226.43,
+        -4.96
+      ]
+    ],
+    "sub_solar_longitude": 148.03,
+    "sub_solar_latitude": -0.26,
+    "north_azimuth": 97.86,
+    "emission_angle": 1.18,
+    "scaled_pixel_height": 1.91
+  },
+  "M178510938LC": {
+    "date": "2011-12-14T14:07:51",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1009/DATA/SCI/2011348/NAC/M178510938LC.IMG",
+    "incidence_deg": 81.95,
+    "solar_azimuth_deg": 180.15,
+    "native_pixel_width_m": 1.06,
+    "lines": 41984,
+    "samples": 5064,
+    "corners": [
+      [
+        226.08,
+        -6.63
+      ],
+      [
+        225.9,
+        -6.64
+      ],
+      [
+        226.11,
+        -8.16
+      ],
+      [
+        225.93,
+        -8.16
+      ]
+    ],
+    "sub_solar_longitude": 307.85,
+    "sub_solar_latitude": 0.21,
+    "north_azimuth": 270.87,
+    "emission_angle": 1.74,
+    "scaled_pixel_height": 1.1
+  },
+  "M186762974RC": {
+    "date": "2012-03-19T02:21:46",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1011/DATA/SCI/2012079/NAC/M186762974RC.IMG",
+    "incidence_deg": 8.81,
+    "solar_azimuth_deg": 91.45,
+    "native_pixel_width_m": 1.03,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        225.94,
+        -8.05
+      ],
+      [
+        226.11,
+        -8.06
+      ],
+      [
+        225.97,
+        -6.7
+      ],
+      [
+        226.14,
+        -6.7
+      ]
+    ],
+    "sub_solar_longitude": 226.03,
+    "sub_solar_latitude": 1.43,
+    "north_azimuth": 90.18,
+    "emission_angle": 1.12,
+    "scaled_pixel_height": 0.78
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "center_lat": -6.10273,
+  "center_lon_east": 276.99227,
+  "start_utc_date": "2022-11-10",
+  "end_utc_date": "2023-03-13",
+  "in_window_liakos": 19,
+  "nearby_excluded": {
+    "event_id": 283,
+    "distance_km": 6.953133614907137,
+    "days_after_end": 73
+  },
+  "closest_in_window_neliota": {
+    "n": "261",
+    "date": "2022-12-26",
+    "ut": "16:48:14.320",
+    "type": "Val.",
+    "lat": "0.2",
+    "lon": "-66.5",
+    "distance_km": "534.9518692053214"
+  },
+  "january_26_2023_uai_km": 1775.6054812017223,
+  "february_23_2023_distance_to_ideler_l_landmark_km": 2912.0739131059827,
+  "pds_hardware": {
+    "rows": 71,
+    "source_sha256": "071f3560f8d5d3473de2d868cdf04de0b2ca6b7863be2a5c98b801aa1a017953",
+    "url": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/SHAPEFILE/ANTHROPOGENIC_OBJECTS/ANTHROPOGENIC_OBJECTS_360.ZIP",
+    "in_window_ids": [],
+    "years_2022_2023": [
+      {
+        "name": "Chang'e 5-T1 Booster Impact",
+        "date": "20220304",
+        "lat": "5.226900000000000",
+        "lon": "234.484800000000007"
+      },
+      {
+        "name": "Hakuto-R 1 Lander Impact",
+        "date": "20230425",
+        "lat": "47.579999999999998",
+        "lon": "44.093800000000002"
+      },
+      {
+        "name": "Chandrayaan-3 Vikram Lander",
+        "date": "20230823",
+        "lat": "-69.373999999999995",
+        "lon": "32.318700000000000"
+      },
+      {
+        "name": "Luna 25 Lander Impact",
+        "date": "20230819",
+        "lat": "-57.865099999999998",
+        "lon": "61.358800000000002"
+      }
+    ]
+  }
+}

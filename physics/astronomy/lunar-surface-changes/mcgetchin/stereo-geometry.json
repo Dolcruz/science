@@ -1,0 +1,20 @@
+{
+  "E": {
+    "sub_lat": 1.48,
+    "sub_lon": 68.15,
+    "altitude_km": 88.5,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1521338586LC"
+  },
+  "N": {
+    "sub_lat": 1.36,
+    "sub_lon": 67.09,
+    "altitude_km": 88.4,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1521345601LC"
+  },
+  "W": {
+    "sub_lat": 1.25,
+    "sub_lon": 66.03,
+    "altitude_km": 88.26,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1521352616LC"
+  }
+}

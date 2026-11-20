@@ -1,0 +1,55 @@
+{
+  "M186762974RC": {
+    "aligned": true,
+    "ties": 1150,
+    "median_error": 0.7605423191135321,
+    "local_ties": 2934,
+    "valid": 37249
+  },
+  "M1117402542LC": {
+    "aligned": true,
+    "ties": 1111,
+    "median_error": 0.707328346948849,
+    "local_ties": 2641,
+    "valid": 37249
+  },
+  "M1193942227LC": {
+    "aligned": true,
+    "ties": 1026,
+    "median_error": 0.664138692305916,
+    "local_ties": 3033,
+    "valid": 37249
+  },
+  "M1191587829LC": {
+    "aligned": false
+  },
+  "M1209240188LC": {
+    "aligned": true,
+    "ties": 1082,
+    "median_error": 0.6131335456675017,
+    "local_ties": 2804,
+    "valid": 37249
+  },
+  "M1446530029RC": {
+    "aligned": true,
+    "ties": 1494,
+    "median_error": 0.7151851905560594,
+    "local_ties": 3032,
+    "valid": 37249
+  },
+  "M1168044929RC": {
+    "aligned": false
+  },
+  "M1229246404RC": {
+    "aligned": false
+  },
+  "M178510938LC": {
+    "aligned": false
+  },
+  "M1185701417RC": {
+    "aligned": false
+  },
+  "M1526159508RC": {
+    "aligned": false
+  }
+}

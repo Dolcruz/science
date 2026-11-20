@@ -277,6 +277,65 @@
       "paper": "physics/astronomy/tic-153838604/paper/tic-153838604.pdf",
       "novelty_search": "2026-11-20",
       "produced_by": "AI agents (OpenAI Codex)"
+    },
+    {
+      "id": "physics/astronomy/lunar-surface-changes",
+      "field": "physics",
+      "subfield": "astronomy; lunar geology",
+      "title": "A candidate depression northwest of McGetchin crater",
+      "claim": "A roughly 5 m hollow appears 442 m northwest of McGetchin crater in repeat lunar images; excavation and uneven ejecta deposition both remain possible. A separate surface brightening was present 73 days before nearby NELIOTA flash 283.",
+      "key_values": {
+        "latitude_deg_north": 1.36151,
+        "longitude_deg_east": 67.16426,
+        "distance_to_primary_m": 442,
+        "seven_pixel_center_minus_annulus_m": [
+          -0.37,
+          -0.51,
+          -0.44
+        ],
+        "flash_field_brightening_percent": 29.78,
+        "days_before_flash_283": 73
+      },
+      "status": [
+        "archival-analysis"
+      ],
+      "verification": [
+        {
+          "kind": "archival-analysis",
+          "files": [
+            "physics/astronomy/lunar-surface-changes/mcgetchin/candidate-chips.npz",
+            "physics/astronomy/lunar-surface-changes/mcgetchin/stereo-apertures.npz",
+            "physics/astronomy/lunar-surface-changes/nel283-shape/cutouts.npz"
+          ],
+          "command": "python physics/astronomy/lunar-surface-changes/verify.py",
+          "dependencies": [
+            "numpy"
+          ]
+        }
+      ],
+      "limitations": [
+        "Absolute excavation depth and secondary-impact origin are unresolved.",
+        "The stereo pairs share exposures and their relief changes sign at larger matching windows.",
+        "Exploratory selection and incomplete catalogs leave discovery priority open."
+      ],
+      "builds_on": [
+        "doi:10.1126/sciadv.aeh7812",
+        "doi:10.5281/zenodo.21481275",
+        "doi:10.1051/0004-6361/202449542"
+      ],
+      "keywords": [
+        "Moon",
+        "LROC",
+        "McGetchin crater",
+        "secondary crater candidate",
+        "ejecta",
+        "lunar stereo imagery",
+        "NELIOTA"
+      ],
+      "readme": "physics/astronomy/lunar-surface-changes/README.md",
+      "paper": "physics/astronomy/lunar-surface-changes/lunar-surface-changes.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "AI agents (OpenAI Codex)"
     }
   ]
 }

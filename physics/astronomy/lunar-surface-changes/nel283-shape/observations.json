@@ -1,0 +1,662 @@
+{
+  "M1491897245LC": {
+    "date": "2025-01-19T03:39:38",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1062B/DATA/ESM5/2025019/NAC/M1491897245LC.IMG",
+    "incidence_deg": 25.06,
+    "sun_lon": 301.67,
+    "sun_lat": -1.36,
+    "emission": 1.72,
+    "w_m": 0.83,
+    "h_m": 0.89,
+    "lines": 44032,
+    "samples": 5064,
+    "corners": [
+      [
+        276.94,
+        -5.09
+      ],
+      [
+        276.8,
+        -5.1
+      ],
+      [
+        277.08,
+        -6.38
+      ],
+      [
+        276.95,
+        -6.39
+      ]
+    ]
+  },
+  "M1448538445LC": {
+    "date": "2023-09-05T07:32:57",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1056C/DATA/ESM5/2023248/NAC/M1448538445LC.IMG",
+    "incidence_deg": 21.36,
+    "sun_lon": 297.31,
+    "sun_lat": 1.05,
+    "emission": 8.53,
+    "w_m": 1.02,
+    "h_m": 1.03,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.06,
+        -6.75
+      ],
+      [
+        276.89,
+        -6.73
+      ],
+      [
+        277.24,
+        -4.97
+      ],
+      [
+        277.08,
+        -4.95
+      ]
+    ]
+  },
+  "M1433308510RC": {
+    "date": "2023-03-13T01:00:42",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1054C/DATA/ESM5/2023072/NAC/M1433308510RC.IMG",
+    "incidence_deg": 13.49,
+    "sun_lon": 289.57,
+    "sun_lat": -1.08,
+    "emission": 8.69,
+    "w_m": 0.8,
+    "h_m": 0.83,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.93,
+        -5.17
+      ],
+      [
+        276.8,
+        -5.19
+      ],
+      [
+        277.07,
+        -6.6
+      ],
+      [
+        276.94,
+        -6.61
+      ]
+    ]
+  },
+  "M1435658799LC": {
+    "date": "2023-04-09T05:52:12",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1055A/DATA/ESM5/2023099/NAC/M1435658799LC.IMG",
+    "incidence_deg": 41.32,
+    "sun_lon": 318.03,
+    "sun_lat": -0.44,
+    "emission": 10.39,
+    "w_m": 0.8,
+    "h_m": 0.83,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.99,
+        -5.13
+      ],
+      [
+        276.85,
+        -5.14
+      ],
+      [
+        277.13,
+        -6.56
+      ],
+      [
+        276.99,
+        -6.57
+      ]
+    ]
+  },
+  "M1481346260RC": {
+    "date": "2024-09-19T00:49:53",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1061A/DATA/ESM5/2024263/NAC/M1481346260RC.IMG",
+    "incidence_deg": 71.1,
+    "sun_lon": 347.94,
+    "sun_lat": 0.27,
+    "emission": 1.16,
+    "w_m": 0.87,
+    "h_m": 0.91,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.96,
+        -6.72
+      ],
+      [
+        276.82,
+        -6.71
+      ],
+      [
+        277.14,
+        -5.15
+      ],
+      [
+        276.99,
+        -5.13
+      ]
+    ]
+  },
+  "M1335882808RC": {
+    "date": "2020-02-09T10:19:02",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1042B/DATA/ESM4/2020040/NAC/M1335882808RC.IMG",
+    "incidence_deg": 78.15,
+    "sun_lon": 355.24,
+    "sun_lat": -1.05,
+    "emission": 1.16,
+    "w_m": 1.74,
+    "h_m": 1.79,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        276.99,
+        -7.62
+      ],
+      [
+        276.84,
+        -7.61
+      ],
+      [
+        277.23,
+        -4.53
+      ],
+      [
+        277.09,
+        -4.52
+      ]
+    ]
+  },
+  "M1524669573LC": {
+    "date": "2026-02-02T11:05:06",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1066B/DATA/ESM6/2026033/NAC/M1524669573LC.IMG",
+    "incidence_deg": 80.97,
+    "sun_lon": 357.91,
+    "sun_lat": -0.67,
+    "emission": 1.73,
+    "w_m": 1.84,
+    "h_m": 1.92,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        276.79,
+        -4.45
+      ],
+      [
+        276.64,
+        -4.46
+      ],
+      [
+        277.2,
+        -7.74
+      ],
+      [
+        277.04,
+        -7.75
+      ]
+    ]
+  },
+  "M1512968740RC": {
+    "date": "2025-09-20T00:51:13",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1065A/DATA/ESM5/2025263/NAC/M1512968740RC.IMG",
+    "incidence_deg": 70.72,
+    "sun_lon": 206.13,
+    "sun_lat": -0.29,
+    "emission": 1.16,
+    "w_m": 1.65,
+    "h_m": 1.73,
+    "lines": 52224,
+    "samples": 2532,
+    "corners": [
+      [
+        276.56,
+        -3.65
+      ],
+      [
+        276.7,
+        -3.64
+      ],
+      [
+        276.92,
+        -6.63
+      ],
+      [
+        277.05,
+        -6.62
+      ]
+    ]
+  },
+  "M1405157120RC": {
+    "date": "2022-04-21T05:10:53",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1051B/DATA/ESM4/2022111/NAC/M1405157120RC.IMG",
+    "incidence_deg": 25.27,
+    "sun_lon": 301.69,
+    "sun_lat": -0.58,
+    "emission": 7.68,
+    "w_m": 0.94,
+    "h_m": 0.96,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.92,
+        -5.01
+      ],
+      [
+        276.77,
+        -5.02
+      ],
+      [
+        277.08,
+        -6.66
+      ],
+      [
+        276.92,
+        -6.68
+      ]
+    ]
+  },
+  "M1519985562RC": {
+    "date": "2025-12-10T05:58:15",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1065C/DATA/ESM6/2025344/NAC/M1519985562RC.IMG",
+    "incidence_deg": 20.71,
+    "sun_lon": 297.2,
+    "sun_lat": -1.53,
+    "emission": 10.79,
+    "w_m": 0.9,
+    "h_m": 0.91,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.88,
+        -5.06
+      ],
+      [
+        276.73,
+        -5.08
+      ],
+      [
+        277.07,
+        -6.63
+      ],
+      [
+        276.92,
+        -6.65
+      ]
+    ]
+  },
+  "M1420405483LC": {
+    "date": "2022-10-14T16:50:16",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1053A/DATA/ESM5/2022287/NAC/M1420405483LC.IMG",
+    "incidence_deg": 30.15,
+    "sun_lon": 306.53,
+    "sun_lat": 0.58,
+    "emission": 15.42,
+    "w_m": 0.95,
+    "h_m": 0.94,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.03,
+        -6.66
+      ],
+      [
+        276.87,
+        -6.65
+      ],
+      [
+        277.19,
+        -5.04
+      ],
+      [
+        277.03,
+        -5.03
+      ]
+    ]
+  },
+  "M1463782498LC": {
+    "date": "2024-02-28T18:00:30",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1058C/DATA/ESM5/2024059/NAC/M1463782498LC.IMG",
+    "incidence_deg": 32.84,
+    "sun_lon": 309.58,
+    "sun_lat": -0.98,
+    "emission": 4.81,
+    "w_m": 0.92,
+    "h_m": 0.95,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.03,
+        -5.03
+      ],
+      [
+        276.88,
+        -5.05
+      ],
+      [
+        277.2,
+        -6.66
+      ],
+      [
+        277.05,
+        -6.68
+      ]
+    ]
+  },
+  "M1507105139LC": {
+    "date": "2025-07-14T04:04:31",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1064A/DATA/ESM5/2025195/NAC/M1507105139LC.IMG",
+    "incidence_deg": 38.59,
+    "sun_lon": 315.04,
+    "sun_lat": 1.34,
+    "emission": 0.79,
+    "w_m": 0.98,
+    "h_m": 1.02,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.05,
+        -6.74
+      ],
+      [
+        276.89,
+        -6.72
+      ],
+      [
+        277.25,
+        -4.99
+      ],
+      [
+        277.09,
+        -4.97
+      ]
+    ]
+  },
+  "M1532848972LC": {
+    "date": "2026-05-08T03:08:25",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1067B/DATA/ESM6/2026128/NAC/M1532848972LC.IMG",
+    "incidence_deg": 10.43,
+    "sun_lon": 284.56,
+    "sun_lat": 1.49,
+    "emission": 6.97,
+    "w_m": 0.86,
+    "h_m": 0.89,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.08,
+        -6.57
+      ],
+      [
+        276.93,
+        -6.56
+      ],
+      [
+        277.25,
+        -5.05
+      ],
+      [
+        277.11,
+        -5.03
+      ]
+    ]
+  },
+  "M1532848972RC": {
+    "date": "2026-05-08T03:08:25",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1067B/DATA/ESM6/2026128/NAC/M1532848972RC.IMG",
+    "incidence_deg": 10.52,
+    "sun_lon": 284.56,
+    "sun_lat": 1.49,
+    "emission": 4.08,
+    "w_m": 0.85,
+    "h_m": 0.89,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.94,
+        -6.56
+      ],
+      [
+        276.79,
+        -6.54
+      ],
+      [
+        277.12,
+        -5.03
+      ],
+      [
+        276.98,
+        -5.02
+      ]
+    ]
+  },
+  "M1509446289RC": {
+    "date": "2025-08-10T06:23:41",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1064B/DATA/ESM5/2025222/NAC/M1509446289RC.IMG",
+    "incidence_deg": 67.03,
+    "sun_lon": 343.86,
+    "sun_lat": 0.84,
+    "emission": 1.17,
+    "w_m": 0.97,
+    "h_m": 1.04,
+    "lines": 40960,
+    "samples": 5064,
+    "corners": [
+      [
+        277.04,
+        -6.3
+      ],
+      [
+        276.87,
+        -6.29
+      ],
+      [
+        277.2,
+        -4.91
+      ],
+      [
+        277.04,
+        -4.89
+      ]
+    ]
+  },
+  "M1530506944LC": {
+    "date": "2026-04-11T00:34:37",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1067A/DATA/ESM6/2026101/NAC/M1530506944LC.IMG",
+    "incidence_deg": 22.74,
+    "sun_lon": 255.31,
+    "sun_lat": 1.08,
+    "emission": 1.72,
+    "w_m": 0.86,
+    "h_m": 0.9,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.88,
+        -6.49
+      ],
+      [
+        277.02,
+        -6.5
+      ],
+      [
+        277.07,
+        -4.94
+      ],
+      [
+        277.21,
+        -4.95
+      ]
+    ]
+  },
+  "M1124130817LC": {
+    "date": "2013-05-25T14:19:10",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1015/DATA/ESM/2013145/NAC/M1124130817LC.IMG",
+    "incidence_deg": 75.79,
+    "sun_lon": 352.81,
+    "sun_lat": -0.48,
+    "emission": 11.78,
+    "w_m": 1.05,
+    "h_m": 1.04,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.1,
+        -6.78
+      ],
+      [
+        276.93,
+        -6.77
+      ],
+      [
+        277.17,
+        -4.99
+      ],
+      [
+        276.99,
+        -4.98
+      ]
+    ]
+  },
+  "M114498484RC": {
+    "date": "2009-12-03T16:53:37",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1001/DATA/MAP/2009337/NAC/M114498484RC.IMG",
+    "incidence_deg": 62.48,
+    "sun_lon": 339.45,
+    "sun_lat": -1.03,
+    "emission": 11.03,
+    "w_m": 1.01,
+    "h_m": 1.05,
+    "lines": 21504,
+    "samples": 2532,
+    "corners": [
+      [
+        277.03,
+        -5.37
+      ],
+      [
+        276.95,
+        -5.37
+      ],
+      [
+        277.08,
+        -6.12
+      ],
+      [
+        276.99,
+        -6.12
+      ]
+    ]
+  },
+  "M1422745700LC": {
+    "date": "2022-11-10T18:53:52",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1053B/DATA/ESM5/2022314/NAC/M1422745700LC.IMG",
+    "incidence_deg": 59.71,
+    "sun_lon": 336.59,
+    "sun_lat": -0.19,
+    "emission": 2.1,
+    "w_m": 0.9,
+    "h_m": 0.94,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        277.03,
+        -6.56
+      ],
+      [
+        276.88,
+        -6.54
+      ],
+      [
+        277.19,
+        -4.94
+      ],
+      [
+        277.04,
+        -4.93
+      ]
+    ]
+  },
+  "M1398120658RC": {
+    "date": "2022-01-29T18:36:31",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1050B/DATA/ESM4/2022029/NAC/M1398120658RC.IMG",
+    "incidence_deg": 63.48,
+    "sun_lon": 213.47,
+    "sun_lat": -1.44,
+    "emission": 1.16,
+    "w_m": 0.92,
+    "h_m": 0.96,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.79,
+        -5.3
+      ],
+      [
+        276.95,
+        -5.29
+      ],
+      [
+        276.95,
+        -6.96
+      ],
+      [
+        277.1,
+        -6.95
+      ]
+    ]
+  },
+  "M1500081055LC": {
+    "date": "2025-04-23T20:56:28",
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063B/DATA/ESM5/2025113/NAC/M1500081055LC.IMG",
+    "incidence_deg": 49.31,
+    "sun_lon": 228.18,
+    "sun_lat": 0.94,
+    "emission": 1.74,
+    "w_m": 0.98,
+    "h_m": 1.01,
+    "lines": 52224,
+    "samples": 5064,
+    "corners": [
+      [
+        276.79,
+        -7.73
+      ],
+      [
+        276.95,
+        -7.75
+      ],
+      [
+        276.99,
+        -6.0
+      ],
+      [
+        277.15,
+        -6.01
+      ]
+    ]
+  }
+}

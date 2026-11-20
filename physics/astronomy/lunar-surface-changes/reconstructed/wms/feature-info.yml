@@ -1,0 +1,108 @@
+---
+luna_pds_nac_stamp:
+- pds_dataset_name: LRO-L-LROC-2-EDR-V1.0
+  pds_volume_name: LROLRC_0021
+  product_id: M1168044929RE
+  file_specification_name: LRO-L-LROC-2-EDR-V1.0/LROLRC_0021/DATA/ESM2/2014288/NAC/M1168044929RE.IMG
+  instrument_host_id: LRO
+  instrument_id: LROC
+  original_product_id: nacr00120bf4
+  product_version_id: v1.8
+  target_name: MOON
+  orbit_number: '24010'
+  slew_angle: "-0.008156704701653951"
+  mission_phase_name: SECOND EXTENDED SCIENCE MISSION
+  rationale_desc: TARGET OF OPPORTUNITY
+  data_quality_id: '0'
+  nac_preroll_start_time: '2014-10-15 20:41:01.323+00'
+  start_time: '2014-10-15 20:41:02.012+00'
+  stop_time: '2014-10-15 20:41:37.181+00'
+  spacecraft_clock_partition: '1'
+  nac_spacecraft_clock_preroll_count: 435098461:20250
+  spacecraft_clock_start_count: 435098461:65442
+  spacecraft_clock_stop_count: 435098497:10950
+  start_sclk_seconds: '435098461'
+  start_sclk_ticks: '65442'
+  stop_sclk_seconds: '435098497'
+  stop_sclk_ticks: '10950'
+  nac_line_exposure_duration: '0.0006704000000000001'
+  wac_exposure_duration:
+  nac_frame_id: RIGHT
+  nac_dac_reset: '189'
+  nac_channel_a_offset: '54'
+  nac_channel_b_offset: '101'
+  instrument_mode_code: '7'
+  wac_instrument_mode_id:
+  wac_band_code:
+  wac_background_offset:
+  wac_filter_name:
+  wac_number_of_frames:
+  wac_interframe_time:
+  wac_interframe_code:
+  wac_mode_polar:
+  compand_select_code: '3'
+  mode_compression: t
+  mode_test: f
+  nac_temperature_scs: '4.037'
+  nac_temperature_fpa: '17.861'
+  nac_temperature_fpga: "-10.456"
+  nac_temperature_telescope: '7.012'
+  wac_begin_temperature_scs:
+  wac_middle_temperature_scs:
+  wac_end_temperature_scs:
+  wac_begin_temperature_fpa:
+  wac_middle_temperature_fpa:
+  wac_end_temperature_fpa:
+  image_lines: '52224'
+  line_samples: '5064'
+  sample_bits: '8'
+  scaled_pixel_width: '1.05'
+  scaled_pixel_height: '1.03'
+  resolution: '1.0418252823911045'
+  emission_angle: '1.17'
+  incidence_angle: '48.19'
+  phase_angle: '47.02'
+  north_azimuth: '265.83'
+  sub_solar_azimuth: '184.49'
+  sub_solar_latitude: '0.12'
+  sub_solar_longitude: '273.77'
+  sub_spacecraft_latitude: "-7.93"
+  sub_spacecraft_longitude: '226.16'
+  solar_distance: '149155467.2'
+  solar_longitude: '4.55'
+  center_latitude: "-7.94"
+  center_longitude: '226.09'
+  upper_right_latitude: "-7.05"
+  upper_right_longitude: '225.96'
+  lower_right_latitude: "-8.83"
+  lower_right_longitude: '226.05'
+  lower_left_latitude: "-8.82"
+  lower_left_longitude: '226.22'
+  upper_left_latitude: "-7.04"
+  upper_left_longitude: '226.14'
+  spacecraft_altitude: '105.48'
+  target_center_distance: '1843.01'
+  rdr_software_name:
+  rdr_product_creation_time:
+  rdr_map_projection_type:
+  rdr_projection_latitude_type:
+  rdr_coordinate_system_name:
+  rdr_positive_longitude_direction:
+  rdr_map_resolution:
+  rdr_map_scale:
+  rdr_maximum_latitude:
+  rdr_minimum_latitude:
+  rdr_easternmost_longitude:
+  rdr_westernmost_longitude:
+  lro_node_crossing: D
+  lro_flight_direction: "+X"
+  pds_file_path: LRO-L-LROC-2-EDR-V1.0/LROLRC_0021/DATA/ESM2/2014288/NAC/
+  pds_file_name: M1168044929RE.IMG
+  ptif_file_path: LRO-L-LROC-2-EDR-V1.0/LROLRC_0021/EXTRAS/BROWSE/2014288
+  ptif_file_name: M1168044929RE_pyr.tif
+  points: 3.9469202840832915,-0.12289555456372739;3.9438208100413217,-0.12304748376324318;3.945250168836973,-0.15413148724969453;3.94830400271983,-0.1539819508011769
+  :bbox:
+  - 3.943821
+  - -0.154131
+  - 3.948304
+  - -0.122896

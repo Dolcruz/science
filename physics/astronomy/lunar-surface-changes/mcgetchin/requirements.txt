@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+opencv-python-headless
+Pillow
+matplotlib
+requests
+threadpoolctl

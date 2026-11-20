@@ -1,0 +1,6 @@
+* text=auto eol=lf
+flash/** -text whitespace=cr-at-eol
+*.npz binary
+*.png binary
+*.jpg binary
+*.pdf binary

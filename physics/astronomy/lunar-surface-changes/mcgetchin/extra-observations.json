@@ -1,0 +1,170 @@
+{
+  "M1307882452LC": {
+    "corners": [
+      [
+        67.09,
+        2.03
+      ],
+      [
+        67.22,
+        2.04
+      ],
+      [
+        67.14,
+        1.32
+      ],
+      [
+        67.28,
+        1.33
+      ]
+    ],
+    "samples": 5064,
+    "lines": 24576,
+    "date": "2019-03-22T08:26:25.477000Z",
+    "incidence": 80.47,
+    "emission": 1.72,
+    "pixel_m": 0.83,
+    "sun_az": 93.33,
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1039A/DATA/ESM3/2019081/NAC/M1307882452LC.IMG"
+  },
+  "M1540060927RC": {
+    "corners": [
+      [
+        67.06,
+        2.18
+      ],
+      [
+        67.22,
+        2.2
+      ],
+      [
+        67.26,
+        0.51
+      ],
+      [
+        67.41,
+        0.53
+      ]
+    ],
+    "samples": 5064,
+    "lines": 52224,
+    "date": "2026-07-30T14:27:39.752000Z",
+    "incidence": 82.69,
+    "emission": 5.78,
+    "pixel_m": 0.95,
+    "sun_az": 94.32,
+    "original": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-3-cdr/LROLRC_1068B/DATA/ESM6/2026211/NAC/M1540060927RC.IMG"
+  },
+  "M1538900584LC": {
+    "corners": [
+      [
+        67.22,
+        0.68
+      ],
+      [
+        67.09,
+        0.7
+      ],
+      [
+        67.37,
+        2.02
+      ],
+      [
+        67.24,
+        2.04
+      ]
+    ],
+    "samples": 5064,
+    "lines": 52224,
+    "date": "2026-07-17T04:08:36.650000Z",
+    "incidence": 81.3,
+    "emission": 15.93,
+    "pixel_m": 0.78,
+    "sun_az": 259.34000000000003,
+    "original": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-3-cdr/LROLRC_1068B/DATA/ESM6/2026198/NAC/M1538900584LC.IMG"
+  },
+  "M1404174663LC": {
+    "corners": [
+      [
+        67.11,
+        2.7
+      ],
+      [
+        66.95,
+        2.69
+      ],
+      [
+        67.27,
+        0.96
+      ],
+      [
+        67.11,
+        0.95
+      ]
+    ],
+    "samples": 5064,
+    "lines": 52224,
+    "date": "2022-04-09T20:16:36.322000Z",
+    "incidence": 13.28,
+    "emission": 1.74,
+    "pixel_m": 0.97,
+    "sun_az": 256.48,
+    "original": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1051A/DATA/ESM4/2022099/NAC/M1404174663LC.IMG"
+  },
+  "M1538900584RC": {
+    "corners": [
+      [
+        67.09,
+        0.69
+      ],
+      [
+        66.97,
+        0.71
+      ],
+      [
+        67.25,
+        2.03
+      ],
+      [
+        67.12,
+        2.05
+      ]
+    ],
+    "samples": 5064,
+    "lines": 52224,
+    "date": "2026-07-17T04:08:36.650000Z",
+    "incidence": 81.43,
+    "emission": 13.06,
+    "pixel_m": 0.77,
+    "sun_az": 261.1,
+    "original": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-3-cdr/LROLRC_1068B/DATA/ESM6/2026198/NAC/M1538900584RC.IMG"
+  },
+  "M1540060927LC": {
+    "corners": [
+      [
+        66.91,
+        2.15
+      ],
+      [
+        67.07,
+        2.17
+      ],
+      [
+        67.1,
+        0.48
+      ],
+      [
+        67.26,
+        0.5
+      ]
+    ],
+    "samples": 5064,
+    "lines": 52224,
+    "date": "2026-07-30T14:27:39.752000Z",
+    "incidence": 82.55,
+    "emission": 8.68,
+    "pixel_m": 0.96,
+    "sun_az": 96.36999999999999,
+    "original": "https://pds.mcp.nasa.gov/data/store/img/lunar_reconnaissance_orbiter/pds4/lroc/lro-l-lroc-3-cdr/LROLRC_1068B/DATA/ESM6/2026211/NAC/M1540060927LC.IMG"
+  }
+}

@@ -1,0 +1,7 @@
+file,url,bytes,sha256
+lroc-new-craters-360.zip,https://pds.lroc.im-ldi.com/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/SHAPEFILE/GLOBAL_NEW_CRATERS/GLOBAL_NEW_CRATERS_360.ZIP,945047,8c4f78d4f114e8be7808caf50add867ec91a38383de3090a5b612f475809964d
+Sokolowska_etal_2025_PCC-Splotches.csv,https://zenodo.org/api/records/15755155/files/Sokolowska_etal_2025_PCC-Splotches.csv/content,489,9927996a0fbedf9ac753945aa8ae32c9a35f845a93e6bd86f2b14fa51e59a4a1
+Sokolowska_etal_2025_PCC-Craters-Not-Found.csv,https://zenodo.org/api/records/15755155/files/Sokolowska_etal_2025_PCC-Craters-Not-Found.csv/content,1689,3a690d43eb238aba0795ec76b2eee3869d34dc45329b9c0be128ac6697643501
+Sokolowska_etal_2025_PCC-Craters.csv,https://zenodo.org/api/records/15755155/files/Sokolowska_etal_2025_PCC-Craters.csv/content,7219,ace9f34057c702c8bac70e2de7bb155d04ae5712bfee2479f35841706960a11e
+globalColdSpotCatalog.csv,https://zenodo.org/api/records/19472800/files/globalColdSpotCatalog.csv/content,1126911,f49b690fe0073e8a9ccc61ae51ee43d04db84309690fe8a676ed62fbac79802a
+newCraterColdSpotCatalog.csv,https://zenodo.org/api/records/19472800/files/newCraterColdSpotCatalog.csv/content,5095,7999afe83d2e274820b4373d2541996e534ea4124960e8efa02d658a65bb3ebb

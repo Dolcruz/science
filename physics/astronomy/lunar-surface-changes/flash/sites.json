@@ -1,0 +1,52 @@
+{
+  "primary": {
+    "peak": "x33y31",
+    "east_m": 1,
+    "south_m": -5,
+    "lon": 335.6698352568646,
+    "lat": 20.713664889431083,
+    "nearest_fig4_blue_pixel_m": 419.82840391961946,
+    "reference_sample_1based": 3740.2,
+    "reference_line_1based": 18382.5
+  },
+  "south_2610": {
+    "peak": "x409y2619",
+    "east_m": 377,
+    "south_m": 2583,
+    "lon": 335.68309183794764,
+    "lat": 20.628318119901984,
+    "nearest_fig4_blue_pixel_m": 770.0884890755038,
+    "reference_sample_1based": 4399.2,
+    "reference_line_1based": 15747.7
+  },
+  "south_2317": {
+    "peak": "x541y2296",
+    "east_m": 509,
+    "south_m": 2260,
+    "lon": 335.6877457440726,
+    "lat": 20.638969977150012,
+    "nearest_fig4_blue_pixel_m": 1006.3924044752284,
+    "reference_sample_1based": 4514.3,
+    "reference_line_1based": 16101.3
+  },
+  "northeast_938": {
+    "peak": "x597y-713",
+    "east_m": 565,
+    "south_m": -749,
+    "lon": 335.68972012848917,
+    "lat": 20.73820043677639,
+    "nearest_fig4_blue_pixel_m": 202.2334703526034,
+    "reference_sample_1based": 4292.1,
+    "reference_line_1based": 19233.2
+  },
+  "old_crater": {
+    "peak": "x347y-3460",
+    "east_m": 315,
+    "south_m": -3496,
+    "lon": 335.6809059123435,
+    "lat": 20.82879069021396,
+    "nearest_fig4_blue_pixel_m": 480.4289330769472,
+    "reference_sample_1based": 3757.1,
+    "reference_line_1based": 22050.6
+  }
+}
