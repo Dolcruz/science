@@ -37,6 +37,10 @@ errors, not to confirm.
   environment manipulation, and read any custom tactic or elaborator.
 - For empirical work, look specifically for data leakage, tuning on the test set,
   cherry-picked subsets, and metrics that improve while another relevant metric worsens.
+- Recompute at least one headline number from the raw archive data with your own code,
+  including unit and scaling conventions (for example, whether a reflectance offset has
+  already been applied by the data provider).
+- Test a claimed signal against the same statistic at control positions or times.
 - Record in the README: who reviewed (agent and model, or person), which commit, what was
   rerun, and what was found.
 
@@ -58,6 +62,9 @@ only", "conditional on an unpublished certificate", "upper bound only, optimum o
 - Fix the evaluation protocol, the cohort and the metrics before scoring new data, and
   store a hash of the protocol in the repository.
 - Report the pre-registered result even if it is worse than the retrospective one.
+- If a result was picked from a search (a candidate, an event, a feature), say how many
+  comparable candidates the same search produced and how this one compares. A single
+  extreme from a large search is not a finding by itself; often the list is the result.
 - Do not change a pre-registered cohort after scoring has started. A new question gets a
   new protocol.
 
