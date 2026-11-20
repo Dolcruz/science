@@ -1,0 +1,13 @@
+station,channel,filename,url,bytes,sha256
+IMP,HHZ,IMP.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIIMP__HHZ___2026130.ms,14891520,4873f640839febd63e3db317a935b206bd9aa2d89ba1b531e274aad8cf16e859
+IMP,HHN,IMP-HHN.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIIMP__HHN___2026130.ms,15868416,4e370d6d8bb9cd34611170f76c3ca60e850c40c11857aca0c9b44ba8d505cebd
+SWS,HHZ,SWS.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CISWS__HHZ___2026130.ms,13380096,cc3550a55d6a7814ed29996f4b493f1036baad323539a34cf4f1ad21af5f8f15
+SWS,HHN,SWS-HHN.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CISWS__HHN___2026130.ms,12278784,da36f181374d1164c11e9733a2f5ff478003f744a5f4d09fd569739b1a5da204
+SNR,HHZ,SNR.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CISNR__HHZ___2026130.ms,12778496,9d8e56b05c2f5b226497ce0856fe9ab8abb960c757e1030b40ba17163719b020
+SNR,HHN,SNR-HHN.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CISNR__HHN___2026130.ms,12874752,fe7be303e22dcd9ba10b28bfda702102dfac49df75fe378d01ea01a4cfc1a2d5
+DRE,HHZ,DRE.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIDRE__HHZ___2026130.ms,18533888,1f38514435f948effa0081dea21a30d16964892de3620c02f91a4015879d51a6
+DRE,HHN,DRE-HHN.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIDRE__HHN___2026130.ms,18798592,5ae907d7ae84e913e7bf2a6ca56c4a69e5b7d22641bb75910ec806c9d6273bb5
+RXH,HHZ,RXH.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIRXH__HHZ___2026130.ms,13501440,0d551350fa0f08b878e20a85d46b9230c5de4607f95e8b6bc0a86178d5e885f6
+RXH,HHN,RXH-HHN.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIRXH__HHN___2026130.ms,13669888,7fca8d7b7fd40018467310bd66b9ac28371acb9272ebcd899a02c3d73fec8436
+ELO,HHZ,ELO.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIELO__HHZ___2026130.ms,15213056,76dd5f7613c18e61e4e607236b24c4c86c4b00574b83d608828e0f457147aa21
+ELO,HHN,ELO-HHN.ms,https://scedc-pds.s3.amazonaws.com/continuous_waveforms/2026/2026_130/CIELO__HHN___2026130.ms,14972928,a32ce14fa1245f9d2815f8f6ee3476b2e8edcac5704f0e7f418bb3317202d260

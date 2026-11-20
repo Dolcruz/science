@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fixed optical measurement window",
+        "area_km2": 12.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.5936157142722,
+              67.11661209624111
+            ],
+            [
+              -48.501523115127206,
+              67.1151975825267
+            ],
+            [
+              -48.49855779563236,
+              67.1438752080737
+            ],
+            [
+              -48.59075943236833,
+              67.14529169354894
+            ],
+            [
+              -48.5936157142722,
+              67.11661209624111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "20 July 2026 candidate basin water centroid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.538454437728745,
+          67.12717594834776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comparison disk",
+        "radius_m": 120,
+        "water_fraction_2026_07_23": 0.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.40803300983573,
+          67.15163370740802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comparison disk",
+        "radius_m": 120,
+        "water_fraction_2026_07_23": 0.6077097505668935
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.526244308207886,
+          67.12487283096632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comparison disk",
+        "radius_m": 120,
+        "water_fraction_2026_07_23": 0.09523809523809523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.66119055939368,
+          67.1295984777374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comparison disk",
+        "radius_m": 120,
+        "water_fraction_2026_07_23": 0.5351473922902494
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.62523523997937,
+          67.10339754668291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comparison disk",
+        "radius_m": 120,
+        "water_fraction_2026_07_23": 0.9160997732426304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.500472634235116,
+          67.09969705911648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comparison disk",
+        "radius_m": 120,
+        "water_fraction_2026_07_23": 0.23582766439909297
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.66327094639433,
+          67.10090725746959
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#EventID  | Time                | Latitude | Longtitude   | Depth/km | Author | Catalog | ET | GT   | MagType | Magnitude | MagAuthor | EventLocationName
+41460496 | 2026/05/10 03:31:16.0300 | 32.95183 | -115.5643333 |  4.04    | CI     | SCEDC   | eq | l |   l     |  1.37     | CI        |    4.4 km (   2.7 mi) SW (az= 226.9) from Brawley, CA
+
+
+# of events : 1

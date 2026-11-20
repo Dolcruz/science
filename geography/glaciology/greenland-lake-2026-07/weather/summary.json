@@ -1,0 +1,11 @@
+{
+  "station": "KAN_M",
+  "distance_km": 15.378802572605757,
+  "hourly_air_temperatures": 29,
+  "min_c": 0.261,
+  "max_c": 2.222,
+  "mean_c": 1.1214827586206897,
+  "positive_hours": 29,
+  "net_radiation_mean_w_m2": 121.82218214285714,
+  "net_radiation_values": 28
+}

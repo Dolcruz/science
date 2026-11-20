@@ -1,0 +1,6 @@
+# Preserve the bytes returned by the catalog services (see catalog-sources.csv).
+comcat.json -text
+emsc.txt -text
+isc.txt -text
+resnom.txt -text
+sc-event.txt -text

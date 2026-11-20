@@ -1,0 +1,9 @@
+channel,url,sha256
+SB.WLA.06.HNZ,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=SB&sta=WLA&loc=06&cha=HNZ&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,6ca29418fd92d897410ccc0baa1683278394d0badb0338443377362336e18970
+SB.WLA.06.HNE,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=SB&sta=WLA&loc=06&cha=HNE&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,62a4c69a2ec5ce34a0ff6c05abac7d556165ee11d5518cc21d7a043e2b9dacf7
+CI.CLI2.--.EHZ,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=CI&sta=CLI2&loc=--&cha=EHZ&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,8453399505343b2f4c8edac9f8d7869ae6a37b64ebe06085cbb43b6d1ddf21e6
+CI.COK2.--.EHZ,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=CI&sta=COK2&loc=--&cha=EHZ&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,20ced2141f5f284d6a698dc6e1ba8b28000fb62c142ecda34a638769cd85c737
+NP.5056.10.HNZ,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=NP&sta=5056&loc=10&cha=HNZ&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,2c22c2a495159fecfbc15a43bb26d7ebafdf17833debccee08909e8108f8db33
+NP.5056.10.HNE,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=NP&sta=5056&loc=10&cha=HNE&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,32e71829b664524c0e3cbc15689804b3a3db5bc04c4383cca84c576008a871d1
+NP.5062.--.EHZ,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=NP&sta=5062&loc=--&cha=EHZ&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,4c66cc7c2512f1136b42557f5fefbf3cce92b349f1b0f1ff92e960e6000b1818
+NP.5062.--.HNE,https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=NP&sta=5062&loc=--&cha=HNE&starttime=2026-05-10T03%3A12%3A00&endtime=2026-05-10T03%3A34%3A00,1cc9d9c6f122c6d4ac4fbaff302308325e73810c4b40bf97037a33dc81faeea2

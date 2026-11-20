@@ -1,0 +1,13 @@
+product,target,url,variable_flag
+BGDS-0734-2011-r-114.5189834-20.3977567,TIC 349414726,https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-r-114.5189834-20.3977567,0.0
+BGDS-0734-2011-r-114.5194628-20.3927824,TIC 349414709,https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-r-114.5194628-20.3927824,0.0
+BGDS-0734-2011-r-114.5166490-20.3895326,TIC 349414705,https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-r-114.5166490-20.3895326,0.0
+BGDS-0734-2011-i-114.5190042-20.3977384,TIC 349414726,https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-i-114.5190042-20.3977384,0.0
+BGDS-0734-2011-i-114.5194766-20.3927582,TIC 349414709,https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-i-114.5194766-20.3927582,0.0
+BGDS-0734-2011-i-114.5166582-20.3895205,TIC 349414705,https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-i-114.5166582-20.3895205,0.0
+hlsp_qlp_tess_ffi_s0007-0000000349414709_tess_v01_llc.fits,TIC 349414709,https://archive.stsci.edu/hlsps/qlp/s0007/0000/0003/4941/4709/hlsp_qlp_tess_ffi_s0007-0000000349414709_tess_v01_llc.fits,
+hlsp_qlp_tess_ffi_s0034-0000000349414709_tess_v01_llc.fits,TIC 349414709,https://archive.stsci.edu/hlsps/qlp/s0034/0000/0003/4941/4709/hlsp_qlp_tess_ffi_s0034-0000000349414709_tess_v01_llc.fits,
+hlsp_qlp_tess_ffi_s0061-0000000349414709_tess_v01_llc.fits,TIC 349414709,https://archive.stsci.edu/hlsps/qlp/s0061/0000/0003/4941/4709/hlsp_qlp_tess_ffi_s0061-0000000349414709_tess_v01_llc.fits,
+hlsp_qlp_tess_ffi_s0088-0000000349414709_tess_v01_llc.fits,TIC 349414709,https://archive.stsci.edu/hlsps/qlp/s0088/0000/0003/4941/4709/hlsp_qlp_tess_ffi_s0088-0000000349414709_tess_v01_llc.fits,
+tess2026250081459-s0108-0000000349414705-0310-s_lc.fits,TIC 349414705,https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2026250081459-s0108-0000000349414705-0310-s_lc.fits,
+tess2026250081459-s0108-0000000349414705-0310-s_tp.fits,TIC 349414705,https://mast.stsci.edu/api/v0.1/Download/file/?uri=mast:TESS/product/tess2026250081459-s0108-0000000349414705-0310-s_tp.fits,

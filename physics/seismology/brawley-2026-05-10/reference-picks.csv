@@ -1,0 +1,9 @@
+station,channel,phase,utc,origin,id
+IMP,HHZ,P,2026-05-10T03:16:49.42,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=26518518
+SWS,HHZ,P,2026-05-10T03:16:51.85,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=26518598
+IMP,HHE,S,2026-05-10T03:16:50.97,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=27061494
+SNR,HHZ,P,2026-05-10T03:16:51.23,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=27061502
+DRE,HNZ,P,2026-05-10T03:16:52.34,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=27061510
+ELO,HHZ,P,2026-05-10T03:16:52.53,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=27061526
+SWS,HHE,S,2026-05-10T03:16:54.92,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=27061550
+RXH,HHZ,P,2026-05-10T03:16:52.38,2026-05-10T03:16:47.510,quakeml:service.scedc.caltech.edu/fdsnws/event/1/query?assocaro=27061574

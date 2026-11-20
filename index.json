@@ -171,6 +171,54 @@
       "produced_by": "AI agents (OpenAI Codex for the construction; Claude Code for the rebuild and checkers)"
     },
     {
+      "id": "geography/glaciology/greenland-lake-2026-07",
+      "field": "geography",
+      "subfield": "glaciology",
+      "title": "July 2026 drainage of a western Greenland supraglacial lake",
+      "claim": "A known Greenland basin lost 5.377 square kilometres of exposed water area between 20 and 23 July 2026, a 92.4% decline corroborated by Landsat and Sentinel-1 radar.",
+      "key_values": {
+        "latitude": 67.12718,
+        "longitude": -48.53845,
+        "initial_km2": 5.819,
+        "final_km2": 0.4419,
+        "loss_percent": 92.4
+      },
+      "status": [
+        "archival-analysis"
+      ],
+      "verification": [
+        {
+          "kind": "archival-analysis",
+          "files": [
+            "geography/glaciology/greenland-lake-2026-07/measurement-chips.npz",
+            "geography/glaciology/greenland-lake-2026-07/optical.csv",
+            "geography/glaciology/greenland-lake-2026-07/radar.csv"
+          ],
+          "command": "cd geography/glaciology/greenland-lake-2026-07 && python verify.py"
+        }
+      ],
+      "limitations": [
+        "Water volume, flow path and active drainage duration remain unresolved.",
+        "Historical inventories already contain the basin. The novelty search concerns the July 2026 episode."
+      ],
+      "builds_on": [
+        "doi:10.5281/zenodo.16577959",
+        "doi:10.5281/zenodo.4813833",
+        "doi:10.22008/FK2/IW73UU"
+      ],
+      "keywords": [
+        "Greenland",
+        "supraglacial lake",
+        "Sentinel-2",
+        "Sentinel-1",
+        "Landsat 9"
+      ],
+      "readme": "geography/glaciology/greenland-lake-2026-07/README.md",
+      "paper": "geography/glaciology/greenland-lake-2026-07/report.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "OpenAI Codex agents, using observations by the credited survey and network teams"
+    },
+    {
       "id": "geography/tree-registration",
       "field": "geography",
       "subfield": "terrestrial laser scanning; forest remote sensing",
@@ -222,6 +270,97 @@
       "paper": "geography/tree-registration/note.pdf",
       "novelty_search": "2026-11-20",
       "produced_by": "AI agents (OpenAI Codex)"
+    },
+    {
+      "id": "physics/seismology/brawley-2026-05-10",
+      "field": "physics",
+      "subfield": "seismology",
+      "title": "An apparently uncataloged earthquake in the Brawley swarm",
+      "claim": "Ten stations support a small local earthquake near Brawley at about 03:30:02 UTC on 10 May 2026, with a relative magnitude estimate of 1.4 and no matching event in the six catalog products checked.",
+      "key_values": {
+        "stations": 10,
+        "relative_magnitude_estimate": 1.4,
+        "nearest_scsn_seconds": 74.07
+      },
+      "status": [
+        "archival-analysis"
+      ],
+      "verification": [
+        {
+          "kind": "archival-analysis",
+          "files": [
+            "physics/seismology/brawley-2026-05-10/native-cutouts.npz",
+            "physics/seismology/brawley-2026-05-10/phase-comparisons.csv",
+            "physics/seismology/brawley-2026-05-10/additional-stations/phase-tests.csv"
+          ],
+          "command": "cd physics/seismology/brawley-2026-05-10 && python measure.py --output results"
+        }
+      ],
+      "limitations": [
+        "The magnitude is relative to CI41460424. The new event has no independent hypocenter or calibrated magnitude.",
+        "The six catalog products overlap. A catalog omission does not establish discovery priority."
+      ],
+      "builds_on": [
+        "doi:10.7909/C3WD3xH1",
+        "doi:10.7914/SN/CI",
+        "doi:10.7914/SN/BC"
+      ],
+      "keywords": [
+        "Brawley",
+        "earthquake swarm",
+        "waveform matching",
+        "phase arrivals"
+      ],
+      "readme": "physics/seismology/brawley-2026-05-10/README.md",
+      "paper": "physics/seismology/brawley-2026-05-10/report.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "OpenAI Codex agents, using observations by the credited survey and network teams"
+    },
+    {
+      "id": "physics/astronomy/tic-349414709",
+      "field": "physics",
+      "subfield": "astronomy",
+      "title": "Locating the 2.709-day eclipse near TIC 349414709",
+      "claim": "Forty TESS eclipse timings and Bochum photometry locate a published signal near TIC 349414709, about 15 arcseconds from the originally listed target TIC 349414705.",
+      "key_values": {
+        "period_days": 2.70917244,
+        "primary_timings": 40,
+        "bochum_r_flux_loss_pct": 9.7,
+        "bochum_i_flux_loss_pct": 10.67,
+        "gaia_separation_arcsec": 0.918
+      },
+      "status": [
+        "archival-analysis"
+      ],
+      "verification": [
+        {
+          "kind": "archival-analysis",
+          "files": [
+            "physics/astronomy/tic-349414709/tess-curves.npz",
+            "physics/astronomy/tic-349414709/bochum-curves.csv",
+            "physics/astronomy/tic-349414709/difference-images.npz"
+          ],
+          "command": "cd physics/astronomy/tic-349414709 && python measure.py"
+        }
+      ],
+      "limitations": [
+        "The eclipse was published by IJspeert et al. in 2024.",
+        "Two Gaia sources 0.918 arcseconds apart are unresolved in eclipse. The individual component and companion mass remain open."
+      ],
+      "builds_on": [
+        "doi:10.1051/0004-6361/202450507",
+        "doi:10.1002/asna.70087"
+      ],
+      "keywords": [
+        "TESS",
+        "eclipsing binary",
+        "Bochum Galactic Disk Survey",
+        "source identification"
+      ],
+      "readme": "physics/astronomy/tic-349414709/README.md",
+      "paper": "physics/astronomy/tic-349414709/report.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "OpenAI Codex agents, using observations by the credited survey and network teams"
     },
     {
       "id": "physics/astronomy/tic-153838604",

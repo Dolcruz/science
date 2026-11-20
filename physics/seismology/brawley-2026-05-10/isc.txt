@@ -1,0 +1,4 @@
+#EventID|Time|Latitude|Longitude|Depth/km|Author|Catalog|Contributor|ContributorID|MagType|Magnitude|MagAuthor|EventLocationName|EventType
+646161965|2026-05-10T03:31:16.200|32.9890|-115.5810|15.4|ECX|ECX|ECX|639771672|ML|1.50|ECX|California-Baja California border region|earthquake
+# Agencies whose data contributed towards the results of this search:
+# ECX       Centro de Investigación Científica y de Educación Superior de Ensenada           Mexico

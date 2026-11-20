@@ -1,0 +1,9 @@
+source,retrieval_date_utc,url,sha256_at_retrieval
+SCEDC annual catalog,2026-11-20,https://scedc-pds.s3.amazonaws.com/earthquake_catalogs/SCEC_DC/2026.catalog,d2e494af96a62563e4d3cdab4d21a1aad1180dad00ff59c3bc03895b99fd8b9d
+Brawley hypoDD,2026-11-20,https://service.scedc.caltech.edu/ftp/catalogs/SCSN_DD/Brawley_hypodd_cat,e967f5de1201e9ce1bac565b661d12a02d6870a05b9012b015c0da76b4ef33b7
+SCEDC reference phases,2026-11-20,https://service.scedc.caltech.edu/fdsnws/event/1/query?eventid=41460424&includearrivals=true,05f0906bc8f239d7a45f85ca3fea910c6c6ab08ba577c5554309b8529994fd76
+SCEDC event time search,2026-11-20,https://service.scedc.caltech.edu/fdsnws/event/1/query?starttime=2026-05-10T03%3A28%3A00&endtime=2026-05-10T03%3A32%3A00&format=text,9277debe363acc4ba8657729dd36f5c205e63ec56b919ac4a9d37070978d5b8b
+USGS global ComCat,2026-11-20,https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-05-10T03%3A28%3A00&endtime=2026-05-10T03%3A32%3A00,aa139cad3e7905ac4be9fb02795e22fbd3947e4023be22191152a3c6103390ac
+RESNOM regional,2026-11-20,https://resnom.cicese.mx/fdsnws/event/1/query?starttime=2026-05-10T02%3A00%3A00&endtime=2026-05-10T04%3A00%3A00&minlatitude=31.0&maxlatitude=35.0&minlongitude=-118&maxlongitude=-113&format=text,09ff4887e139e30a6375c22ce2986a63e8104bec011c03c2661b05b2c4eaa93c
+EMSC regional,2026-11-20,https://www.seismicportal.eu/fdsnws/event/1/query?starttime=2026-05-10T02%3A00%3A00&endtime=2026-05-10T04%3A00%3A00&minlatitude=31.0&maxlatitude=35.0&minlongitude=-118&maxlongitude=-113&format=text,d2640d3e78372db77b1eedd5de26599718dceb8c50d1736dfb4067e429184c29
+ISC regional,2026-11-20,https://www.isc.ac.uk/fdsnws/event/1/query?starttime=2026-05-10T03%3A28%3A00&endtime=2026-05-10T03%3A32%3A00&minlatitude=30&maxlatitude=36&minlongitude=-119&maxlongitude=-113&format=text,fe6dd01cfc918ecab373b969f9594a992966838088c95ca81666ebfeeaf5a495

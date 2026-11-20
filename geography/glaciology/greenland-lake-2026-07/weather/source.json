@@ -1,0 +1,48 @@
+{
+  "source": "https://thredds.geus.dk/thredds/dodsC/aws/l3sites/netcdf/hour/KAN_M_hour.nc.html",
+  "subset": "https://thredds.geus.dk/thredds/dodsC/aws/l3sites/netcdf/hour/KAN_M_hour.nc.ascii?time[156610:1:156897],t_u[156610:1:156897],t_surf[156610:1:156897],dsr_cor[156610:1:156897],usr_cor[156610:1:156897],dlr[156610:1:156897],ulr[156610:1:156897],gps_lat[156610:1:156897],gps_lon[156610:1:156897],gps_alt[156610:1:156897],wspd_u[156610:1:156897]",
+  "units": "2008-09-02 14:00:00",
+  "time_interpretation": "UTC hourly time coordinate",
+  "fields": {
+    "t_u": {
+      "long_name": "Air temperature (upper boom)",
+      "units": "degrees_C"
+    },
+    "t_surf": {
+      "long_name": "Surface temperature",
+      "units": "C"
+    },
+    "dsr_cor": {
+      "long_name": "Downwelling shortwave radiation - corrected",
+      "units": "W m-2"
+    },
+    "usr_cor": {
+      "long_name": "Upwelling shortwave radiation - corrected",
+      "units": "W m-2"
+    },
+    "dlr": {
+      "long_name": "Downwelling longwave radiation",
+      "units": "W m-2"
+    },
+    "ulr": {
+      "long_name": "Upwelling longwave radiation",
+      "units": "W m-2"
+    },
+    "gps_lat": {
+      "long_name": "Latitude",
+      "units": "degrees_north"
+    },
+    "gps_lon": {
+      "long_name": "Longitude",
+      "units": "degrees_east"
+    },
+    "gps_alt": {
+      "long_name": "Altitude above mean sea level (orthometric height)",
+      "units": "m"
+    },
+    "wspd_u": {
+      "long_name": "Wind speed (upper boom)",
+      "units": "m s-1"
+    }
+  }
+}

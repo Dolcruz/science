@@ -1,0 +1,379 @@
+[
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260715T094334_20260715T094359_008552_010EE3_rtc",
+    "instrument": "s1",
+    "time": "2026-07-15T09:43:47.376172Z",
+    "relative_orbit": 54,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260715T094334_20260715T094359_008552_010EE3_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/15/IW/DH/S1C_IW_GRDH_1SDH_20260715T094334_20260715T094359_008552_010EE3_FB11/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/15/IW/DH/S1C_IW_GRDH_1SDH_20260715T094334_20260715T094359_008552_010EE3_FB11/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "LC08_L2SP_006013_20260715_02_T1",
+    "instrument": "landsat",
+    "time": "2026-07-15T14:42:16.807313Z",
+    "relative_orbit": null,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_006013_20260715_02_T1",
+    "assets": {
+      "blue": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC08_L2SP_006013_20260715_20260724_02_T1/LC08_L2SP_006013_20260715_20260724_02_T1_SR_B2.TIF",
+      "green": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC08_L2SP_006013_20260715_20260724_02_T1/LC08_L2SP_006013_20260715_20260724_02_T1_SR_B3.TIF",
+      "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC08_L2SP_006013_20260715_20260724_02_T1/LC08_L2SP_006013_20260715_20260724_02_T1_SR_B4.TIF",
+      "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC08_L2SP_006013_20260715_20260724_02_T1/LC08_L2SP_006013_20260715_20260724_02_T1_QA_PIXEL.TIF"
+    },
+    "blue_scale": 2.75e-05,
+    "blue_offset": -0.2
+  },
+  {
+    "id": "S2B_22WFV_20260715_0_L2A",
+    "instrument": "s2",
+    "time": "2026-07-15T14:53:57.326000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_22WFV_20260715_0_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260715_0_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260715_0_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260715_0_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260715_0_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1D_IW_GRDH_1SDH_20260716T093545_20260716T093615_003697_0069D1_rtc",
+    "instrument": "s1",
+    "time": "2026-07-16T09:36:00.601033Z",
+    "relative_orbit": 156,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1D_IW_GRDH_1SDH_20260716T093545_20260716T093615_003697_0069D1_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/16/IW/DH/S1D_IW_GRDH_1SDH_20260716T093545_20260716T093615_003697_0069D1_0B73/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/16/IW/DH/S1D_IW_GRDH_1SDH_20260716T093545_20260716T093615_003697_0069D1_0B73/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S2C_22WFV_20260716_0_L2A",
+    "instrument": "s2",
+    "time": "2026-07-16T15:13:53.241000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_22WFV_20260716_0_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260716_0_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260716_0_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260716_0_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260716_0_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260717T204539_20260717T204604_008588_01101C_rtc",
+    "instrument": "s1",
+    "time": "2026-07-17T20:45:51.999840Z",
+    "relative_orbit": 90,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260717T204539_20260717T204604_008588_01101C_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/17/IW/DH/S1C_IW_GRDH_1SDH_20260717T204539_20260717T204604_008588_01101C_8EAA/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/17/IW/DH/S1C_IW_GRDH_1SDH_20260717T204539_20260717T204604_008588_01101C_8EAA/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260717T204604_20260717T204629_008588_01101C_rtc",
+    "instrument": "s1",
+    "time": "2026-07-17T20:46:17.000132Z",
+    "relative_orbit": 90,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260717T204604_20260717T204629_008588_01101C_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/17/IW/DH/S1C_IW_GRDH_1SDH_20260717T204604_20260717T204629_008588_01101C_7535/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/17/IW/DH/S1C_IW_GRDH_1SDH_20260717T204604_20260717T204629_008588_01101C_7535/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S2A_22WFV_20260718_1_L2A",
+    "instrument": "s2",
+    "time": "2026-07-18T15:14:09.203000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_22WFV_20260718_1_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260718_1_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260718_1_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260718_1_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260718_1_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260720T095153_20260720T095218_008625_011162_rtc",
+    "instrument": "s1",
+    "time": "2026-07-20T09:52:06.142091Z",
+    "relative_orbit": 127,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260720T095153_20260720T095218_008625_011162_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/20/IW/DH/S1C_IW_GRDH_1SDH_20260720T095153_20260720T095218_008625_011162_A95B/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/20/IW/DH/S1C_IW_GRDH_1SDH_20260720T095153_20260720T095218_008625_011162_A95B/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S2C_22WFV_20260720_0_L2A",
+    "instrument": "s2",
+    "time": "2026-07-20T14:53:58.993000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_22WFV_20260720_0_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260720_0_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260720_0_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260720_0_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260720_0_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1D_IW_GRDH_1SDH_20260721T094358_20260721T094434_003770_006C40_rtc",
+    "instrument": "s1",
+    "time": "2026-07-21T09:44:16.230343Z",
+    "relative_orbit": 54,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1D_IW_GRDH_1SDH_20260721T094358_20260721T094434_003770_006C40_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/21/IW/DH/S1D_IW_GRDH_1SDH_20260721T094358_20260721T094434_003770_006C40_8AE9/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/21/IW/DH/S1D_IW_GRDH_1SDH_20260721T094358_20260721T094434_003770_006C40_8AE9/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "LC09_L2SP_008013_20260721_02_T1",
+    "instrument": "landsat",
+    "time": "2026-07-21T14:54:55.076048Z",
+    "relative_orbit": null,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_008013_20260721_02_T1",
+    "assets": {
+      "blue": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC09_L2SP_008013_20260721_20260722_02_T1/LC09_L2SP_008013_20260721_20260722_02_T1_SR_B2.TIF",
+      "green": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC09_L2SP_008013_20260721_20260722_02_T1/LC09_L2SP_008013_20260721_20260722_02_T1_SR_B3.TIF",
+      "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC09_L2SP_008013_20260721_20260722_02_T1/LC09_L2SP_008013_20260721_20260722_02_T1_SR_B4.TIF",
+      "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC09_L2SP_008013_20260721_20260722_02_T1/LC09_L2SP_008013_20260721_20260722_02_T1_QA_PIXEL.TIF"
+    },
+    "blue_scale": 2.75e-05,
+    "blue_offset": -0.2
+  },
+  {
+    "id": "S2B_22WFV_20260721_0_L2A",
+    "instrument": "s2",
+    "time": "2026-07-21T15:13:52.589000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_22WFV_20260721_0_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260721_0_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260721_0_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260721_0_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2B_22WFV_20260721_0_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260722T093532_20260722T093602_008654_011261_rtc",
+    "instrument": "s1",
+    "time": "2026-07-22T09:35:47.552427Z",
+    "relative_orbit": 156,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260722T093532_20260722T093602_008654_011261_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/22/IW/DH/S1C_IW_GRDH_1SDH_20260722T093532_20260722T093602_008654_011261_8A6B/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/22/IW/DH/S1C_IW_GRDH_1SDH_20260722T093532_20260722T093602_008654_011261_8A6B/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "LC08_L2SP_007013_20260722_02_T2",
+    "instrument": "landsat",
+    "time": "2026-07-22T14:48:34.031037Z",
+    "relative_orbit": null,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_007013_20260722_02_T2",
+    "assets": {
+      "blue": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/007/013/LC08_L2SP_007013_20260722_20260731_02_T2/LC08_L2SP_007013_20260722_20260731_02_T2_SR_B2.TIF",
+      "green": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/007/013/LC08_L2SP_007013_20260722_20260731_02_T2/LC08_L2SP_007013_20260722_20260731_02_T2_SR_B3.TIF",
+      "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/007/013/LC08_L2SP_007013_20260722_20260731_02_T2/LC08_L2SP_007013_20260722_20260731_02_T2_SR_B4.TIF",
+      "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/007/013/LC08_L2SP_007013_20260722_20260731_02_T2/LC08_L2SP_007013_20260722_20260731_02_T2_QA_PIXEL.TIF"
+    },
+    "blue_scale": 2.75e-05,
+    "blue_offset": -0.2
+  },
+  {
+    "id": "S2A_22WFV_20260722_1_L2A",
+    "instrument": "s2",
+    "time": "2026-07-22T14:54:15.094000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_22WFV_20260722_1_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260722_1_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260722_1_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260722_1_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260722_1_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "LC09_L2SP_006013_20260723_02_T1",
+    "instrument": "landsat",
+    "time": "2026-07-23T14:42:34.900527Z",
+    "relative_orbit": null,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_006013_20260723_02_T1",
+    "assets": {
+      "blue": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC09_L2SP_006013_20260723_20260724_02_T1/LC09_L2SP_006013_20260723_20260724_02_T1_SR_B2.TIF",
+      "green": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC09_L2SP_006013_20260723_20260724_02_T1/LC09_L2SP_006013_20260723_20260724_02_T1_SR_B3.TIF",
+      "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC09_L2SP_006013_20260723_20260724_02_T1/LC09_L2SP_006013_20260723_20260724_02_T1_SR_B4.TIF",
+      "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/006/013/LC09_L2SP_006013_20260723_20260724_02_T1/LC09_L2SP_006013_20260723_20260724_02_T1_QA_PIXEL.TIF"
+    },
+    "blue_scale": 2.75e-05,
+    "blue_offset": -0.2
+  },
+  {
+    "id": "S2C_22WFV_20260723_0_L2A",
+    "instrument": "s2",
+    "time": "2026-07-23T15:03:57.047000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_22WFV_20260723_0_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260723_0_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260723_0_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260723_0_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2C_22WFV_20260723_0_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1D_IW_GRDH_1SDH_20260723T204553_20260723T204618_003806_006D8A_rtc",
+    "instrument": "s1",
+    "time": "2026-07-23T20:46:05.692003Z",
+    "relative_orbit": 90,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1D_IW_GRDH_1SDH_20260723T204553_20260723T204618_003806_006D8A_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/23/IW/DH/S1D_IW_GRDH_1SDH_20260723T204553_20260723T204618_003806_006D8A_656E/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/23/IW/DH/S1D_IW_GRDH_1SDH_20260723T204553_20260723T204618_003806_006D8A_656E/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S1D_IW_GRDH_1SDH_20260723T204618_20260723T204643_003806_006D8A_rtc",
+    "instrument": "s1",
+    "time": "2026-07-23T20:46:30.691599Z",
+    "relative_orbit": 90,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1D_IW_GRDH_1SDH_20260723T204618_20260723T204643_003806_006D8A_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/23/IW/DH/S1D_IW_GRDH_1SDH_20260723T204618_20260723T204643_003806_006D8A_D26E/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/23/IW/DH/S1D_IW_GRDH_1SDH_20260723T204618_20260723T204643_003806_006D8A_D26E/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S2A_22WFV_20260725_1_L2A",
+    "instrument": "s2",
+    "time": "2026-07-25T15:04:13.238000Z",
+    "relative_orbit": null,
+    "item": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_22WFV_20260725_1_L2A",
+    "assets": {
+      "blue": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260725_1_L2A/B02.tif",
+      "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260725_1_L2A/B03.tif",
+      "red": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260725_1_L2A/B04.tif",
+      "scl": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/W/FV/2026/7/S2A_22WFV_20260725_1_L2A/SCL.tif"
+    },
+    "blue_scale": 0.0001,
+    "blue_offset": -0.1
+  },
+  {
+    "id": "S1D_IW_GRDH_1SDH_20260726T095159_20260726T095224_003843_006ECA_rtc",
+    "instrument": "s1",
+    "time": "2026-07-26T09:52:11.583020Z",
+    "relative_orbit": 127,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1D_IW_GRDH_1SDH_20260726T095159_20260726T095224_003843_006ECA_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/26/IW/DH/S1D_IW_GRDH_1SDH_20260726T095159_20260726T095224_003843_006ECA_6BD2/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/26/IW/DH/S1D_IW_GRDH_1SDH_20260726T095159_20260726T095224_003843_006ECA_6BD2/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260727T094335_20260727T094400_008727_0114B4_rtc",
+    "instrument": "s1",
+    "time": "2026-07-27T09:43:48.060937Z",
+    "relative_orbit": 54,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260727T094335_20260727T094400_008727_0114B4_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/27/IW/DH/S1C_IW_GRDH_1SDH_20260727T094335_20260727T094400_008727_0114B4_921E/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/27/IW/DH/S1C_IW_GRDH_1SDH_20260727T094335_20260727T094400_008727_0114B4_921E/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S1D_IW_GRDH_1SDH_20260728T093546_20260728T093615_003872_006FCE_rtc",
+    "instrument": "s1",
+    "time": "2026-07-28T09:36:01.189491Z",
+    "relative_orbit": 156,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1D_IW_GRDH_1SDH_20260728T093546_20260728T093615_003872_006FCE_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/28/IW/DH/S1D_IW_GRDH_1SDH_20260728T093546_20260728T093615_003872_006FCE_A32A/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/28/IW/DH/S1D_IW_GRDH_1SDH_20260728T093546_20260728T093615_003872_006FCE_A32A/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "LC08_L2SP_008013_20260729_02_T1",
+    "instrument": "landsat",
+    "time": "2026-07-29T14:54:49.531042Z",
+    "relative_orbit": null,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_008013_20260729_02_T1",
+    "assets": {
+      "blue": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC08_L2SP_008013_20260729_20260801_02_T1/LC08_L2SP_008013_20260729_20260801_02_T1_SR_B2.TIF",
+      "green": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC08_L2SP_008013_20260729_20260801_02_T1/LC08_L2SP_008013_20260729_20260801_02_T1_SR_B3.TIF",
+      "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC08_L2SP_008013_20260729_20260801_02_T1/LC08_L2SP_008013_20260729_20260801_02_T1_SR_B4.TIF",
+      "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/008/013/LC08_L2SP_008013_20260729_20260801_02_T1/LC08_L2SP_008013_20260729_20260801_02_T1_QA_PIXEL.TIF"
+    },
+    "blue_scale": 2.75e-05,
+    "blue_offset": -0.2
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260729T204540_20260729T204605_008763_0115DB_rtc",
+    "instrument": "s1",
+    "time": "2026-07-29T20:45:52.745346Z",
+    "relative_orbit": 90,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260729T204540_20260729T204605_008763_0115DB_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/29/IW/DH/S1C_IW_GRDH_1SDH_20260729T204540_20260729T204605_008763_0115DB_41DA/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/29/IW/DH/S1C_IW_GRDH_1SDH_20260729T204540_20260729T204605_008763_0115DB_41DA/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  },
+  {
+    "id": "S1C_IW_GRDH_1SDH_20260729T204605_20260729T204630_008763_0115DB_rtc",
+    "instrument": "s1",
+    "time": "2026-07-29T20:46:17.745639Z",
+    "relative_orbit": 90,
+    "item": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDH_20260729T204605_20260729T204630_008763_0115DB_rtc",
+    "assets": {
+      "hh": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/29/IW/DH/S1C_IW_GRDH_1SDH_20260729T204605_20260729T204630_008763_0115DB_5844/measurement/iw-hh.rtc.tiff",
+      "hv": "https://sentinel1euwestrtc.blob.core.windows.net/sentinel1-grd-rtc/GRD/2026/7/29/IW/DH/S1C_IW_GRDH_1SDH_20260729T204605_20260729T204630_008763_0115DB_5844/measurement/iw-hv.rtc.tiff"
+    },
+    "blue_scale": null,
+    "blue_offset": null
+  }
+]
