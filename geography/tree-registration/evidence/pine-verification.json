@@ -1,0 +1,51 @@
+{
+  "pair": "small_pine_anim_42_0_2",
+  "release_sha256": "9f9e66a46558d387a61acf897d333d086d019790593dbe45db0f4365aeda607a",
+  "driver_sha256": "db08b73a7abfbf24bbd15f681c02e1a228641f57c6d0e8f13e8252372d59e4fe",
+  "source_rows": 174614,
+  "target_rows": 1135673,
+  "reference_points": 43161,
+  "preparation": {
+    "pair": "small_pine_anim_42_0_2",
+    "regular_patches": 40,
+    "source_points": 174614,
+    "matches": 25293,
+    "matches_above_0.2": 23018,
+    "matcher": "cached",
+    "source_sha256": "39365a5fe17d4d756515391074dd41e452cc47fc37005622125898a718aa6617",
+    "anchors_sha256": "e76157fa2dd96c40fc27372a894ccb43d33749dedf866084895fd22e401d8337",
+    "original_sha256": "781dfe0d0c916ae8e04bc7cb53f573e4d4b366bc97747fee2a5ef2ff861f0819",
+    "input_inventory_sha256": "fd0c000aff7d9ff5456721ee02ab0c65104979638f8a00b20768d906ad7edfa3",
+    "patch_file_list_sha256": "471aabe7c293b2a030b9975fbfbb7debf265e1256433c81f08122f41932c1abc",
+    "weights_sha256": {
+      "plants_S5_stems_weights.pth": "89f717c94aa34c2d2dcb2b25761511745edb714e5f95f6b0b90c49dd60886f60",
+      "outlier_S5_stems_weights.pth": "ef7e589c554103d9f3dedb9a5966115bb5d9c79f48291d0f28d0926fc2ba5cce"
+    }
+  },
+  "cli_output_field_npy_sha256": "164ca8d982bc147163dde49e64611b08e14311ed3ea3b9b6c02b4cc499dbf55b",
+  "archived_field_npy_sha256": "164ca8d982bc147163dde49e64611b08e14311ed3ea3b9b6c02b4cc499dbf55b",
+  "dense_mean_vector_difference_m": 0.0,
+  "dense_max_vector_difference_m": 0.0,
+  "cli_metrics": {
+    "epe_m": 0.035146311512056605,
+    "acc_strict": 0.398345728782929,
+    "acc_relaxed": 0.7736845763536526,
+    "outlier_ratio": 0.18773893097935637,
+    "n_points": 43161
+  },
+  "archived_metrics": {
+    "epe_m": 0.035146311512056605,
+    "acc_strict": 0.398345728782929,
+    "acc_relaxed": 0.7736845763536526,
+    "outlier_ratio": 0.18773893097935637,
+    "n_points": 43161
+  },
+  "mv_metrics": {
+    "epe_m": 0.03687340520359091,
+    "acc_strict": 0.3929936748453465,
+    "acc_relaxed": 0.7437038066773244,
+    "outlier_ratio": 0.22131090567873776,
+    "n_points": 43161
+  },
+  "scope": "Full released pair with cached network matches. CPU output compared to historical dense field. The native cohort ran concurrently on a different core; no runtime claim."
+}

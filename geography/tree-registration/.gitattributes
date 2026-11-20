@@ -1,0 +1,7 @@
+code/** -text
+code/*.whl binary
+*.pdf binary
+*.png binary
+*.npz binary
+*.npy binary
+evidence/*.csv text eol=lf

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-20",
+  "cohort": "Newly simulated trees reserved for prospective testing after excluding the initial 11",
+  "protocol_sha256": "d5545861ce35a3b673c9fca404592b973569ea092517e0d00d465688b1eb2652",
+  "planned_pairs_per_tree": 5,
+  "eligible_trees": 189,
+  "completed_trees": 0,
+  "eligible_directed_pairs": 945,
+  "scored_directed_pairs": 0,
+  "groups": {
+    "familiar_preset": {"eligible_trees": 151, "completed_trees": 0},
+    "unseen_preset": {"eligible_trees": 38, "completed_trees": 0}
+  },
+  "mean_epe_m": null,
+  "relative_improvement": null
+}
