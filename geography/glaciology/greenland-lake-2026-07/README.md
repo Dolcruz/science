@@ -1,8 +1,8 @@
 # A July 2026 lake drainage on the western Greenland Ice Sheet
 
-A supraglacial lake near **67.12718° N, 48.53845° W** expanded from **1.676 km² on 16 July to 5.819 km² on 20 July 2026**. By 23 July, only **0.442 km²** of water remained exposed in the same basin window. Sentinel-2 measured a loss of **5.377 km², or 92.4%**, in 72 hours 10 minutes. Landsat independently recorded the change. Cloud-penetrating radar shows that a broad, water-like surface persisted into the morning of 22 July.
+Within a fixed **4.0 × 3.2 km** window on a supraglacial lake near **67.12718° N, 48.53845° W**, mapped open water grew from **1.676 km² on 16 July to 5.819 km² on 20 July 2026**. On 23 July, Sentinel-2 measured **0.442 km²** in the same window, a net loss of **5.377 km², or 92.4%**, in 72 hours 10 minutes. Landsat independently recorded the change. Cloud-penetrating radar shows that a broad, water-like surface persisted into the morning of 22 July.
 
-The basin was mapped in 2018 and 2019. The July 2026 result measures exposed surface area. Water volume, drainage route and the duration of active flow remain open.
+The basin was mapped in 2018 and 2019. Connected pools and channels cross the measurement boundary. The July 2026 result gives the net exposed-water area change inside that boundary. Water volume, drainage route and the duration of active flow remain open.
 
 [Illustrated report (PDF)](report.pdf) · [Editable LaTeX](report.tex) · [Weather station record](weather/README.md) · [Separate Alaska screen and its null result](alaska-screen/README.md)
 
@@ -14,14 +14,14 @@ The basin was mapped in 2018 and 2019. The July 2026 result measures exposed sur
 |---|---|
 | 15, 14:42 and 14:53 | Landsat 8 and Sentinel-2B measured 1.302 and 1.288 km² of exposed water. |
 | 16, 15:13 | Sentinel-2C measured 1.676 km². |
-| 20, 14:54 | Sentinel-2C measured 5.819 km² across the filled basin. |
+| 20, 14:54 | Sentinel-2C measured 5.819 km² within the measurement window. |
 | 21, 14:55 | Landsat 9 measured **at least 4.465 km²**. The USGS cloud and shadow mask left 72.4% of the basin window usable. The remaining clear pixels show a continuous dark-blue lake. |
 | 22, 09:36 | Sentinel-1C still recorded a broad dark radar return across the 20 July optical footprint. Cloud obscured both optical products examined on this date. |
 | 23, 14:43 and 15:04 | Cloud-free Landsat 9 and Sentinel-2C measured **0.413 and 0.442 km²**. Textured ice and several small remnant pools occupy the former lake. |
 | 23, 20:47 | The broad radar-dark patch had disappeared. The interior now scattered radar much like adjacent ice. |
 | 25 and 29 | Sentinel-2A measured 0.535 km² on 25 July. Landsat 8 measured 0.185 km² on 29 July. |
 
-The three-day Sentinel-2 comparison measures the full optical area loss. A second, narrower bracket runs from the persistent radar signature at **09:35:47 UTC on 22 July** to the first clear, largely empty Landsat view at **14:42:35 UTC on 23 July**, or **29 hours 7 minutes**. This brackets the transition from widespread water-like backscatter to a mostly exposed basin. The timing of individual portions of the 5.377 km² loss is unresolved. [Optical measures](optical.csv) · [Radar measures](radar.csv)
+The three-day Sentinel-2 comparison measures the net optical area loss within the fixed window. A second, narrower bracket runs from the persistent radar signature at **09:35:47 UTC on 22 July** to the first clear, largely empty Landsat view at **14:42:35 UTC on 23 July**, or **29 hours 7 minutes**. This brackets the transition from widespread water-like backscatter to a mostly exposed basin. The timing of individual portions of the 5.377 km² loss is unresolved. [Optical measures](optical.csv) · [Radar measures](radar.csv)
 
 ## Physical interpretation
 
@@ -29,9 +29,9 @@ Rapid drainage best explains the loss of blue water, reappearance of surface tex
 
 ## Optical and radar measurements
 
-The basin was selected from a **40 × 24 km** screening field on Sentinel-2 tile 22WEV. The screen used 20 dates from the July–August search interval, choosing one scene per date with the least tile-level cloud below 35%. At 80 m it flagged connected water patches of 25–1,200 pixels whose apparent water fraction fell to 20% or less within eight days with over 90% usable later pixels. The largest flagged component contained 1,021 pixels. It reached the eastern edge of the search field and included connected channels. The 10 m analysis uses a complete, fixed basin window on neighboring tile 22WFV. The initial screen is reproducible with `python screen.py`. Its detections are candidates for follow-up. [Screening images](screen-scenes.json) · [Regional candidate pairs](regional-screen.csv)
+The basin was selected from a **40 × 24 km** screening field on Sentinel-2 tile 22WEV. The screen used 20 dates from the July–August search interval, choosing one scene per date with the least tile-level cloud below 35%. At 80 m it flagged connected water patches of 25–1,200 pixels whose apparent water fraction fell to 20% or less within eight days with over 90% usable later pixels. The largest flagged component contained 1,021 pixels. It reached the eastern edge of the search field and included connected channels. The 10 m analysis uses a fixed measurement window on neighboring tile 22WFV. The initial screen is reproducible with `python screen.py`. Its detections are candidates for follow-up. [Screening images](screen-scenes.json) · [Regional candidate pairs](regional-screen.csv)
 
-The fixed 4.0 × 3.2 km basin window spans eastings 604,400–608,400 m and northings 7,446,400–7,449,600 m in WGS 84 / UTM zone 22N. It encloses the main lake and its immediate margins. The wider field contains other pools connected by narrow channels. The reported position is the centroid of 20 July classified water within the window. It is distinct from the centroid of the larger connected drainage network.
+The fixed 4.0 × 3.2 km basin window spans eastings 604,400–608,400 m and northings 7,446,400–7,449,600 m in WGS 84 / UTM zone 22N. It includes the main pool and nearby water. At the 0.25 threshold, mapped water reaches all four sides on 20 July. Pools and narrow channels extend into the wider field. The reported position is the centroid of 20 July classified water within the window. It is distinct from the centroid of the larger connected drainage network.
 
 Sentinel-2 Level-2A surface reflectance is sampled at 10 m. Landsat Collection 2 Level-2 surface reflectance is sampled at 30 m. Water is selected by the ice-specific blue–red normalized difference, **(blue − red)/(blue + red + 0.0001) > 0.25**, with the small denominator offset expressed in reflectance units. The analysis applies each product's reflectance scale and offset. Sentinel-2 scene classes 0, 3, 8, 9 and 10 and Landsat QA_PIXEL bits 0–4 exclude missing pixels, cloud, cirrus and shadow. Ice/snow classes remain eligible for the spectral test. All three key Sentinel-2C basin windows and the 23 July Landsat window pass the mask completely.
 
@@ -81,3 +81,7 @@ Sentinel-2 data are from Copernicus, distributed as cloud-optimized GeoTIFFs via
 The basin was selected retrospectively from a regional screen. Agreement between sensors, comparison pools, and the threshold sensitivity constrain the interpretation. The separate Alaska summer screen supplies additional search context. Contains modified Copernicus Sentinel data (2023–2026). Landsat data are courtesy of the U.S. Geological Survey. KAN_M observations are an extract of the How et al. PROMICE/GC-Net data, distributed under CC BY 4.0. Third-party data retain their original terms. [Copernicus data access](https://dataspace.copernicus.eu/terms-and-conditions) · [PROMICE/GC-Net data DOI](https://doi.org/10.22008/FK2/IW73UU) · [PROMICE/GC-Net dataset description](https://pub.geus.dk/en/publications/promice-gc-net-automatic-weather-station-data/)
 
 OpenAI Codex agents carried out the archival search, measurements, figures and interpretation. The original observations and catalog entries are the work of the survey and network teams credited above. Build the report in this directory with `pdflatex report.tex`.
+
+## Independent review
+
+An independent OpenAI Codex reviewer (GPT-6 family) extracted [the study commit](https://github.com/Dolcruz/science/commit/0a37850d631ce6a5e03d2050ee94da428c1178c9) into a fresh directory. The review reproduced all 177 regional screen rows, 13 optical rows, 14 radar rows, 48 control rows, 11 historical matches, 20 science arrays, five figures and 29 weather readings within the observation bracket. It verified the original July 20 optical pixels against a new download and identified connected water outside all four sides of the fixed window. The net within-window loss is 5.3771 km². The independent Alaska replay reproduced 18 screening candidates.

@@ -175,7 +175,7 @@
       "field": "geography",
       "subfield": "glaciology",
       "title": "July 2026 drainage of a western Greenland supraglacial lake",
-      "claim": "A known Greenland basin lost 5.377 square kilometres of exposed water area between 20 and 23 July 2026, a 92.4% decline corroborated by Landsat and Sentinel-1 radar.",
+      "claim": "In a fixed 4.0 by 3.2 km window on a known Greenland lake, mapped open water decreased by 5.377 square kilometres (92.4%) between 20 and 23 July 2026. Landsat and Sentinel-1 radar corroborate the change.",
       "key_values": {
         "latitude": 67.12718,
         "longitude": -48.53845,
@@ -198,7 +198,7 @@
         }
       ],
       "limitations": [
-        "Water volume, flow path and active drainage duration remain unresolved.",
+        "Connected water extends beyond the measurement window. Water volume, flow path and active drainage duration remain unresolved.",
         "Historical inventories already contain the basin. The novelty search concerns the July 2026 episode."
       ],
       "builds_on": [
@@ -325,7 +325,7 @@
       "key_values": {
         "period_days": 2.70917244,
         "primary_timings": 40,
-        "bochum_r_flux_loss_pct": 9.7,
+        "bochum_r_flux_loss_pct": 10.62,
         "bochum_i_flux_loss_pct": 10.67,
         "gaia_separation_arcsec": 0.918
       },
@@ -338,9 +338,10 @@
           "files": [
             "physics/astronomy/tic-349414709/tess-curves.npz",
             "physics/astronomy/tic-349414709/bochum-curves.csv",
-            "physics/astronomy/tic-349414709/difference-images.npz"
+            "physics/astronomy/tic-349414709/difference-images.npz",
+            "physics/astronomy/tic-349414709/timing/frames.csv"
           ],
-          "command": "cd physics/astronomy/tic-349414709 && python measure.py"
+          "command": "cd physics/astronomy/tic-349414709 && python timing/verify.py && python measure.py"
         }
       ],
       "limitations": [

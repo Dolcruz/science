@@ -5,7 +5,9 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 import numpy as np
 import pandas as pd
+from astropy.coordinates import EarthLocation, SkyCoord
 from astropy.time import Time
+from astropy.utils import iers
 from scipy.optimize import least_squares
 
 
@@ -77,6 +79,29 @@ def event_depths(t, y, period, epoch, sector):
     return rows
 
 
+def bochum_btjd(mjd_utc):
+    # The matching observatory frames establish UTC for this field (see timing/README.md).
+    site = EarthLocation.from_geodetic(-70.20128, -24.59867, 2817)
+    direction = SkyCoord(114.51941708, -20.39278903, unit='deg')
+    times = Time(mjd_utc, format='mjd', scale='utc', location=site)
+    with iers.conf.set_temp('auto_download', False):
+        barycentric = times.tdb + times.light_travel_time(direction, kind='barycentric')
+    return barycentric.jd - 2457000
+
+
+def ground_depths(ground):
+    totals = []
+    for (star, band), group in ground.groupby(['source', 'band']):
+        distance = abs(group.phase)
+        inside = distance < .018
+        outside = (distance > .035) & (distance < .43)
+        dip = np.median(group.mag[inside]) - np.median(group.mag[outside])
+        totals.append((star, band, len(group), int(inside.sum()), int(outside.sum()),
+                       dip, 100 * (1 - 10 ** (-.4 * dip))))
+    return pd.DataFrame(totals, columns=['source', 'band', 'all_epochs', 'in_eclipse',
+                                         'out_of_eclipse', 'dip_mag', 'flux_loss_pct'])
+
+
 def main():
     tess = np.load(ROOT/'tess-curves.npz')
     curves = {s:(tess[f'time{s}'],tess[f'flux{s}']) for s in SECTORS}
@@ -93,18 +118,21 @@ def main():
     phot.to_csv(ROOT/'tess-event-depths.csv',index=False)
 
     ground = pd.read_csv(ROOT/'bochum-curves.csv')
-    ground['btjd'] = Time(ground.mjd_tcb,format='mjd',scale='tcb').tdb.jd-2457000
-    ground['phase'] = phase(ground.btjd,period,epoch)
-    totals=[]
-    for (star,band),g in ground.groupby(['source','band']):
-        inside = abs(g.phase)<.018
-        outside = (abs(g.phase)>.035)&(abs(g.phase)<.43)
-        diff = np.median(g.mag[inside])-np.median(g.mag[outside])
-        totals.append((star,band,len(g),int(inside.sum()),int(outside.sum()),diff,
-                       100*(1-10**(-.4*diff))))
-    summary = pd.DataFrame(totals,columns=['source','band','all_epochs','in_eclipse',
-                           'out_of_eclipse','dip_mag','flux_loss_pct'])
-    summary.to_csv(ROOT/'ground-depths.csv',index=False)
+    mjd = ground.mjd_utc.to_numpy()
+    ground['phase'] = phase(bochum_btjd(mjd), period, epoch)
+    summary = ground_depths(ground)
+    summary.to_csv(ROOT/'ground-depths.csv', index=False)
+
+    # Compare possible offsets of the effective mid-exposure time in a combined frame.
+    sensitivity = [summary.assign(time_basis='observatory UTC', offset_s=0)]
+    for seconds in (5, 45, 90, 120):
+        btjd = bochum_btjd(mjd + seconds / 86400)
+        depths = ground_depths(ground.assign(phase=phase(btjd, period, epoch)))
+        sensitivity.append(depths.assign(time_basis='observatory UTC', offset_s=seconds))
+    metadata_btjd = Time(mjd, format='mjd', scale='tcb').tdb.jd - 2457000
+    depths = ground_depths(ground.assign(phase=phase(metadata_btjd, period, epoch)))
+    sensitivity.append(depths.assign(time_basis='VOTable TCB', offset_s=0))
+    pd.concat(sensitivity, ignore_index=True).to_csv(ROOT/'timing'/'sensitivity.csv', index=False)
     pix = np.load(ROOT/'difference-images.npz')
     mean_img = np.mean(pix['events'],axis=0)
     from scipy.ndimage import map_coordinates

@@ -63,7 +63,7 @@ def main():
                 good = (d['QUALITY'] == 0) & np.isfinite(t) & np.isfinite(f)
                 curves[f'time{sector}'] = t[good].astype('float64')
                 curves[f'flux{sector}'] = (f[good]/np.median(f[good])).astype('float32')
-    pd.DataFrame(ground, columns=['source','band','mjd_tcb','mag','mag_err']).to_csv(
+    pd.DataFrame(ground, columns=['source','band','mjd_utc','mag','mag_err']).to_csv(
         args.output/'bochum-curves.csv', index=False)
     np.savez_compressed(args.output/'tess-curves.npz', **curves)
 

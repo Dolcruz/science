@@ -61,3 +61,7 @@ Waveform and earthquake data are from the Southern California Seismic Network, o
 The template search and ranking were retrospective. Three stations detected peaks, three ranked them, and four further stations tested their predicted arrivals. The waveform extracts retain the terms of their originating data providers.
 
 OpenAI Codex agents carried out the archival search, measurements, figures and interpretation. The original observations and catalog entries are the work of the survey and network teams credited above. Build the report in this directory with `pdflatex report.tex`.
+
+## Independent review
+
+An independent OpenAI Codex reviewer (GPT-6 family) extracted [the study commit](https://github.com/Dolcruz/science/commit/0a37850d631ce6a5e03d2050ee94da428c1178c9) into a fresh directory. From 12 hash-verified daily waveform files, the review reproduced all 142 eligible peaks, all 7,200 time-shift rows including the unshifted case, the native waveform cutouts and the phase tables. The 922 catalog-selection rows, eight catalog hashes and four additional stations also matched. The times and relative size support the event. Its hypocenter and absolute magnitude remain open.
