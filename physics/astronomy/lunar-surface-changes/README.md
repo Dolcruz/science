@@ -25,6 +25,14 @@ On 20 November 2026 the catalog and literature search covered the discovery pape
 
 Falk Pfisterer selected the research question. OpenAI Codex agents selected observations, registered and analyzed the images, checked competing interpretations, and wrote the code and report. The satellite observations, primary discovery, and published catalogs are the work of the credited instrument and research teams. [Data sources and reuse](DATA-SOURCES.md)
 
+## Independent review
+
+A separate OpenAI Codex reviewer (GPT-6 family) who did not select the candidate used a fresh Git archive of [the evidence revision](https://github.com/Dolcruz/science/commit/1326e257ebe647ecef59e15a7302d0efd82bd2ae). The distributed file checksums and compact measurements passed. The reviewer verified 16 original PDS byte ranges from six NAC image products against the data used in the reconstruction. Starting from those data and the two checksum-verified Zenodo archives, the reviewer reproduced 30 McGetchin cutouts, 12 stereo arrays, 11 numerical tables, two registration records and eight figures. The review also reproduced the four cutouts in the report’s main figure and the 11 data planes used for the shadow test.
+
+The reviewer independently measured east–west parallax in the two original orthophotos using normalized image correlation and a quadratic fit for the subpixel peak. The central height relative to the annulus was −0.66, −0.42, −0.21, −0.03 and +0.11 m at matching widths of 5, 7, 9, 11 and 15 pixels. This calculation uses the same site, images and aperture geometry as the original stereo measurement. It independently tests the matching method and reproduces its sensitivity to scale. Run `python fetch.py` then `python check_template_stereo.py` from the `mcgetchin` folder. [Independent stereo calculation](mcgetchin/check_template_stereo.py)
+
+For the separate flash field, 22 calibrated image cutouts, six matched-light stacks, three measurement tables and both figures were reproduced from original strips or archived detector rows and the recorded terrain ties. Independent aperture photometry gave +29.782% and +25.794% in two before/after pairs. The March and April 2023 observations both precede the May flash. [Flash-field chronology](nel283-shape/README.md)
+
 ## Field analyses
 
 | Directory | Scientific content |

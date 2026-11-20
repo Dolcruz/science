@@ -50,11 +50,13 @@ if __name__=='__main__':
                 raster=response.read()
         digest=hashlib.sha256(raster).hexdigest()
         print('WMS image SHA-256:',digest)
-        if digest!='650b36c863453e52b4ec877c0bd27c58ef56af2024490f1fe9ba986e4ccd0076':
-            print('The server image differs from the image used for the published tie positions.')
         sky=np.array(Image.open(io.BytesIO(raster)).convert('L'))
         if sky.shape!=(1600,1600):
             raise ValueError(f'Expected a 1600 by 1600 WMS map, received {sky.shape}')
+        pixel_digest=hashlib.sha256(sky.tobytes()).hexdigest()
+        print('Grayscale pixel SHA-256:',pixel_digest)
+        if pixel_digest!='270a7b4fa2da58936d769d799917e694926c924c4879969b3e50948d2eecf388':
+            print('The map pixels differ from the image used for the published tie positions.')
         wf=feat(prep(sky));rf=feat(prep(np.load(TILES/(REF+'.npy'))))
         rows=[]
         for f in TILES.glob('*.npy'):
