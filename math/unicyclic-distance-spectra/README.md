@@ -10,13 +10,21 @@ having precisely three distinct distance eigenvalues."
 ## Contents
 
 - `Unicyclic_distance_spectra.pdf`: the full proof (7 pages).
-- `lean/`: target statement for the Lean 4 formalization (work in progress).
+- `lean/`: the Lean 4 formalization (complete).
 
 ## Status
 
-- The proof is a paper proof. It is not formalized yet. `lean/` contains the frozen target
-  statement for a Lean 4 formalization (`lean/Unicyclic/Statement.lean`) and the rules for
-  it (`lean/TASK.md`); the proofs there are still open.
+- **Formally proved in Lean 4 (Mathlib).** `lean/Unicyclic/Statement.lean` states the
+  theorem; it was written and frozen before the proof was attempted. `Unicyclic.main`
+  proves it, together with five sanity statements that pin down the definitions (for
+  example, the distance spectrum of C4 is {4, 0, -2} and C6 has four distinct distance
+  eigenvalues). `#print axioms` shows only `propext`, `Classical.choice` and `Quot.sound`:
+  no `sorry`, no `native_decide`, no extra axioms. Reproduce with
+  `cd lean && lake exe cache get && lake build`.
+- The Lean proof follows its own route, not the note's: cycles are handled by their
+  explicit spectra, long cycles with pendant leaves by a structural argument, and the
+  triangle with pendant leaves by an algebraic identity
+  (`lean/Unicyclic/TriangleAlgebra.lean`).
 - The note reports an exact computer check of all 7872 unicyclic graphs with 3 to 12
   vertices, which finds only C4 and C5. The script for that check is not in this folder
   yet.
