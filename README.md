@@ -15,6 +15,12 @@ Corrections are welcome via issues.
 | geography | [Wind correction for tree laser scans](geography/tree-registration) | mean 3D motion error fell from 11.78 to 8.98 cm on 97 published simulated scan pairs | paired scores, runnable example and full-field reproduction on one published pair |
 | physics / astronomy | [What eclipses TIC 153838604?](physics/astronomy/tic-153838604) | a giant planet and a faint red dwarf both fit four TESS eclipses recurring every 56.07936 days | TESS timing and pixel analysis, independent survey photometry, Gaia and radial-velocity archive checks |
 
+## Quality rules
+
+Every entry has to pass the gates in [CONTRIBUTING.md](CONTRIBUTING.md): evidence that
+others can rerun, an independent review, a documented novelty search, limits stated up
+front, pre-registration for empirical work, and clear credit and AI disclosure.
+
 ## Layout
 
 Results are grouped by field (`math/`, `geography/`, `physics/`) and, where useful, by subfield.
