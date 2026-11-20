@@ -1,0 +1,10 @@
+# Preserve archive bytes and published checksums on every platform.
+*.fits binary
+*.parquet binary
+*.npz binary
+*.gz binary
+*.png binary
+*.pdf binary
+*.csv -text
+*.tsv -text
+*.tbl -text

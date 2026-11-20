@@ -1,0 +1,69 @@
+#
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2026-11-20T18:45:00 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-11-20T18:45:00	  Query execution date
+#INFO	request=https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FAJ%2F162%2F192&-c=68.073988+-47.608994&-c.rs=10&-out=%2A%2A	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	MaxTuples=50000	
+#INFO	-c=068.073988-47.608994,rs=10.	
+#Constraint -out=**
+
+#RESOURCE=yCat_51620192
+#Name: J/AJ/162/192
+#Title: SOAR TESS survey. II. Impact of stellar companions (Ziegler+, 2021)
+#INFO	ivoid=ivo://cds.vizier/j/aj/162/192	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/aj/162/192	    IVOID of underlying data collection
+#INFO	creator=Ziegler C.	    First author or institution
+#INFO	cites=bibcode:2021AJ....162..192Z	    Article or Data origin sources
+#INFO	journal=AJ	    Journal name
+#INFO	original_date=2021	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/162/192	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.51620192	    Dataset identifier that can be used for citation
+#INFO	publication_date=2022-03-14	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	J2000_2000.000:	eq_FK5 J2000
+#Table	J_AJ_162_192_table1:
+#Name: J/AJ/162/192/table1
+#Title: Full SOAR Speckle observation list and binary properties
+#Column	_r	(F5.2)	Distance from center (068.07399-47.60899)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	TOI	(I5)	TESS Object of Interest number	[ucd=meta.id;meta.main]
+#Column	TIC	(I9)	TESS Input Catalog number	[ucd=meta.id.cross]
+#Column	Comp	(a5)	Binary component designations (1)	[ucd=meta.id.part;meta.main]
+#Column	RAJ2000	(F9.5)	[1.4/359] Right Ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	[-84/31] Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Filt	(A1)	Filter used; I or y	[ucd=instr.setup;instr.filter]
+#Column	Obs	(F8.3)	[2019/2022] Decimal year of the observation	[ucd=time.epoch]
+#Column	PA	(F5.1)	[1.1/360]? Position Angle	[ucd=pos.posAng]
+#Column	ETan	(F5.1)	[0.1/317]? Measurement error tangential direction	[ucd=stat.error]
+#Column	Sep	(F6.3)	[0.05/5.7]? Angular separation	[ucd=pos.angDistance]
+#Column	ERad	(F4.1)	[0.1/20]? Measurement error in radial direction	[ucd=stat.error;spect.dopplerVeloc]
+#Column	Con	(F4.1)	[0.1/7.1]? Contrast magnitude in Filter	[ucd=phot.mag;arith.diff]
+#Column	Flag	(A1)	Photometry flag (2)	[ucd=meta.code.error]
+#Column	MinSep	(F6.3)	[0.04/0.13] Estimated separation limit	[ucd=pos.angDistance;src.orbital]
+#Column	Con0.15	(F5.2)	[0/3.7] Maximum detectable contrast Filter magnitude at 0.15arcsec	[ucd=phot.mag;arith.diff]
+#Column	Con1	(F5.2)	[0/6.4] Maximum detectable contrast Filter magnitude at 1arcsec	[ucd=phot.mag;arith.diff]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Table	J_AJ_162_192_table2:
+#Name: J/AJ/162/192/table2
+#Title: SOAR speckle observations and resolved binary properties of known eclipsing binaries
+#Column	_r	(F5.2)	Distance from center (068.07399-47.60899)[FK5/J2000], at Epoch=J2000.0	[ucd=pos.angDistance]
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	TIC	(I9)	TESS Input Catalog number	[ucd=meta.id;meta.main]
+#Column	Obs	(F7.4)	[19/20] Decimal year of the observation	[ucd=time.epoch]
+#Column	Sep	(F7.4)	[0.04/4.44]? Angular separation	[ucd=pos.angDistance]
+#Column	PA	(F5.1)	[10/359]? Position angle	[ucd=pos.posAng]
+#Column	Con	(F4.1)	[0/7.4]? I band contrast magnitude	[ucd=phot.mag;arith.diff]
+#Column	MinSep	(F6.3)	[0.03/0.17] Minimum separation	[ucd=pos.angDistance;src.orbital]
+#Column	Con0.15	(F5.2)	[1.29/3.41] I band contrast mag at 0.15arcsec	[ucd=phot.mag;arith.diff]
+#Column	Con1	(F5.2)	[2.01/6.14] I band contrast magnitude at 1arcsec	[ucd=phot.mag;arith.diff]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Column	_RA	(F9.5)	Position from SIMBAD (right ascension part)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Position from SIMBAD (declination part)	[ucd=pos.eq.dec;meta.main]

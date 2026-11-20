@@ -1,0 +1,54 @@
+{
+  "depth_even_minus_odd_ppt": {
+    "estimate": -0.7137647122379427,
+    "interval_95": [
+      -2.5838886066520024,
+      0.8542556766981628
+    ],
+    "control_combinations": 465920
+  },
+  "duration_even_minus_odd_h": {
+    "estimate": 0.05019634550339913,
+    "interval_95": [
+      -0.32809654807882743,
+      0.37311133631596705
+    ],
+    "control_combinations": 465920
+  },
+  "odd_time_offset_min": {
+    "estimate": -1.3974789493105235,
+    "interval_95": [
+      -5.995312777450108,
+      4.085031795403362
+    ],
+    "control_combinations": 465920
+  },
+  "small_depth_even_minus_odd_ppt": {
+    "estimate": -3.0757150434056886,
+    "interval_95": [
+      -4.739681053336784,
+      -1.5467630055375339
+    ]
+  },
+  "large_depth_even_minus_odd_ppt": {
+    "estimate": -0.040970744713524354,
+    "interval_95": [
+      -2.614713723293136,
+      1.8719906983227694
+    ]
+  },
+  "raw_depth_even_minus_odd_ppt": {
+    "estimate": -0.7957303963544229,
+    "interval_95": [
+      -2.6421180001061053,
+      0.7750638761142146
+    ]
+  },
+  "empirical_counts": [
+    13,
+    28,
+    40,
+    32
+  ],
+  "idealized_tic_contamination_multiplier": 1.016354
+}

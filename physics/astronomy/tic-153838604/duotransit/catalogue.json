@@ -1,0 +1,36 @@
+{
+  "accessed_utc_date": "2026-11-20",
+  "exofop_url": "https://exofop.ipac.caltech.edu/tess/target.php?id=153838604&json",
+  "identifications": {
+    "tic_id": "153838604",
+    "star_names": "TIC 153838604, 2MASS J04321774-4736316, APASS 22211720, Gaia DR2 4788303839668784896, Gaia DR3 4788303839668784896, UCAC4 212-004500, WISE J043217.75-473632.0",
+    "confirmed_planets": "",
+    "k2_campaign": "",
+    "tic_contamination_ratio": "0.016354"
+  },
+  "exofop_planet_parameters": [
+    {
+      "name": "TIC 153838604.01",
+      "per": null,
+      "per_e": null,
+      "epoch": "2458447.102",
+      "dur": "2.61",
+      "disp": "PC",
+      "pdate": "2023-11-24 03:31:43",
+      "pnotes": "new CTOI, https://arxiv.org/abs/2310.17268"
+    }
+  ],
+  "TESS_EB_lookup": {
+    "url": "https://tessebs.villanova.edu/153838604",
+    "result": "This TESS ID is not in the catalog."
+  },
+  "Gaia_DR3": {
+    "source_id": "4788303839668784896",
+    "TAP": "https://gea.esac.esa.int/tap-server/tap",
+    "queries_returning_zero_rows": [
+      "SELECT source_id FROM gaiadr3.vari_eclipsing_binary WHERE source_id=4788303839668784896",
+      "SELECT source_id FROM gaiadr3.vari_classifier_result WHERE source_id=4788303839668784896",
+      "SELECT source_id FROM gaiadr3.nss_two_body_orbit WHERE source_id=4788303839668784896"
+    ]
+  }
+}

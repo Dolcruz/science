@@ -13,12 +13,13 @@ Corrections are welcome via issues.
 | math | [unicyclic-distance-spectra](math/unicyclic-distance-spectra) | the only unicyclic graphs with exactly three distinct distance eigenvalues are C4 and C5 (an open problem from a 2024 paper) | Lean 4 proof (no extra axioms) |
 | math | [covering-56-20-5](math/covering-56-20-5) | a covering design with 336 blocks, C(56, 20, 5) ≤ 336 (tables listed 693) | explicit construction; computer check of all five-subsets reported in the note |
 | geography | [Wind correction for tree laser scans](geography/tree-registration) | mean 3D motion error fell from 11.78 to 8.98 cm on 97 published simulated scan pairs | paired scores, runnable example and full-field reproduction on one published pair |
+| physics / astronomy | [What eclipses TIC 153838604?](physics/astronomy/tic-153838604) | a giant planet and a faint red dwarf both fit four TESS eclipses recurring every 56.07936 days | TESS timing and pixel analysis, independent survey photometry, Gaia and radial-velocity archive checks |
 
 ## Layout
 
-One folder per field (`math/`, `geography/`), one subfolder
-per result. Every result folder has its own README with the statement, how to reproduce
-it, and how it was made.
+Results are grouped by field (`math/`, `geography/`, `physics/`) and, where useful, by subfield.
+Each result has a README describing the claim, its provenance and how to reproduce it.
+New research reports are typeset with LaTeX or an equivalent system and published as reader-ready PDFs.
 
 ## License
 

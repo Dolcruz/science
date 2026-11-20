@@ -1,0 +1,482 @@
+{
+  "tfa": {
+    "exposures": 4160,
+    "nights": 484,
+    "bjd_range": [
+      2455256.300466,
+      2456390.252229
+    ],
+    "tests": [
+      {
+        "phase": 0.0,
+        "shift_minutes": 0,
+        "night_integer_bjd": 2455867,
+        "epoch_number": -46,
+        "n_exposures": 8,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 8,
+            "n_out": 4,
+            "observed_delta_mmag": -9.16249999999863,
+            "control_nights": 22,
+            "control_quantiles_mmag": [
+              -74.84125000000041,
+              -62.26815625000008,
+              -35.79400000000042,
+              -15.394375000000515,
+              42.77619999999921,
+              87.68640625000018,
+              104.15500000000044
+            ],
+            "contrast_minus_control_median_mmag": 6.231875000001885,
+            "empirical_95_interval_mmag": [
+              -96.8489062499988,
+              53.10565625000145
+            ],
+            "one_sided_rank_p": 0.43478260869565216
+          }
+        ]
+      },
+      {
+        "phase": 0.0,
+        "shift_minutes": -10,
+        "night_integer_bjd": 2455867,
+        "epoch_number": -46,
+        "n_exposures": 7,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 7,
+            "n_out": 5,
+            "observed_delta_mmag": -5.349142857141942,
+            "control_nights": 22,
+            "control_quantiles_mmag": [
+              -95.0848571428562,
+              -84.6283571428573,
+              -28.467954285712764,
+              -0.3215714285706994,
+              43.26231999999978,
+              75.19835000000016,
+              82.20799999999784
+            ],
+            "contrast_minus_control_median_mmag": -5.0275714285712425,
+            "empirical_95_interval_mmag": [
+              -80.5474928571421,
+              79.27921428571536
+            ],
+            "one_sided_rank_p": 0.5652173913043478
+          }
+        ]
+      },
+      {
+        "phase": 0.0,
+        "shift_minutes": 10,
+        "night_integer_bjd": 2455867,
+        "epoch_number": -46,
+        "n_exposures": 8,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 8,
+            "n_out": 4,
+            "observed_delta_mmag": -4.804999999999282,
+            "control_nights": 22,
+            "control_quantiles_mmag": [
+              -70.29000000000174,
+              -63.47156250000108,
+              -40.71970000000057,
+              2.247500000001068,
+              25.855100000000707,
+              44.31362499999997,
+              44.919999999999405
+            ],
+            "contrast_minus_control_median_mmag": -7.05250000000035,
+            "empirical_95_interval_mmag": [
+              -49.118624999999255,
+              58.666562500001795
+            ],
+            "one_sided_rank_p": 0.6086956521739131
+          }
+        ]
+      },
+      {
+        "phase": 0.5,
+        "shift_minutes": 0,
+        "night_integer_bjd": 2455895,
+        "epoch_number": -46,
+        "n_exposures": 10,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 1,
+            "n_out": 12,
+            "observed_delta_mmag": -2.014166666665318,
+            "control_nights": 9,
+            "control_quantiles_mmag": [
+              -117.186666666667,
+              -114.10833333333343,
+              -88.08013333333264,
+              -39.597499999999286,
+              5.4138000000015225,
+              22.824000000001018,
+              25.1525000000008
+            ],
+            "contrast_minus_control_median_mmag": 37.58333333333397,
+            "empirical_95_interval_mmag": [
+              -24.838166666666336,
+              112.09416666666812
+            ],
+            "one_sided_rank_p": 0.3
+          },
+          {
+            "pier": "west",
+            "n_in": 9,
+            "n_out": 5,
+            "observed_delta_mmag": -7.361999999998758,
+            "control_nights": 27,
+            "control_quantiles_mmag": [
+              -49.02266666666932,
+              -40.89116666666888,
+              -26.635315555555433,
+              7.755111111112711,
+              30.151591111112026,
+              44.93347777777643,
+              45.56888888888899
+            ],
+            "contrast_minus_control_median_mmag": -15.11711111111147,
+            "empirical_95_interval_mmag": [
+              -52.29547777777519,
+              33.52916666667012
+            ],
+            "one_sided_rank_p": 0.7142857142857143
+          }
+        ]
+      },
+      {
+        "phase": 0.5,
+        "shift_minutes": -10,
+        "night_integer_bjd": 2455895,
+        "epoch_number": -46,
+        "n_exposures": 11,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 2,
+            "n_out": 11,
+            "observed_delta_mmag": -9.211363636364212,
+            "control_nights": 9,
+            "control_quantiles_mmag": [
+              -67.30136363636419,
+              -63.703272727272875,
+              -48.96739999999852,
+              -30.670909090908083,
+              8.9754000000007,
+              17.77809090909308,
+              18.833181818184386
+            ],
+            "contrast_minus_control_median_mmag": 21.45954545454387,
+            "empirical_95_interval_mmag": [
+              -26.989454545457292,
+              54.49190909090866
+            ],
+            "one_sided_rank_p": 0.4
+          },
+          {
+            "pier": "west",
+            "n_in": 9,
+            "n_out": 5,
+            "observed_delta_mmag": -7.361999999998758,
+            "control_nights": 27,
+            "control_quantiles_mmag": [
+              -49.02266666666932,
+              -40.89116666666888,
+              -26.635315555555433,
+              7.755111111112711,
+              30.151591111112026,
+              44.93347777777643,
+              45.56888888888899
+            ],
+            "contrast_minus_control_median_mmag": -15.11711111111147,
+            "empirical_95_interval_mmag": [
+              -52.29547777777519,
+              33.52916666667012
+            ],
+            "one_sided_rank_p": 0.7142857142857143
+          }
+        ]
+      },
+      {
+        "phase": 0.5,
+        "shift_minutes": 10,
+        "night_integer_bjd": 2455895,
+        "epoch_number": -46,
+        "n_exposures": 10,
+        "by_pier": [
+          {
+            "pier": "west",
+            "n_in": 10,
+            "n_out": 4,
+            "observed_delta_mmag": -7.935500000002094,
+            "control_nights": 27,
+            "control_quantiles_mmag": [
+              -46.219000000000676,
+              -38.6767250000009,
+              -24.603520000001566,
+              12.154499999999402,
+              36.79631999999977,
+              44.05065000000103,
+              45.44099999999851
+            ],
+            "contrast_minus_control_median_mmag": -20.090000000001496,
+            "empirical_95_interval_mmag": [
+              -51.98615000000312,
+              30.741224999998806
+            ],
+            "one_sided_rank_p": 0.6785714285714286
+          }
+        ]
+      }
+    ]
+  },
+  "raw": {
+    "exposures": 4243,
+    "nights": 485,
+    "bjd_range": [
+      2455256.300466,
+      2456390.252229
+    ],
+    "tests": [
+      {
+        "phase": 0.0,
+        "shift_minutes": 0,
+        "night_integer_bjd": 2455867,
+        "epoch_number": -46,
+        "n_exposures": 8,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 8,
+            "n_out": 4,
+            "observed_delta_mmag": -3.400000000000958,
+            "control_nights": 24,
+            "control_quantiles_mmag": [
+              -75.27624999999816,
+              -73.02368749999815,
+              -42.21114999999898,
+              -5.399375000000539,
+              47.52199999999889,
+              80.59443749999944,
+              81.74874999999915
+            ],
+            "contrast_minus_control_median_mmag": 1.9993749999995813,
+            "empirical_95_interval_mmag": [
+              -83.9944375000004,
+              69.62368749999719
+            ],
+            "one_sided_rank_p": 0.52
+          }
+        ]
+      },
+      {
+        "phase": 0.0,
+        "shift_minutes": -10,
+        "night_integer_bjd": 2455867,
+        "epoch_number": -46,
+        "n_exposures": 7,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 7,
+            "n_out": 5,
+            "observed_delta_mmag": -21.826571428572805,
+            "control_nights": 24,
+            "control_quantiles_mmag": [
+              -94.40171428571276,
+              -74.07677857142878,
+              -36.05438857142943,
+              -4.789000000000598,
+              36.410228571429855,
+              62.45179285714363,
+              72.51971428571657
+            ],
+            "contrast_minus_control_median_mmag": -17.037571428572207,
+            "empirical_95_interval_mmag": [
+              -84.27836428571644,
+              52.25020714285597
+            ],
+            "one_sided_rank_p": 0.64
+          }
+        ]
+      },
+      {
+        "phase": 0.0,
+        "shift_minutes": 10,
+        "night_integer_bjd": 2455867,
+        "epoch_number": -46,
+        "n_exposures": 8,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 8,
+            "n_out": 4,
+            "observed_delta_mmag": 18.016249999998735,
+            "control_nights": 24,
+            "control_quantiles_mmag": [
+              -101.53500000000015,
+              -69.35871874999998,
+              -33.947350000000185,
+              2.3256249999992207,
+              38.37750000000064,
+              58.38049999999813,
+              60.226249999997705
+            ],
+            "contrast_minus_control_median_mmag": 15.690624999999514,
+            "empirical_95_interval_mmag": [
+              -40.364249999999394,
+              87.37496874999871
+            ],
+            "one_sided_rank_p": 0.36
+          }
+        ]
+      },
+      {
+        "phase": 0.5,
+        "shift_minutes": 0,
+        "night_integer_bjd": 2455895,
+        "epoch_number": -46,
+        "n_exposures": 10,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 1,
+            "n_out": 12,
+            "observed_delta_mmag": -31.218333333333348,
+            "control_nights": 9,
+            "control_quantiles_mmag": [
+              -142.51500000000306,
+              -135.86366666666976,
+              -94.23353333333587,
+              -26.742500000001,
+              8.932366666667232,
+              65.19183333333592,
+              78.46500000000312
+            ],
+            "contrast_minus_control_median_mmag": -4.475833333332346,
+            "empirical_95_interval_mmag": [
+              -96.41016666666927,
+              104.64533333333641
+            ],
+            "one_sided_rank_p": 0.7
+          },
+          {
+            "pier": "west",
+            "n_in": 9,
+            "n_out": 5,
+            "observed_delta_mmag": -7.053777777775494,
+            "control_nights": 32,
+            "control_quantiles_mmag": [
+              -45.24622222222341,
+              -43.83623888889123,
+              -26.067777777778787,
+              1.614222222223738,
+              26.075155555553376,
+              35.818555555553814,
+              39.466222222223735
+            ],
+            "contrast_minus_control_median_mmag": -8.667999999999232,
+            "empirical_95_interval_mmag": [
+              -42.87233333332931,
+              36.78246111111574
+            ],
+            "one_sided_rank_p": 0.6060606060606061
+          }
+        ]
+      },
+      {
+        "phase": 0.5,
+        "shift_minutes": -10,
+        "night_integer_bjd": 2455895,
+        "epoch_number": -46,
+        "n_exposures": 11,
+        "by_pier": [
+          {
+            "pier": "east",
+            "n_in": 2,
+            "n_out": 11,
+            "observed_delta_mmag": -23.84545454545517,
+            "control_nights": 9,
+            "control_quantiles_mmag": [
+              -77.42954545454772,
+              -73.28645454545679,
+              -45.5137090909102,
+              -5.805454545456001,
+              10.821363636367636,
+              19.588454545452905,
+              21.638636363633168
+            ],
+            "contrast_minus_control_median_mmag": -18.039999999999168,
+            "empirical_95_interval_mmag": [
+              -43.433909090908074,
+              49.44100000000162
+            ],
+            "one_sided_rank_p": 0.8
+          },
+          {
+            "pier": "west",
+            "n_in": 9,
+            "n_out": 5,
+            "observed_delta_mmag": -7.053777777775494,
+            "control_nights": 32,
+            "control_quantiles_mmag": [
+              -45.24622222222341,
+              -43.83623888889123,
+              -26.067777777778787,
+              1.614222222223738,
+              26.075155555553376,
+              35.818555555553814,
+              39.466222222223735
+            ],
+            "contrast_minus_control_median_mmag": -8.667999999999232,
+            "empirical_95_interval_mmag": [
+              -42.87233333332931,
+              36.78246111111574
+            ],
+            "one_sided_rank_p": 0.6060606060606061
+          }
+        ]
+      },
+      {
+        "phase": 0.5,
+        "shift_minutes": 10,
+        "night_integer_bjd": 2455895,
+        "epoch_number": -46,
+        "n_exposures": 10,
+        "by_pier": [
+          {
+            "pier": "west",
+            "n_in": 10,
+            "n_out": 4,
+            "observed_delta_mmag": -20.252499999999785,
+            "control_nights": 32,
+            "control_quantiles_mmag": [
+              -77.99100000000081,
+              -48.94981249999959,
+              -27.114759999999976,
+              4.370749999998758,
+              30.676879999999823,
+              49.887249999999455,
+              56.2655000000003
+            ],
+            "contrast_minus_control_median_mmag": -24.623249999998542,
+            "empirical_95_interval_mmag": [
+              -70.13974999999924,
+              28.697312499999803
+            ],
+            "one_sided_rank_p": 0.7575757575757576
+          }
+        ]
+      }
+    ]
+  }
+}

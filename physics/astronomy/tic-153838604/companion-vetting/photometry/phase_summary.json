@@ -1,0 +1,122 @@
+{
+  "1P_1.25h": {
+    "searchable_grid_points": 7903,
+    "total_grid_points": 8076,
+    "covered_points": 7592,
+    "repeated_coverage_points": 5185,
+    "calibrated_coverage_points": 7550,
+    "fraction_upper_below": {
+      "2": 0.4875363785904087,
+      "3": 0.741110970517525,
+      "5": 0.9159812729343287,
+      "10": 0.955333417689485,
+      "15": 0.955333417689485
+    },
+    "quantile_upper_ppt": [
+      1.9657824673277582,
+      3.9530399684436337,
+      4.824292431396432,
+      8.483880695241588
+    ]
+  },
+  "2P_1.25h": {
+    "searchable_grid_points": 15806,
+    "total_grid_points": 16152,
+    "covered_points": 12320,
+    "repeated_coverage_points": 4814,
+    "calibrated_coverage_points": 11688,
+    "fraction_upper_below": {
+      "2": 0.3591674047829938,
+      "3": 0.5672529419207896,
+      "5": 0.7153612552195369,
+      "10": 0.7394660255599139,
+      "15": 0.7394660255599139
+    },
+    "quantile_upper_ppt": [
+      2.041893670328142,
+      3.8448075666807986,
+      4.626016442163892,
+      8.483880695241588
+    ]
+  },
+  "1P_2.5h": {
+    "searchable_grid_points": 7903,
+    "total_grid_points": 8076,
+    "covered_points": 7591,
+    "repeated_coverage_points": 5042,
+    "calibrated_coverage_points": 7550,
+    "fraction_upper_below": {
+      "2": 0.6798684044033911,
+      "3": 0.8883968113374667,
+      "5": 0.9544476780969252,
+      "10": 0.955333417689485,
+      "15": 0.955333417689485
+    },
+    "quantile_upper_ppt": [
+      1.4807357050419518,
+      2.7652052617228016,
+      3.2263114350371978,
+      5.328176987447746
+    ]
+  },
+  "2P_2.5h": {
+    "searchable_grid_points": 15806,
+    "total_grid_points": 16152,
+    "covered_points": 12249,
+    "repeated_coverage_points": 4663,
+    "calibrated_coverage_points": 11647,
+    "fraction_upper_below": {
+      "2": 0.5487156775907883,
+      "3": 0.6940402378843478,
+      "5": 0.736429204099709,
+      "10": 0.7368720738959889,
+      "15": 0.7368720738959889
+    },
+    "quantile_upper_ppt": [
+      1.375556289197075,
+      2.6540244736048484,
+      3.098873503571991,
+      5.328176987447746
+    ]
+  },
+  "1P_5.0h": {
+    "searchable_grid_points": 7835,
+    "total_grid_points": 8076,
+    "covered_points": 7419,
+    "repeated_coverage_points": 4587,
+    "calibrated_coverage_points": 7236,
+    "fraction_upper_below": {
+      "2": 0.774728781110402,
+      "3": 0.9070835992342055,
+      "5": 0.9235481812380345,
+      "10": 0.9235481812380345,
+      "15": 0.9235481812380345
+    },
+    "quantile_upper_ppt": [
+      1.1507242808334357,
+      2.250953526663265,
+      2.5420467619946203,
+      4.156717558427399
+    ]
+  },
+  "2P_5.0h": {
+    "searchable_grid_points": 15670,
+    "total_grid_points": 16152,
+    "covered_points": 11651,
+    "repeated_coverage_points": 4191,
+    "calibrated_coverage_points": 10569,
+    "fraction_upper_below": {
+      "2": 0.52297383535418,
+      "3": 0.6630504148053605,
+      "5": 0.6744735162731333,
+      "10": 0.6744735162731333,
+      "15": 0.6744735162731333
+    },
+    "quantile_upper_ppt": [
+      1.4006797144423198,
+      2.3683772596217527,
+      2.6023783025012945,
+      4.156717558427399
+    ]
+  }
+}

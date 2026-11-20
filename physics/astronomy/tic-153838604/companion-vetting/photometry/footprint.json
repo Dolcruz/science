@@ -1,0 +1,64 @@
+{
+  "footprint_url": "https://mast.stsci.edu/tesscut/api/v0.1/sector?ra=68.073987&dec=-47.608987",
+  "footprint": [
+    {
+      "sectorName": "tess-s0004-3-4",
+      "sector": "0004",
+      "camera": "3",
+      "ccd": "4"
+    },
+    {
+      "sectorName": "tess-s0005-3-3",
+      "sector": "0005",
+      "camera": "3",
+      "ccd": "3"
+    },
+    {
+      "sectorName": "tess-s0030-3-4",
+      "sector": "0030",
+      "camera": "3",
+      "ccd": "4"
+    },
+    {
+      "sectorName": "tess-s0031-3-4",
+      "sector": "0031",
+      "camera": "3",
+      "ccd": "4"
+    },
+    {
+      "sectorName": "tess-s0032-3-3",
+      "sector": "0032",
+      "camera": "3",
+      "ccd": "3"
+    },
+    {
+      "sectorName": "tess-s0097-3-4",
+      "sector": "0097",
+      "camera": "3",
+      "ccd": "4"
+    },
+    {
+      "sectorName": "tess-s0098-3-3",
+      "sector": "0098",
+      "camera": "3",
+      "ccd": "3"
+    }
+  ],
+  "s30_cutout_url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=68.073987&dec=-47.608987&x=9&y=9&units=px&sector=30",
+  "s30_lower_left_detector_xy": [
+    2121.0,
+    1162.0
+  ],
+  "s30_detector_columns": [
+    2121.0,
+    2129.0
+  ],
+  "s30_science_column_range": [
+    45,
+    2092
+  ],
+  "s30_median_image_range_e_per_s": [
+    -0.03682224452495575,
+    0.006018121726810932
+  ]
+}

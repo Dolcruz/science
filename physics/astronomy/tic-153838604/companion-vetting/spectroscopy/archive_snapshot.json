@@ -1,0 +1,426 @@
+{
+  "accessed_utc": "2026-11-20T18:52:24.698009+00:00",
+  "target": "TIC 153838604",
+  "queries": [
+    {
+      "name": "Gaia DR3 RVS",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+source_id%2Cra%2Cdec%2Cpmra%2Cpmdec%2Cphot_g_mean_mag%2Cgrvs_mag%2Crv_method_used%2Cradial_velocity%2Cradial_velocity_error%2Crv_nb_transits%2Crv_nb_deblended_transits%2Crv_visibility_periods_used%2Crv_expected_sig_to_noise%2Crv_time_duration%2Crv_amplitude_robust%2Crv_chisq_pvalue%2Crv_renormalised_gof%2Chas_epoch_rv%2Chas_rvs%2Chas_xp_continuous%2Cnon_single_star+FROM+gaiadr3.gaia_source+WHERE+source_id%3D4788303839668784896",
+      "http_status": 200,
+      "result": [
+        {
+          "source_id": "4788303839668784896",
+          "ra": "68.07398831987392",
+          "dec": "-47.60899384364195",
+          "pmra": "4.190241905827582",
+          "pmdec": "-51.1526069503457",
+          "phot_g_mean_mag": "12.924309",
+          "grvs_mag": "12.17365",
+          "rv_method_used": "2",
+          "radial_velocity": "75.60653",
+          "radial_velocity_error": "2.0256395",
+          "rv_nb_transits": "22",
+          "rv_nb_deblended_transits": "3",
+          "rv_visibility_periods_used": "19",
+          "rv_expected_sig_to_noise": "17.871109",
+          "rv_time_duration": "888.1424",
+          "rv_amplitude_robust": "",
+          "rv_chisq_pvalue": "",
+          "rv_renormalised_gof": "",
+          "has_epoch_rv": "false",
+          "has_rvs": "false",
+          "has_xp_continuous": "true",
+          "non_single_star": "0"
+        }
+      ]
+    },
+    {
+      "name": "Gaia DR2 RVS",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+source_id%2Cradial_velocity%2Cradial_velocity_error%2Crv_nb_transits+FROM+gaiadr2.gaia_source+WHERE+source_id%3D4788303839668784896",
+      "http_status": 200,
+      "result": [
+        {
+          "source_id": "4788303839668784896",
+          "radial_velocity": "",
+          "radial_velocity_error": "",
+          "rv_nb_transits": "0"
+        }
+      ]
+    },
+    {
+      "name": "gaiadr3 RV epochs",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+gaiadr3.vari_epoch_radial_velocity+WHERE+source_id%3D4788303839668784896",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "gaiafpr RV epochs",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+gaiafpr.vari_epoch_radial_velocity+WHERE+source_id%3D4788303839668784896",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "Gaia DR3 BP/RP mean spectrum",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+%2A+FROM+gaiadr3.xp_summary+WHERE+source_id%3D4788303839668784896",
+      "http_status": 200,
+      "result": [
+        {
+          "source_id": "4788303839668784896",
+          "solution_id": "4545469030156206080",
+          "bp_n_relevant_bases": "22",
+          "bp_relative_shrinking": "0.9999992",
+          "bp_n_measurements": "1676",
+          "bp_n_rejected_measurements": "10",
+          "bp_standard_deviation": "1.0362983",
+          "bp_chi_squared": "1740.8147",
+          "bp_n_transits": "29",
+          "bp_n_contaminated_transits": "0",
+          "bp_n_blended_transits": "0",
+          "rp_n_relevant_bases": "4",
+          "rp_relative_shrinking": "0.9999987",
+          "rp_n_measurements": "2184",
+          "rp_n_rejected_measurements": "17",
+          "rp_standard_deviation": "1.0728296",
+          "rp_chi_squared": "2450.4011",
+          "rp_n_transits": "38",
+          "rp_n_contaminated_transits": "0",
+          "rp_n_blended_transits": "0"
+        }
+      ]
+    },
+    {
+      "name": "Gaia public schemas",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+schema_name+FROM+tap_schema.schemas",
+      "http_status": 200,
+      "result": [
+        {
+          "schema_name": "public"
+        },
+        {
+          "schema_name": "gaiadr3"
+        },
+        {
+          "schema_name": "gaiafpr"
+        },
+        {
+          "schema_name": "gaiadr2"
+        },
+        {
+          "schema_name": "gaiadr1"
+        },
+        {
+          "schema_name": "tap_schema"
+        },
+        {
+          "schema_name": "tap_upload"
+        },
+        {
+          "schema_name": "tap_config"
+        },
+        {
+          "schema_name": "job_upload"
+        },
+        {
+          "schema_name": "gaiaedr3"
+        },
+        {
+          "schema_name": "external"
+        }
+      ]
+    },
+    {
+      "name": "galah_dr3.main_spec",
+      "url": "https://datacentral.org.au/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+galah_dr3.main_spec+WHERE+ra+BETWEEN+68.04924444345679+AND+68.09873219629105+AND+dec+BETWEEN+-47.625670510308616+AND+-47.59231717697528",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "galah_dr4.mainspectable",
+      "url": "https://datacentral.org.au/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+galah_dr4.mainspectable+WHERE+ra+BETWEEN+68.04924444345679+AND+68.09873219629105+AND+dec+BETWEEN+-47.625670510308616+AND+-47.59231717697528",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "GALAH DR4 Gaia identifier",
+      "url": "https://datacentral.org.au/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+galah_dr4.mainspectable+WHERE+gaiadr3_source_id%3D4788303839668784896",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "safcat.GES_DR5_1_V1",
+      "url": "https://archive.eso.org/tap_cat/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+safcat.GES_DR5_1_V1+WHERE+RA+BETWEEN+68.04924444345679+AND+68.09873219629105+AND+DECLINATION+BETWEEN+-47.625670510308616+AND+-47.59231717697528",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0.0"
+        }
+      ]
+    },
+    {
+      "name": "safcat.GES_2021_VRAD",
+      "url": "https://archive.eso.org/tap_cat/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+safcat.GES_2021_VRAD+WHERE+RA+BETWEEN+68.04924444345679+AND+68.09873219629105+AND+DECLINATION+BETWEEN+-47.625670510308616+AND+-47.59231717697528",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0.0"
+        }
+      ]
+    },
+    {
+      "name": "RAVE DR6 observations",
+      "url": "https://www.rave-survey.org/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+COUNT%28%2A%29+AS+n+FROM+ravedr6.dr6_obsdata+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra_input%2Cdec_input%29%2CCIRCLE%28%27ICRS%27%2C68.07398831987392%2C-47.60899384364195%2C0.016666666666666666%29%29",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "APOGEE DR17 apogeeStar",
+      "url": "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch?cmd=SELECT+COUNT%28%2A%29+AS+n+FROM+apogeeStar+WHERE+ra+BETWEEN+68.04924444345679+AND+68.09873219629105+AND+dec+BETWEEN+-47.625670510308616+AND+-47.59231717697528&format=csv",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "APOGEE DR17 apogeeVisit",
+      "url": "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch?cmd=SELECT+COUNT%28%2A%29+AS+n+FROM+apogeeVisit+WHERE+ra+BETWEEN+68.04924444345679+AND+68.09873219629105+AND+dec+BETWEEN+-47.625670510308616+AND+-47.59231717697528&format=csv",
+      "http_status": 200,
+      "result": [
+        {
+          "n": "0"
+        }
+      ]
+    },
+    {
+      "name": "SDSS DR20 Valis",
+      "url": "https://api.sdss.org/valis/query/cone?ra=68.07398831987392&dec=-47.60899384364195&radius=0.016666666666666666&units=degree&release=DR20",
+      "http_status": 200,
+      "result": []
+    },
+    {
+      "name": "ESO raw science ra",
+      "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+target%2Cinstrument%2Cdp_tech%2Cdp_id+FROM+dbo.raw+WHERE+dp_cat%3D%27SCIENCE%27+AND+ra+BETWEEN+67.95017028617546+AND+68.19780635357237+AND+dec+BETWEEN+-47.69233717697528+AND+-47.525650510308616",
+      "http_status": 200,
+      "result": []
+    },
+    {
+      "name": "ESO raw science ra_pnt",
+      "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+target%2Cinstrument%2Cdp_tech%2Cdp_id+FROM+dbo.raw+WHERE+dp_cat%3D%27SCIENCE%27+AND+ra_pnt+BETWEEN+67.95017028617546+AND+68.19780635357237+AND+dec_pnt+BETWEEN+-47.69233717697528+AND+-47.525650510308616",
+      "http_status": 200,
+      "result": []
+    },
+    {
+      "name": "ESO raw science footprint",
+      "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+instrument%2Cdp_tech%2CCOUNT%28%2A%29+AS+n+FROM+dbo.raw+WHERE+dp_cat%3D%27SCIENCE%27+AND+1%3DCONTAINS%28POINT%28%27ICRS%27%2C68.07398831987392%2C-47.60899384364195%29%2Cs_region%29+GROUP+BY+instrument%2Cdp_tech",
+      "http_status": 200,
+      "result": []
+    },
+    {
+      "name": "ESO ObsCore centers",
+      "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+target_name%2Cinstrument_name%2Cdataproduct_type%2Cdp_id+FROM+ivoa.ObsCore+WHERE+s_ra+BETWEEN+67.95017028617546+AND+68.19780635357237+AND+s_dec+BETWEEN+-47.69233717697528+AND+-47.525650510308616",
+      "http_status": 200,
+      "result": []
+    },
+    {
+      "name": "ESO ObsCore footprint",
+      "url": "https://archive.eso.org/tap_obs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+instrument_name%2Cdataproduct_type%2CCOUNT%28%2A%29+AS+n+FROM+ivoa.ObsCore+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2C68.07398831987392%2C-47.60899384364195%29%2Cs_region%29+GROUP+BY+instrument_name%2Cdataproduct_type",
+      "http_status": 200,
+      "result": [
+        {
+          "instrument_name": "VIRCAM",
+          "dataproduct_type": "image",
+          "n": "10"
+        },
+        {
+          "instrument_name": " ",
+          "dataproduct_type": "measurements",
+          "n": "2"
+        },
+        {
+          "instrument_name": "VIRCAM",
+          "dataproduct_type": "measurements",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "name": "ExoFOP spectroscopy",
+      "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=153838604&json=",
+      "http_status": 200,
+      "result": {
+        "TIC": "153838604",
+        "spectroscopy": [],
+        "files": []
+      }
+    },
+    {
+      "name": "LCO footprint",
+      "url": "https://archive-api.lco.global/frames/?covers=POINT%2868.07398831987392+-47.60899384364195%29&pagination_style=cursor",
+      "http_status": 200,
+      "result": {
+        "frames": 36,
+        "instrument_and_type": {
+          "sq36 / DARK": 3,
+          "sq36 / BIAS": 31,
+          "kb94 / TRAILED": 2
+        }
+      }
+    },
+    {
+      "name": "LCO spectrum name 153838604",
+      "url": "https://archive-api.lco.global/frames/?target_name=153838604&configuration_type=SPECTRUM&pagination_style=cursor",
+      "http_status": 200,
+      "result": {
+        "frames": 0,
+        "instrument_and_type": {}
+      }
+    },
+    {
+      "name": "LCO spectrum name 04321774-4736316",
+      "url": "https://archive-api.lco.global/frames/?target_name=04321774-4736316&configuration_type=SPECTRUM&pagination_style=cursor",
+      "http_status": 200,
+      "result": {
+        "frames": 0,
+        "instrument_and_type": {}
+      }
+    },
+    {
+      "name": "LCO spectrum name 212-004500",
+      "url": "https://archive-api.lco.global/frames/?target_name=212-004500&configuration_type=SPECTRUM&pagination_style=cursor",
+      "http_status": 200,
+      "result": {
+        "frames": 0,
+        "instrument_and_type": {}
+      }
+    },
+    {
+      "name": "NOIRLab coverage",
+      "url": "https://astroarchive.noirlab.edu/api/sia/voimg?POS=68.07398831987392%2C-47.60899384364195&SIZE=0.08333333333333333&VERB=3&format=json",
+      "http_status": 200,
+      "result": {
+        "rows": 257,
+        "instruments": {
+          "hlsp_decam": 179,
+          "hlsp_wise": 72,
+          "hlsp_ls": 6
+        },
+        "archive_parameters": {
+          "POS": "68.07398831987392,-47.60899384364195",
+          "SIZE": "0.08333333333333333",
+          "VERB": "3",
+          "format": "json",
+          "limit": null,
+          "default_limit": "None",
+          "default_offset": 0,
+          "default_sort": "md5sum",
+          "oldest": null,
+          "previd": null,
+          "last": null,
+          "endpoint": "sia/voimg"
+        }
+      }
+    },
+    {
+      "name": "NOIRLab CHIRON centers",
+      "url": "https://astroarchive.noirlab.edu/api/adv_search/find/?format=json&rectype=file",
+      "http_status": 200,
+      "POST_json": {
+        "outfields": [
+          "original_filename",
+          "instrument",
+          "obs_type",
+          "prod_type",
+          "ra_center",
+          "dec_center"
+        ],
+        "search": [
+          [
+            "ra_center",
+            67.95018516629693,
+            68.1977914734509
+          ],
+          [
+            "dec_center",
+            -47.69232717697528,
+            -47.52566051030861
+          ],
+          [
+            "instrument",
+            "chiron"
+          ]
+        ]
+      },
+      "result": {
+        "rows": 0,
+        "instruments": {},
+        "archive_parameters": {
+          "format": "json",
+          "rectype": "file",
+          "limit": 1000,
+          "default_limit": 1000,
+          "default_offset": 0,
+          "default_sort": "md5sum",
+          "oldest": null,
+          "previd": null,
+          "last": 1000,
+          "json_payload": {
+            "outfields": [
+              "original_filename",
+              "instrument",
+              "obs_type",
+              "prod_type",
+              "ra_center",
+              "dec_center"
+            ],
+            "search": [
+              [
+                "ra_center",
+                67.95018516629693,
+                68.1977914734509
+              ],
+              [
+                "dec_center",
+                -47.69232717697528,
+                -47.52566051030861
+              ],
+              [
+                "instrument",
+                "chiron"
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Gemini pointings",
+      "url": "https://archive.gemini.edu/jsonsummary/ra=68.073988/dec=-47.608994/sr=300",
+      "http_status": 403,
+      "coverage": "unknown"
+    }
+  ]
+}
