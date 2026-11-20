@@ -1,5 +1,7 @@
 # Science notes
 
+[![checks](https://github.com/Dolcruz/science/actions/workflows/checks.yml/badge.svg)](https://github.com/Dolcruz/science/actions/workflows/checks.yml)
+
 Results found with AI research agents, collected in one place and sorted by field.
 I am not a professional researcher in these fields. Each entry therefore says plainly
 what is machine-checked, what is only argued on paper, and how novelty was checked.
