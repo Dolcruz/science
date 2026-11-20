@@ -11,13 +11,22 @@ Consequences: C(56, 21, 5) ≤ 336 and C(55, 20, 5) ≤ 336.
 
 ## Contents
 
-- `Covering_five_subsets.pdf`: construction and proofs (5 pages). It contains the full
-  recipe for the 56 points, so the covering can be rebuilt from the note alone.
+- `Covering_five_subsets.pdf`: construction and proofs (5 pages).
+- `data/blocks_56_20_5.txt`: the 336 blocks, one per line, points numbered 1 to 56.
+- `verify/check_blocks.py`: checks a block file alone (all 3,819,816 five-subsets covered).
+  Standard library, about 4 seconds.
+- `verify/build_and_check.py`: rebuilds the covering from the recipe in the note (Hill cap
+  from eight polynomials over F_3), checks the cap and section facts, and writes the block
+  file.
 
 ## Status
 
-- The note reports that a program builds the 336 blocks and checks all 3,819,816
-  five-subsets. That program and the block list are not in this folder yet.
+- The block list was rebuilt here from the note's recipe and checked against all
+  3,819,816 five-subsets by two scripts: `build_and_check.py` builds and checks;
+  `check_blocks.py` checks only the file. Removing any one block makes the check fail.
+  The pairing of the 56 short sections is the order in which the script finds them, so
+  the file may differ from the original note's file; every pairing works (Theorem 2 of
+  the note).
 - It is an upper bound only. Whether 336 is optimal is open (the lower bound is 317).
 - Not peer reviewed and not yet submitted to the Covering Repository.
 

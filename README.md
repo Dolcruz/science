@@ -7,13 +7,19 @@ Corrections are welcome via issues.
 
 ## Entries
 
+<!-- index:start -->
 | field | entry | claim | checked by |
 |---|---|---|---|
-| math | [triangle-free-grids](math/triangle-free-grids) | n × n grids contain sets without isosceles right triangles of size about n^1.3962 (previous exponent 1.3179) | Lean 4 proof, two independent certificate checkers |
-| math | [unicyclic-distance-spectra](math/unicyclic-distance-spectra) | the only unicyclic graphs with exactly three distinct distance eigenvalues are C4 and C5 (an open problem from a 2024 paper) | Lean 4 proof (no extra axioms) |
-| math | [covering-56-20-5](math/covering-56-20-5) | a covering design with 336 blocks, C(56, 20, 5) ≤ 336 (tables listed 693) | explicit construction; computer check of all five-subsets reported in the note |
-| geography | [Wind correction for tree laser scans](geography/tree-registration) | mean 3D motion error fell from 11.78 to 8.98 cm on 97 published simulated scan pairs | paired scores, runnable example and full-field reproduction on one published pair |
-| physics / astronomy | [What eclipses TIC 153838604?](physics/astronomy/tic-153838604) | a giant planet and a faint red dwarf both fit four TESS eclipses recurring every 56.07936 days | TESS timing and pixel analysis, independent survey photometry, Gaia and radial-velocity archive checks |
+| mathematics | [Large grid sets without isosceles right triangles](math/triangle-free-grids) | F(n) >= c * n^alpha / sqrt(log n) with alpha = 2 log 313 / log 3757 = 1.3961707..., where F(n) is the largest subset of {0,...,n-1}^2 containing no isosceles right triangle in any orientation. | Lean 4 proof, certificate + checker |
+| mathematics | [Unicyclic graphs with three distinct distance eigenvalues](math/unicyclic-distance-spectra) | A finite connected unicyclic graph has exactly three distinct distance eigenvalues if and only if it is isomorphic to the cycle C4 or the cycle C5. | Lean 4 proof |
+| mathematics | [A (56, 20, 5) covering design with 336 blocks](math/covering-56-20-5) | C(56, 20, 5) <= 336: 336 subsets of size 20 of a 56-point set cover every 5-subset. | certificate + checker |
+| geography | [Wind correction for tree laser scans](geography/tree-registration) | On 97 published simulated S5 scan pairs (Weiser, Tabernig and Hoefle 2026), mean 3D endpoint error of per-point displacement fell from 11.78 cm (MV-Tree-LNDP) to 8.98 cm (WindReg96 with local correction), a 23.77% reduction; 22.37% on 11 newly simulated trees. | reproducible evaluation |
+| physics | [What eclipses TIC 153838604?](physics/astronomy/tic-153838604) | Four TESS eclipses (sectors 5, 32, 97, 98) follow a 56.0793594-day period over 2018 to 2025 (maximum residual 3.2 minutes), resolving the period alias of the duotransit candidate CTOI 153838604.01. | archival data analysis |
+<!-- index:end -->
+
+The table is generated from [index.json](index.json), which also lists the exact
+verification command, the Lean theorem name, key numbers and limits of every entry.
+Agents: see [llms.txt](llms.txt) and [AGENTS.md](AGENTS.md).
 
 ## Quality rules
 

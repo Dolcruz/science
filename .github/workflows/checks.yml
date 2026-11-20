@@ -1,0 +1,46 @@
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  certificates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Index is valid and current
+        run: python3 tools/build_index.py --check
+      - name: Triangle-free grids, certificate (both checkers)
+        run: |
+          pip install numpy
+          python3 math/triangle-free-grids/verify/verify.py math/triangle-free-grids/certificates/alphabet_61+6i_313.txt
+          python3 math/triangle-free-grids/verify/verify2.py math/triangle-free-grids/certificates/alphabet_61+6i_313.txt
+      - name: Covering design, block file
+        run: python3 math/covering-56-20-5/verify/check_blocks.py math/covering-56-20-5/data/blocks_56_20_5.txt
+      - name: Tree registration, paired measurements
+        run: python3 geography/tree-registration/evidence/verify.py
+
+  lean:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [math/triangle-free-grids/lean, math/unicyclic-distance-spectra/lean]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o elan-init.sh
+          bash elan-init.sh -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Build (Mathlib from cache)
+        working-directory: ${{ matrix.project }}
+        run: |
+          lake exe cache get
+          lake build

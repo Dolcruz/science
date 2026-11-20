@@ -1,0 +1,22 @@
+# Science notes (Dolcruz/science)
+
+> Research results produced with AI agents and checked by machine where possible: Lean 4 proofs, certificates with checkers, reproducible empirical evaluations. Each entry states its claim, its evidence, its limits and how to rerun the checks.
+
+Machine-readable index of all entries: [index.json](index.json). Rules every entry must pass: [CONTRIBUTING.md](CONTRIBUTING.md). Notes for agents: [AGENTS.md](AGENTS.md).
+
+## Entries
+
+- [Large grid sets without isosceles right triangles](math/triangle-free-grids/README.md): F(n) >= c * n^alpha / sqrt(log n) with alpha = 2 log 313 / log 3757 = 1.3961707..., where F(n) is the largest subset of {0,...,n-1}^2 containing no isosceles right triangle in any orientation. Previous exponent 1.317865 (Karolyi and Solymosi, arXiv:2607.22828). Evidence: Lean 4 proof, certificate + checker. Limits: The Lean theorem has a log n factor where the paper bound has sqrt(log n). The Lean certificate check relies on native_decide. The constant c is astronomically small; the result concerns growth rates only.
+- [Unicyclic graphs with three distinct distance eigenvalues](math/unicyclic-distance-spectra/README.md): A finite connected unicyclic graph has exactly three distinct distance eigenvalues if and only if it is isomorphic to the cycle C4 or the cycle C5. This answers Problem 1 of Hayat, Khan and Alenazi, Axioms 13 (2024), 494. Evidence: Lean 4 proof. Limits: Not peer reviewed. The Lean proof follows a different route than the written note.
+- [A (56, 20, 5) covering design with 336 blocks](math/covering-56-20-5/README.md): C(56, 20, 5) <= 336: 336 subsets of size 20 of a 56-point set cover every 5-subset. The Covering Repository listed 693 on 2026-11-20. Also C(56, 21, 5) <= 336 and C(55, 20, 5) <= 336. Lower bound 317 (Schoenheim). Evidence: certificate + checker. Limits: Upper bound only; the optimum is open. Not yet submitted to the Covering Repository.
+- [Wind correction for tree laser scans](geography/tree-registration/README.md): On 97 published simulated S5 scan pairs (Weiser, Tabernig and Hoefle 2026), mean 3D endpoint error of per-point displacement fell from 11.78 cm (MV-Tree-LNDP) to 8.98 cm (WindReg96 with local correction), a 23.77% reduction; 22.37% on 11 newly simulated trees. Evidence: reproducible evaluation. Limits: The headline comparison is retrospective: the published test pairs were known during method development. Simulation only; no real scans with per-point motion labels. The fraction of points within the strict accuracy threshold decreased (30.26% to 26.90%) while mean error improved. On two unseen willow presets the effect is not significant (95% interval -4.88% to +10.64%). The pre-registered 189-tree cohort is not yet scored.
+- [What eclipses TIC 153838604?](physics/astronomy/tic-153838604/README.md): Four TESS eclipses (sectors 5, 32, 97, 98) follow a 56.0793594-day period over 2018 to 2025 (maximum residual 3.2 minutes), resolving the period alias of the duotransit candidate CTOI 153838604.01. A grazing giant planet and a faint red dwarf both fit; they predict radial-velocity semiamplitudes of 61 m/s and 6.84 km/s. Evidence: archival data analysis. Limits: Planet versus low-mass star is not decided; radial velocities are needed. A doubled period (112.16 days) with alternating eclipses remains possible. An unresolved neighbouring source is not excluded. Priority for the ephemeris has not been established.
+
+## Verification commands
+
+- math/triangle-free-grids (lean-proof): `cd math/triangle-free-grids/lean && lake exe cache get && lake build`
+- math/triangle-free-grids (certificate): `python3 math/triangle-free-grids/verify/verify2.py math/triangle-free-grids/certificates/alphabet_61+6i_313.txt`
+- math/unicyclic-distance-spectra (lean-proof): `cd math/unicyclic-distance-spectra/lean && lake exe cache get && lake build`
+- math/covering-56-20-5 (certificate): `python3 math/covering-56-20-5/verify/check_blocks.py math/covering-56-20-5/data/blocks_56_20_5.txt`
+- geography/tree-registration (reproducible-empirical): `python3 geography/tree-registration/evidence/verify.py`
+- physics/astronomy/tic-153838604 (archival-analysis): `see physics/astronomy/tic-153838604/REPRODUCING.md`

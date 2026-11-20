@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use a result from this repository, cite the entry folder and commit, and the original work it builds on."
+title: "Science notes: machine-checked research results produced with AI agents"
+authors:
+  - family-names: Pfisterer
+    given-names: Falk
+repository-code: "https://github.com/Dolcruz/science"
+license: MIT
+date-released: 2026-11-20
+keywords:
+  - Lean 4
+  - formal verification
+  - combinatorics
+  - spectral graph theory
+  - covering designs
+  - terrestrial laser scanning
+  - TESS
+  - AI-assisted research

@@ -1,0 +1,282 @@
+{
+  "schema": "science-index/1",
+  "repository": "https://github.com/Dolcruz/science",
+  "maintainer": "Falk Pfisterer",
+  "updated": "2026-11-20",
+  "description": "Research results produced with AI agents and checked by machine where possible: Lean 4 proofs, certificates with checkers, reproducible empirical evaluations. Each entry states its claim, its evidence, its limits and how to rerun the checks.",
+  "status_levels": {
+    "lean-proof": "The claim is a Lean 4 theorem; the build checks it and prints its axioms.",
+    "certificate": "The claim follows from an explicit object in the repository and a checker that verifies it.",
+    "reproducible-empirical": "Every reported number is recomputed from stored measurements by a script; the underlying method is evaluated, not proved.",
+    "archival-analysis": "An analysis of public observational data with code and archive identifiers; conclusions are interpretive.",
+    "paper-proof": "A written proof only."
+  },
+  "entries": [
+    {
+      "id": "math/triangle-free-grids",
+      "field": "mathematics",
+      "subfield": "combinatorics; discrete geometry",
+      "title": "Large grid sets without isosceles right triangles",
+      "claim": "F(n) >= c * n^alpha / sqrt(log n) with alpha = 2 log 313 / log 3757 = 1.3961707..., where F(n) is the largest subset of {0,...,n-1}^2 containing no isosceles right triangle in any orientation. Previous exponent 1.317865 (Karolyi and Solymosi, arXiv:2607.22828).",
+      "key_values": {
+        "exponent": 1.3961707395,
+        "base": "61+6i",
+        "digits": 313,
+        "norm": 3757
+      },
+      "status": [
+        "lean-proof",
+        "certificate"
+      ],
+      "verification": [
+        {
+          "kind": "lean-proof",
+          "theorem": "IRT.main",
+          "statement": "If 3757^m <= n^2, the n x n grid contains a set without isosceles right triangles with at least floor(313^m / (m * 2^312 + 1)) points.",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound",
+            "native_decide (finite check of 313^3 digit triples)"
+          ],
+          "command": "cd math/triangle-free-grids/lean && lake exe cache get && lake build"
+        },
+        {
+          "kind": "certificate",
+          "files": [
+            "math/triangle-free-grids/certificates/alphabet_61+6i_313.txt"
+          ],
+          "command": "python3 math/triangle-free-grids/verify/verify2.py math/triangle-free-grids/certificates/alphabet_61+6i_313.txt"
+        }
+      ],
+      "limitations": [
+        "The Lean theorem has a log n factor where the paper bound has sqrt(log n).",
+        "The Lean certificate check relies on native_decide.",
+        "The constant c is astronomically small; the result concerns growth rates only."
+      ],
+      "builds_on": [
+        "arXiv:2607.22828"
+      ],
+      "keywords": [
+        "isosceles right triangle free set",
+        "right isosceles triangle",
+        "integer grid",
+        "Gaussian integers",
+        "Salem-Spencer construction",
+        "digit alphabet",
+        "peeling order",
+        "lower bound",
+        "extremal combinatorics"
+      ],
+      "readme": "math/triangle-free-grids/README.md",
+      "paper": "math/triangle-free-grids/note/IRT_free_grids.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "AI agents (Claude Code; an earlier 253-digit alphabet by OpenAI Codex)"
+    },
+    {
+      "id": "math/unicyclic-distance-spectra",
+      "field": "mathematics",
+      "subfield": "spectral graph theory",
+      "title": "Unicyclic graphs with three distinct distance eigenvalues",
+      "claim": "A finite connected unicyclic graph has exactly three distinct distance eigenvalues if and only if it is isomorphic to the cycle C4 or the cycle C5. This answers Problem 1 of Hayat, Khan and Alenazi, Axioms 13 (2024), 494.",
+      "key_values": {},
+      "status": [
+        "lean-proof"
+      ],
+      "verification": [
+        {
+          "kind": "lean-proof",
+          "theorem": "Unicyclic.main",
+          "statement_file": "math/unicyclic-distance-spectra/lean/Unicyclic/Statement.lean",
+          "statement": "MainStatement: for every finite type V and simple graph G on V that is connected with as many edges as vertices, the distance matrix has exactly three distinct real eigenvalues iff G is isomorphic to cycleGraph 4 or cycleGraph 5.",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "command": "cd math/unicyclic-distance-spectra/lean && lake exe cache get && lake build"
+        }
+      ],
+      "limitations": [
+        "Not peer reviewed.",
+        "The Lean proof follows a different route than the written note."
+      ],
+      "builds_on": [
+        "Hayat, Khan, Alenazi, On Some Distance Spectral Characteristics of Trees, Axioms 13 (2024), 494"
+      ],
+      "keywords": [
+        "distance matrix",
+        "distance spectrum",
+        "distance eigenvalues",
+        "three distinct eigenvalues",
+        "unicyclic graph",
+        "cycle graph",
+        "Lean 4",
+        "Mathlib",
+        "formalized proof"
+      ],
+      "readme": "math/unicyclic-distance-spectra/README.md",
+      "paper": "math/unicyclic-distance-spectra/Unicyclic_distance_spectra.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "AI agents (OpenAI Codex for the proof and the Lean formalization; Claude Code for the frozen statement and review)"
+    },
+    {
+      "id": "math/covering-56-20-5",
+      "field": "mathematics",
+      "subfield": "combinatorial design theory",
+      "title": "A (56, 20, 5) covering design with 336 blocks",
+      "claim": "C(56, 20, 5) <= 336: 336 subsets of size 20 of a 56-point set cover every 5-subset. The Covering Repository listed 693 on 2026-11-20. Also C(56, 21, 5) <= 336 and C(55, 20, 5) <= 336. Lower bound 317 (Schoenheim).",
+      "key_values": {
+        "v": 56,
+        "k": 20,
+        "t": 5,
+        "blocks": 336,
+        "lower_bound": 317
+      },
+      "status": [
+        "certificate"
+      ],
+      "verification": [
+        {
+          "kind": "certificate",
+          "files": [
+            "math/covering-56-20-5/data/blocks_56_20_5.txt"
+          ],
+          "sha256": "b46458a36265fdd14189a0a602ebe202d820b729d89eca484d64b0daea1a3eda",
+          "command": "python3 math/covering-56-20-5/verify/check_blocks.py math/covering-56-20-5/data/blocks_56_20_5.txt"
+        }
+      ],
+      "limitations": [
+        "Upper bound only; the optimum is open.",
+        "Not yet submitted to the Covering Repository."
+      ],
+      "builds_on": [
+        "Hill cap in PG(5,3)",
+        "ternary [56,6,36] code (Gulliver)",
+        "induced coverings (Gordon, Kuperberg, Patashnik 1995)"
+      ],
+      "keywords": [
+        "covering design",
+        "covering number",
+        "C(v,k,t)",
+        "La Jolla Covering Repository",
+        "Hill cap",
+        "projective geometry",
+        "hyperplane sections",
+        "upper bound"
+      ],
+      "readme": "math/covering-56-20-5/README.md",
+      "paper": "math/covering-56-20-5/Covering_five_subsets.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "AI agents (OpenAI Codex for the construction; Claude Code for the rebuild and checkers)"
+    },
+    {
+      "id": "geography/tree-registration",
+      "field": "geography",
+      "subfield": "terrestrial laser scanning; forest remote sensing",
+      "title": "Wind correction for tree laser scans",
+      "claim": "On 97 published simulated S5 scan pairs (Weiser, Tabernig and Hoefle 2026), mean 3D endpoint error of per-point displacement fell from 11.78 cm (MV-Tree-LNDP) to 8.98 cm (WindReg96 with local correction), a 23.77% reduction; 22.37% on 11 newly simulated trees.",
+      "key_values": {
+        "epe_baseline_cm": 11.78,
+        "epe_full_cm": 8.98,
+        "reduction_percent": 23.77,
+        "pairs": 97
+      },
+      "status": [
+        "reproducible-empirical"
+      ],
+      "verification": [
+        {
+          "kind": "reproducible-empirical",
+          "files": [
+            "geography/tree-registration/evidence/paired_epe.csv"
+          ],
+          "command": "python3 geography/tree-registration/evidence/verify.py"
+        }
+      ],
+      "limitations": [
+        "The headline comparison is retrospective: the published test pairs were known during method development.",
+        "Simulation only; no real scans with per-point motion labels.",
+        "The fraction of points within the strict accuracy threshold decreased (30.26% to 26.90%) while mean error improved.",
+        "On two unseen willow presets the effect is not significant (95% interval -4.88% to +10.64%).",
+        "The pre-registered 189-tree cohort is not yet scored."
+      ],
+      "builds_on": [
+        "doi:10.1093/forestry/cpag068",
+        "doi:10.11588/DATA/JQNDRP"
+      ],
+      "keywords": [
+        "terrestrial laser scanning",
+        "TLS",
+        "point cloud registration",
+        "non-rigid registration",
+        "scene flow",
+        "wind",
+        "tree",
+        "branch motion",
+        "HELIOS++",
+        "MV-Tree-LNDP",
+        "neural deformation pyramid"
+      ],
+      "readme": "geography/tree-registration/README.md",
+      "paper": "geography/tree-registration/note.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "AI agents (OpenAI Codex)"
+    },
+    {
+      "id": "physics/astronomy/tic-153838604",
+      "field": "physics",
+      "subfield": "astronomy; exoplanets; eclipsing binaries",
+      "title": "What eclipses TIC 153838604?",
+      "claim": "Four TESS eclipses (sectors 5, 32, 97, 98) follow a 56.0793594-day period over 2018 to 2025 (maximum residual 3.2 minutes), resolving the period alias of the duotransit candidate CTOI 153838604.01. A grazing giant planet and a faint red dwarf both fit; they predict radial-velocity semiamplitudes of 61 m/s and 6.84 km/s.",
+      "key_values": {
+        "period_days": 56.0793594,
+        "t0_bjd_tdb": 2458447.10503,
+        "rv_semiamplitude_planet_kms": 0.061,
+        "rv_semiamplitude_star_kms": 6.84
+      },
+      "identifiers": [
+        "TIC 153838604",
+        "CTOI 153838604.01",
+        "Gaia DR3 4788303839668784896"
+      ],
+      "status": [
+        "archival-analysis"
+      ],
+      "verification": [
+        {
+          "kind": "archival-analysis",
+          "files": [
+            "physics/astronomy/tic-153838604/duotransit/measurements.csv"
+          ],
+          "command": "see physics/astronomy/tic-153838604/REPRODUCING.md"
+        }
+      ],
+      "limitations": [
+        "Planet versus low-mass star is not decided; radial velocities are needed.",
+        "A doubled period (112.16 days) with alternating eclipses remains possible.",
+        "An unresolved neighbouring source is not excluded.",
+        "Priority for the ephemeris has not been established."
+      ],
+      "builds_on": [
+        "arXiv:2310.17268",
+        "doi:10.1093/mnras/stad3783"
+      ],
+      "keywords": [
+        "TESS",
+        "duotransit",
+        "transit timing",
+        "ephemeris",
+        "period alias",
+        "eclipsing binary",
+        "giant planet",
+        "radial velocity follow-up",
+        "ExoFOP"
+      ],
+      "readme": "physics/astronomy/tic-153838604/README.md",
+      "paper": "physics/astronomy/tic-153838604/paper/tic-153838604.pdf",
+      "novelty_search": "2026-11-20",
+      "produced_by": "AI agents (OpenAI Codex)"
+    }
+  ]
+}
