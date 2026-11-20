@@ -1,0 +1,7 @@
+https://dc.g-vo.org/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select+field%2Cbandpassid%2Cdateobs%2Cexposure%2Cimagetitle%2Caccref+from+bgds.data+where+field%3D%27GDS_0734-2011%27
+https://dc.g-vo.org/bgds/l2/tsdl/dlget?ID=BGDS-0734-2011-r-114.5194628-20.3927824
+https://dc.g-vo.org/getproduct/bgds/data/gds_big/GDS_0734-2011/r_s/eq010000ms/20110508.comb_avg.0001.fits.fz
+https://dc.g-vo.org/tableinfo/bgds2.lc_r
+https://dc.g-vo.org/tableinfo/bgds.data
+https://oca.camk.edu.pl/index.php/about/overview/
+https://doi.org/10.1002/asna.70087

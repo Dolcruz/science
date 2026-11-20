@@ -1,0 +1,14 @@
+TELESCOP= 'VYSOS6_b'           / telescope used to acquire this image
+EXPTIME =      1.000000000E+01 / Exposure time in seconds
+DATE-OBS= '2011-05-08T23:59:14' / YYYY-MM-DDThh:mm:ss observation start, UT
+MJD     =      5.568999947E+04
+IMCMB001= '20110508.00000069.finhdr.resamp.fits'
+IMCMB002= '20110508.00000070.finhdr.resamp.fits'
+IMCMB003= '20110508.00000071.finhdr.resamp.fits'
+IMCMB004= '20110508.00000072.finhdr.resamp.fits'
+IMCMB005= '20110508.00000073.finhdr.resamp.fits'
+IMCMB006= '20110508.00000074.finhdr.resamp.fits'
+IMCMB007= '20110508.00000075.finhdr.resamp.fits'
+IMCMB008= '20110508.00000076.finhdr.resamp.fits'
+IMCMB009= '20110508.00000077.finhdr.resamp.fits'
+NCOMBINE=                    9

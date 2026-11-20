@@ -2,7 +2,7 @@
   "schema": "science-index/1",
   "repository": "https://github.com/Dolcruz/science",
   "maintainer": "Falk Pfisterer",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "description": "Research results produced with AI agents and checked by machine where possible: Lean 4 proofs, certificates with checkers, reproducible empirical evaluations. Each entry states its claim, its evidence, its limits and how to rerun the checks.",
   "status_levels": {
     "lean-proof": "The claim is a Lean 4 theorem; the build checks it and prints its axioms.",
@@ -277,6 +277,68 @@
       "paper": "physics/astronomy/tic-153838604/paper/tic-153838604.pdf",
       "novelty_search": "2026-11-20",
       "produced_by": "AI agents (OpenAI Codex)"
+    },
+    {
+      "id": "physics/astronomy/tic-349414709",
+      "field": "physics",
+      "subfield": "astronomy; eclipsing binaries",
+      "title": "The 2.709-day eclipse published for TIC 349414705 comes from TIC 349414709",
+      "claim": "The 2.709-day eclipsing-binary signal listed under TIC 349414705 by IJspeert et al. (2024) is on TIC 349414709 (Gaia DR3 5715476503089307520), 15 arcseconds away. Resolved ground photometry gives 11.7 +- 1.2% (r') and 11.4 +- 0.8% (i') eclipse depth on TIC 349414709 and none on TIC 349414705; within the 0.918-arcsecond Gaia pair the brighter star is the host. Ephemeris BJD(TDB) = 2461293.6916 + 2.7091724 E.",
+      "key_values": {
+        "period_days": 2.7091724,
+        "period_sigma_days": 3.2e-06,
+        "t0_bjd_tdb": 2461293.6916,
+        "depth_r_pct": 11.7,
+        "depth_i_pct": 11.4,
+        "ground_timing_offset_2011_2013_min": -39.0
+      },
+      "identifiers": [
+        "TIC 349414709",
+        "TIC 349414705",
+        "Gaia DR3 5715476503089307520",
+        "Gaia DR3 5715476503077503616"
+      ],
+      "status": [
+        "archival-analysis"
+      ],
+      "verification": [
+        {
+          "kind": "archival-analysis",
+          "files": [
+            "physics/astronomy/tic-349414709/tess-curves.npz",
+            "physics/astronomy/tic-349414709/bochum-curves.csv",
+            "physics/astronomy/tic-349414709/difference-images.npz",
+            "physics/astronomy/tic-349414709/timing/frames.csv",
+            "physics/astronomy/tic-349414709/review/centred-depths.csv"
+          ],
+          "command": "cd physics/astronomy/tic-349414709 && python timing/verify.py && python measure.py && python review/centred_window.py"
+        }
+      ],
+      "limitations": [
+        "The eclipse itself was published by IJspeert et al. (2024); the NASA SPOC pipeline already reports a 15.15 +- 2.50 arcsecond offset. The contribution is the resolved ground confirmation and the host identification.",
+        "The 2011 to 2013 ground eclipses arrive 39 minutes earlier (1 sigma 37 to 43) than the TESS-only ephemeris predicts; archive timing convention or real eclipse-timing variations, unresolved.",
+        "Companion mass and radius are unknown.",
+        "Retrospective selection from displaced TESS eclipse signals; no population statement."
+      ],
+      "builds_on": [
+        "doi:10.1051/0004-6361/202450507",
+        "doi:10.1002/asna.70087"
+      ],
+      "keywords": [
+        "TESS",
+        "eclipsing binary",
+        "source attribution",
+        "contamination",
+        "blended source",
+        "Bochum Galactic Disk Survey",
+        "Gaia DR3",
+        "ephemeris",
+        "eclipse timing"
+      ],
+      "readme": "physics/astronomy/tic-349414709/README.md",
+      "paper": "physics/astronomy/tic-349414709/report.pdf",
+      "novelty_search": "2026-11-21",
+      "produced_by": "AI agents (OpenAI Codex), second review and corrections by Claude Code"
     }
   ]
 }

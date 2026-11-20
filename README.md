@@ -17,6 +17,7 @@ Corrections are welcome via issues.
 | mathematics | [A (56, 20, 5) covering design with 336 blocks](math/covering-56-20-5) | C(56, 20, 5) <= 336: 336 subsets of size 20 of a 56-point set cover every 5-subset. | certificate + checker |
 | geography | [Wind correction for tree laser scans](geography/tree-registration) | On 97 published simulated S5 scan pairs (Weiser, Tabernig and Hoefle 2026), mean 3D endpoint error of per-point displacement fell from 11.78 cm (MV-Tree-LNDP) to 8.98 cm (WindReg96 with local correction), a 23.77% reduction; 22.37% on 11 newly simulated trees. | reproducible evaluation |
 | physics | [What eclipses TIC 153838604?](physics/astronomy/tic-153838604) | Four TESS eclipses (sectors 5, 32, 97, 98) follow a 56.0793594-day period over 2018 to 2025 (maximum residual 3.2 minutes), resolving the period alias of the duotransit candidate CTOI 153838604.01. | archival data analysis |
+| physics | [The 2.709-day eclipse published for TIC 349414705 comes from TIC 349414709](physics/astronomy/tic-349414709) | The 2.709-day eclipsing-binary signal listed under TIC 349414705 by IJspeert et al. | archival data analysis |
 <!-- index:end -->
 
 The table is generated from [index.json](index.json), which also lists the exact
