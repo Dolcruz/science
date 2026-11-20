@@ -77,7 +77,7 @@ theorem exists_cubic_powers (h : numDistanceEigenvalues G = 3) :
   obtain ⟨r,s,t,_,_,_,_,hc⟩ := exists_cubic_annihilator G h
   refine ⟨-(r+s+t), r*s+r*t+s*t, -(r*s*t), ?_⟩
   rw [← hc, quadratic_factor]
-  simp [pow_succ, add_mul, mul_sub, smul_add, smul_sub, smul_smul, add_smul, mul_add]
+  simp [pow_succ, add_mul, mul_sub, smul_add, smul_smul, add_smul]
   module
 
 /-- For a connected graph, the quadratic vanishing on its two smaller spectral values is the

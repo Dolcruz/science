@@ -3,6 +3,7 @@ import Unicyclic.CycleSpectra
 import Unicyclic.Transport
 import Unicyclic.MultipleParents
 import Unicyclic.SingleParentCycle
+import Unicyclic.TriangleLeaves
 
 namespace Unicyclic
 
@@ -69,5 +70,22 @@ theorem triangle_of_proper_core {V : Type} [Fintype V] [DecidableEq V] {G : Simp
   | k+2 =>
     obtain ⟨p,hp⟩ := single_parent_of_long_cycle h hthree f hr hi hout
     exact (not_single_parent_cycle h.1 (by omega) ho f p hi hp hout hthree).elim
+
+/-- The only connected unicyclic graphs with exactly three distinct distance
+eigenvalues are the square and the pentagon. -/
+theorem main : MainStatement := by
+  intro V _ _ G h
+  classical
+  refine ⟨fun hthree => ?_, three_of_iso_cycle⟩
+  have hs : GraphStructure.LeafSideCondition G := leafSideCondition_of_three h.1 hthree
+  obtain ⟨m,f,hr,hi⟩ := GraphStructure.cycle_leaves_decomposition h hs
+  by_cases hf : Function.Surjective f
+  · exact classification_of_full_cycle f hf hi hthree
+  · have hout : ∃ l, l ∉ Set.range f := by
+      simpa only [Function.Surjective, not_forall, Set.mem_range] using hf
+    obtain rfl := triangle_of_proper_core h hthree f hr hi hout
+    obtain ⟨l,hl⟩ := hout
+    have hdeg : G.degree l = 1 := not_not.mp (fun hh => hl ((hr l).mpr hh))
+    exact (triangle_leaves_excluded h f hr ⟨l,hdeg⟩ hthree).elim
 
 end Unicyclic
