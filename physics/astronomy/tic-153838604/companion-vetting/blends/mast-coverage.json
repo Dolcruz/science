@@ -1,0 +1,333 @@
+{
+ "status": "COMPLETE",
+ "paging": {
+  "page": 1,
+  "pageSize": 40,
+  "pagesFiltered": 1,
+  "rows": 40,
+  "rowsFiltered": 40,
+  "rowsTotal": 40
+ },
+ "data": [
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0004-3-4",
+   "t_min": 58410.41798305556,
+   "t_max": 58436.33490862269,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0005-3-3",
+   "t_min": 58437.48073063658,
+   "t_max": 58463.772091203704,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0030-3-4",
+   "t_min": 59115.38294557,
+   "t_max": 59142.72348796,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0031-3-4",
+   "t_min": 59144.01486874,
+   "t_max": 59169.44569274,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0032-3-3",
+   "t_min": 59173.72346242,
+   "t_max": 59199.73009259,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0097-3-4",
+   "t_min": 60933.15359693287,
+   "t_max": 60987.78605512731,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "TESS",
+   "instrument_name": "Photometer",
+   "obs_id": "tess-s0098-3-3",
+   "t_min": 60987.99437162037,
+   "t_max": 61045.39882609954,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_eleanor_tess_ffi_postcard-s0004-3-4-cal-0608-1726_tess_v2_pc",
+   "t_min": 58410.41880889,
+   "t_max": 58436.33573885,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_eleanor_tess_ffi_postcard-s0004-3-4-cal-0608-1780_tess_v2_pc",
+   "t_min": 58410.41880889,
+   "t_max": 58436.33573885,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_eleanor_tess_ffi_postcard-s0005-3-3-cal-1000-1618_tess_v2_pc",
+   "t_min": 58437.48156108,
+   "t_max": 58463.77292611,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_eleanor_tess_ffi_postcard-s0005-3-3-cal-1000-1672_tess_v2_pc",
+   "t_min": 58437.48156108,
+   "t_max": 58463.77292611,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_gsfc-eleanor-lite_tess_ffi_s0004-0000000153838604_tess_v1.0_lc",
+   "t_min": 58410.41798305556,
+   "t_max": 58436.33490862269,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_gsfc-eleanor-lite_tess_ffi_s0005-0000000153838604_tess_v1.0_lc",
+   "t_min": 58437.48073063658,
+   "t_max": 58463.772091203704,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_qlp_tess_ffi_s0004-0000000153838604_tess_v01_llc",
+   "t_min": 58410.42967902,
+   "t_max": 58436.32565034,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_qlp_tess_ffi_s0005-0000000153838604_tess_v01_llc",
+   "t_min": 58437.49231156,
+   "t_max": 58463.76282346,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "",
+   "obs_id": "hlsp_qlp_tess_ffi_s0031-0000000153838604_tess_v01_llc",
+   "t_min": 59144.01966295112,
+   "t_max": 59169.44335809862,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "",
+   "obs_id": "hlsp_qlp_tess_ffi_s0032-0000000153838604_tess_v01_llc",
+   "t_min": 59173.72805564012,
+   "t_max": 59199.72763562389,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_qlp_tess_ffi_s0097-0000000153838604_tess_v01_llc",
+   "t_min": 60933.15551735833,
+   "t_max": 60987.786047946196,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_qlp_tess_ffi_s0098-0000000153838604_tess_v01_llc",
+   "t_min": 60987.99669512687,
+   "t_max": 61045.39846984204,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_t16_tess_ffi_s0004-cam3-ccd4-04788303839668784896_tess_v01",
+   "t_min": 58410.4477023764,
+   "t_max": 58436.3226957573,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_t16_tess_ffi_s0005-cam3-ccd3-04788303839668784896_tess_v01",
+   "t_min": 58437.5101957357,
+   "t_max": 58463.4476891204,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tars_tess_ffi_s0004-0000000153838604_tess",
+   "t_min": 58410.42920034722,
+   "t_max": 58436.325292824076,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tars_tess_ffi_s0005-0000000153838604_tess",
+   "t_min": 58437.49194792824,
+   "t_max": 58463.637478020835,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tars_tess_ffi_s0031-0000000153838604_tess",
+   "t_min": 59144.019141585646,
+   "t_max": 59169.443021377316,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tars_tess_ffi_s0032-0000000153838604_tess",
+   "t_min": 59173.741624131944,
+   "t_max": 59199.72742122685,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tasoc_tess_ffi_tic00153838604-s0004-cam3-ccd4-c1800_tess_v05",
+   "t_min": 58410.41924012018,
+   "t_max": 58436.33604476616,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tasoc_tess_ffi_tic00153838604-s0005-cam3-ccd3-c1800_tess_v05",
+   "t_min": 58437.481872422,
+   "t_max": 58463.7732176596,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000153838604-s0004_tess_v1_tp",
+   "t_min": 58410.41843050926,
+   "t_max": 58436.33523084491,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000153838604-s0005_tess_v1_tp",
+   "t_min": 58437.48105864583,
+   "t_max": 58463.77239912037,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000153838604-s0031_tess_v1_tp",
+   "t_min": 59144.01536780092,
+   "t_max": 59169.44600724537,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tess-spoc_tess_phot_0000000153838604-s0032_tess_v1_tp",
+   "t_min": 59173.72376032407,
+   "t_max": 59199.73028445602,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tglc_tess_ffi_gaiaid-4788303839668784896-s0004-cam3-ccd4_tess_v1_llc",
+   "t_min": 58410.4292003422,
+   "t_max": 58436.32529281962,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tglc_tess_ffi_gaiaid-4788303839668784896-s0005-cam3-ccd3_tess_v1_llc",
+   "t_min": 58437.49194792923,
+   "t_max": 58463.76247539696,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tica_s0030-cam3-ccd4",
+   "t_min": 59115.38221328845,
+   "t_max": 59142.72247887589,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tica_s0031-cam3-ccd4",
+   "t_min": 59144.01414520806,
+   "t_max": 59169.44468948385,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tica_s0032-cam3-ccd3",
+   "t_min": 59173.72246538103,
+   "t_max": 59199.72939828876,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tica_s0097-cam3-ccd4",
+   "t_min": 60933.15314836288,
+   "t_max": 60987.78506706329,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "HLSP",
+   "instrument_name": "Photometer",
+   "obs_id": "hlsp_tica_s0098-cam3-ccd3",
+   "t_min": 60987.99340027198,
+   "t_max": 61045.39846611442,
+   "filters": "TESS"
+  },
+  {
+   "obs_collection": "GALEX",
+   "instrument_name": "GALEX",
+   "obs_id": "6385658055710736384",
+   "t_min": 54105.90509259259,
+   "t_max": 54105.90630787038,
+   "filters": "NUV"
+  },
+  {
+   "obs_collection": "GALEX",
+   "instrument_name": "GALEX",
+   "obs_id": "6385658055710736384",
+   "t_min": 54105.90509259259,
+   "t_max": 54105.90630787038,
+   "filters": "FUV"
+  }
+ ]
+}

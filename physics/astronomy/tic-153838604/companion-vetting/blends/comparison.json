@@ -1,0 +1,20 @@
+{
+  "target_absolute_g": 5.037897986171032,
+  "parallax_only_error_mag": 0.014279405341089147,
+  "individual_absolute_g_if_twins": 5.790472975330985,
+  "cmd_control_count": 172,
+  "cmd_control_percentiles_5_50_95": [
+    3.6643105692508193,
+    4.8997794975855715,
+    5.355129759319242
+  ],
+  "faintest_cmd_control": 5.492207661432204,
+  "controls_fainter_than_individual_twin": 0,
+  "low_ruwe_metal_matched_controls": 29,
+  "low_ruwe_metal_matched_fainter_than_twin": 0,
+  "local_ruwe_threshold": 1.2382092151164348,
+  "ruwe_control_count": 839,
+  "controls_with_equal_or_larger_ruwe": 154,
+  "nearby_wise_separation_arcsec": 7.755882457662245,
+  "wise_vhs_separation_arcsec": 0.42446291730222496
+}

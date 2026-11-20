@@ -1,0 +1,52 @@
+[
+  {
+    "sector": 97,
+    "center_BTJD": 3970.67403,
+    "camera": 3,
+    "ccd": 4,
+    "expected_xy": [
+      4.3975796300507275,
+      4.88153635267884
+    ],
+    "loss_xy": [
+      4.402389397906581,
+      4.802797821581169
+    ],
+    "radial_offset_pixels": 0.07888529740227888,
+    "control_windows": 101,
+    "scatter_xy_pixels": [
+      0.07219077141776455,
+      0.06766302374422611
+    ],
+    "positive_control_max_electrons_per_second": 2.734454413448411,
+    "observed_aperture_loss_electrons_per_second": 13.454391752566952,
+    "empirical_scatter_electrons_per_second": 0.9968507773823715,
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=68.07396&dec=-47.6088&x=9&y=9&units=px&sector=97",
+    "extracted_fits_SHA256": "b2e6daa4233df6d2cf4f659931b724b7c3d2386e44288b5cf066bc27f0251908"
+  },
+  {
+    "sector": 98,
+    "center_BTJD": 4026.757359,
+    "camera": 3,
+    "ccd": 3,
+    "expected_xy": [
+      4.3591149946721615,
+      4.300965372947659
+    ],
+    "loss_xy": [
+      4.40259746701398,
+      4.294432416016455
+    ],
+    "radial_offset_pixels": 0.04397050064784288,
+    "control_windows": 116,
+    "scatter_xy_pixels": [
+      0.10759390124675376,
+      0.09055892895848644
+    ],
+    "positive_control_max_electrons_per_second": 8.013087582987698,
+    "observed_aperture_loss_electrons_per_second": 14.249187207820086,
+    "empirical_scatter_electrons_per_second": 1.1728753605755413,
+    "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=68.07396&dec=-47.6088&x=9&y=9&units=px&sector=98",
+    "extracted_fits_SHA256": "d0e539a6bc652eef27d1cd5c9417c54050b02f6b2341cb37eff9f841af23766d"
+  }
+]

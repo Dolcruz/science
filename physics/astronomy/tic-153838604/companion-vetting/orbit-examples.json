@@ -1,0 +1,22 @@
+{
+  "1.20 RJ": {
+    "inclination_deg": 88.47407578130937,
+    "secondary_impact": 2.701811994972447,
+    "sum_radii_in_Rstar": 1.1360392447151826,
+    "eccentricity": 0.4912049306249132,
+    "K_m_s": 60.89850678027719,
+    "peak_loss_ppt": 12.992250244264314,
+    "max_straight_path_error_ppm": 3.9182303813722896
+  },
+  "0.15 solar radii": {
+    "inclination_deg": 88.62619004117063,
+    "secondary_impact": 2.4142925517343072,
+    "sum_radii_in_Rstar": 1.1654774354968955,
+    "eccentricity": 0.42561021307886665,
+    "K_m_s": 6837.523965108217,
+    "peak_loss_ppt": 13.14905705458662,
+    "max_straight_path_error_ppm": 3.1672983457852433
+  },
+  "max_native_cadence_profile_difference_ppt": 0.15619893383847158,
+  "sample_count": 632
+}

@@ -1,0 +1,52 @@
+#
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2026-11-20T18:45:00 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-11-20T18:45:00	  Query execution date
+#INFO	request=https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FAJ%2F159%2F19&-c=68.073988+-47.608994&-c.rs=10&-out=%2A%2A	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	MaxTuples=50000	
+#INFO	-c=068.073988-47.608994,rs=10.	
+#Constraint -out=**
+
+#RESOURCE=yCat_51590019
+#Name: J/AJ/159/19
+#Title: SOAR TESS survey. I. (Ziegler+, 2020)
+#INFO	ivoid=ivo://cds.vizier/j/aj/159/19	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/aj/159/19	    IVOID of underlying data collection
+#INFO	creator=Ziegler C.	    First author or institution
+#INFO	cites=bibcode:2020AJ....159...19Z	    Article or Data origin sources
+#INFO	journal=AJ	    Journal name
+#INFO	original_date=2020	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/159/19	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.51590019	    Dataset identifier that can be used for citation
+#INFO	publication_date=2023-10-06	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_AJ_159_19_table6:
+#Name: J/AJ/159/19/table6
+#Title: Full SOAR speckle observation list and binary properties
+#Column	_r	(F5.2)	Distance from center (068.07399-47.60899)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	TOI	(I4)	[0/1049] TESS Object of Interest identifier (1)	[ucd=meta.id;meta.main]
+#Column	more	(A1)	indicates data in other tables for this system	[ucd=meta.ref.url]
+#Column	TIC	(I9)	[1003831/462162948] TESS Input Catalog identifier	[ucd=meta.id]
+#Column	Comp	(a5)	Components of resolved binary (2)	[ucd=meta.code.multip]
+#Column	RAJ2000	(F9.5)	Right Ascension in decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F9.5)	Declination in decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Filt	(A1)	[VIy] Filter used	[ucd=instr.setup;instr.filter]
+#Column	Year	(F9.4)	[2018.255/2019.619] Julian year of the observation	[ucd=time.epoch;obs]
+#Column	theta	(F5.1)	[0/352.4]? Position angle {theta} (3)	[ucd=pos.posAng]
+#Column	tanrho	(F4.1)	[0/27.4]? Tangential direction uncertainty in rho {rho}{sigma}_{theta}_ (3)	[ucd=stat.error]
+#Column	rho	(F6.3)	[0/4.075]? Separation {rho} (3)	[ucd=pos.angDistance]
+#Column	radrho	(F4.1)	[0.1/27.4]? Radial direction uncertainty in rho {sigma}_{rho}_ (3)	[ucd=stat.error]
+#Column	Dmag	(F4.1)	[0/7.1]? Measured magnitude difference (3)	[ucd=phot.mag;arith.diff]
+#Column	Flag	(A1)	Photometry flag (4)	[ucd=meta.code.error]
+#Column	minrho	(F6.3)	[0.033/0.126] Estimated resolution limit	[ucd=pos.angResolution]
+#Column	Dm0.15	(F5.2)	[0/3.22] Estimated maximum detectable Dmag at 0.15" separation	[ucd=phot.mag;arith.diff]
+#Column	Dm1.0	(F5.2)	[0/5.67] Estimated maximum detectable Dmag at 1.0" separation	[ucd=phot.mag;arith.diff]

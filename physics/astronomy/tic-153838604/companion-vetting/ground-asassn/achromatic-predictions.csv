@@ -1,0 +1,7 @@
+calibration,example,achromatic_depth_estimate_ppt,measured_depth_estimate_ppt
+target only,1.20 RJ,15.69392008987162,28.160658748608647
+target only,0.15 solar radii,15.589972556809835,28.160658748608647
+inner comparison field,1.20 RJ,15.005106377896816,25.913432533854206
+inner comparison field,0.15 solar radii,15.027555408400337,25.913432533854206
+outer comparison field,1.20 RJ,15.089777701529277,28.248343362777884
+outer comparison field,0.15 solar radii,15.073345645290063,28.248343362777884

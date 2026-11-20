@@ -1,0 +1,4 @@
+https://exoplanetarchive.ipac.caltech.edu/data/ETSS//KELT2/013/704/22/KELT_S20_lc_043914_V01_east_raw_lc.tbl
+https://exoplanetarchive.ipac.caltech.edu/data/ETSS//KELT2/013/699/90/KELT_S20_lc_043914_V01_east_tfa_lc.tbl
+https://exoplanetarchive.ipac.caltech.edu/data/ETSS//KELT2/013/704/22/KELT_S20_lc_038023_V01_west_raw_lc.tbl
+https://exoplanetarchive.ipac.caltech.edu/data/ETSS//KELT2/013/699/90/KELT_S20_lc_038023_V01_west_tfa_lc.tbl

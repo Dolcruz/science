@@ -1,0 +1,8 @@
+astropy==8.0.3
+batman-package==2.5.3
+matplotlib==3.10.8
+numpy==2.4.2
+pandas==3.0.2
+pyarrow==26.0.1
+requests==2.32.5
+scipy==1.17.1
