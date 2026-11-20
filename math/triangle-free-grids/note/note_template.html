@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Triangle-free grids, exponent {{ALPHA4}}</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});document.body.dataset.ready=1"></script>
+<style>
+:root{--ink:#1d1d1f;--muted:#5a5a60;--faint:#c9c9cf;--accent:#2b3c8c;--bg:#ffffff;--box:#f4f4f7}
+body{background:var(--bg);color:var(--ink);font:15.5px/1.55 "Charter","Georgia",serif;max-width:760px;margin:0 auto;padding:28px 16px 60px}
+h1{font-size:27px;line-height:1.2;margin:4px 0 6px}
+h2{font-size:19px;margin:30px 0 8px;color:var(--accent)}
+.kicker{font:13px/1.4 system-ui,sans-serif;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.box{background:var(--box);border-left:3px solid var(--accent);padding:10px 14px;margin:14px 0}
+.thm{font-style:normal}
+.thm b{font-style:normal}
+table{border-collapse:collapse;font:13.5px/1.4 system-ui,sans-serif;margin:10px 0;width:100%}
+td,th{border-bottom:1px solid var(--faint);padding:4px 8px;text-align:right}
+th{color:var(--muted);font-weight:600}
+td:first-child,th:first-child{text-align:left}
+.digits{font:11.5px/1.5 ui-monospace,Menlo,monospace;display:flex;flex-wrap:wrap;gap:2px 10px}
+.fig{text-align:center;margin:12px 0}
+.cap{font:13px/1.4 system-ui,sans-serif;color:var(--muted);text-align:center}
+code{font:13px ui-monospace,Menlo,monospace}
+ol li,ul li{margin:3px 0}
+@media print{body{padding:0 8px}h2{break-after:avoid}.box,.fig{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="kicker">Discrete geometry · computer-assisted note · 20 November 2026</div>
+<h1>Large grid sets without isosceles right triangles: exponent {{ALPHA4}}</h1>
+
+<p class="cap" style="text-align:left">Falk Pfisterer. Produced with AI coding agents; see Section 8 for what was done by whom and what is machine-checked.<br>Code, certificates and Lean proof: <code>github.com/Dolcruz/science</code>, folder <code>math/triangle-free-grids</code>.</p>
+
+<h2>What this note proves</h2>
+<p>Let $F(n)$ be the largest number of points of the grid $\{0,\dots,n-1\}^2$ such that no three of them form an
+isosceles right triangle (in any orientation). Trivially $F(n)=o(n^2)$ by the multidimensional Szemerédi theorem;
+the question is how large $F(n)$ can be.</p>
+<div class="box thm"><b>Theorem 1.</b> There is a constant $c&gt;0$ such that for all sufficiently large $n$
+$$F(n)\;\ge\; c\,\frac{n^{\alpha}}{\sqrt{\log n}},\qquad \alpha=\frac{2\log {{Q}}}{\log {{N}}}={{ALPHA}}\ldots$$</div>
+<p><b>Context.</b> Károlyi and Solymosi [KS] introduced a Salem-Spencer-type digit construction in base a Gaussian
+integer and obtained $F(n)\gg n^{1.317865\ldots}/(\log n)^{140}$ with an AlphaEvolve-assisted certificate of
+281 digits in base $51+51i$.
+This note keeps their framework and contributes:</p>
+<ol>
+<li>a better certificate: <b>{{Q}} digits in base $\beta={{U}}+{{V}}i$</b> (norm {{N}}), raising the exponent to
+<b>{{ALPHA4}}</b>;</li>
+<li>a simpler passage from the alphabet to a triangle-free set (one weight per digit, Section 3), which loses a
+factor $\sqrt{\log n}$ instead of $(\log n)^{140}$;</li>
+<li>a short lemma showing that the "peeling order" condition of [KS] cannot be weakened by using other weights
+or fixed-composition classes (Lemma 7), and that peelable alphabets are square-free;</li>
+<li>an experimental table: over bases of norm 509 to 9901 the search reaches exponents 1.36 to 1.40, nearly flat in
+the norm;</li>
+<li>a formalization in Lean 4 with Mathlib of the construction and of the certificate (Section 7).</li>
+</ol>
+<p>Sections 1 to 4 restate the method with complete proofs so that the note stands on its own. Section 5 is new.
+Section 6 is a finite certificate, checked by two independent programs and by Lean.</p>
+
+<h2>1. Triangles as one linear equation</h2>
+<p>Identify $(x,y)$ with $x+iy\in\mathbb Z[i]$. Multiplication by $i$ is a rotation by $90^\circ$.</p>
+<p><b>Lemma 1.</b> Three distinct points form an isosceles right triangle iff they can be named $a,b,c$ with
+$$a+ic=(1+i)\,b. \tag{1}$$ If $a,b,c$ satisfy (1) and two of them coincide, all three coincide.</p>
+<p><i>Proof.</i> (1) says $a-b=-i(c-b)$: the leg $ba$ is the leg $bc$ turned by $90^\circ$. A triangle with right angle
+at $b$ and equal legs satisfies this for exactly one of the two namings of the other corners. If $a=b$ or $c=b$ the
+other leg is $0$ too; if $a=c$ then $(1+i)a=(1+i)b$. $\square$</p>
+<p>We call $b$ the <i>centre</i> and $a,c$ the <i>endpoints</i>. Solutions with $a=b=c$ are <i>constant</i>.</p>
+
+<h2>2. Digit alphabets</h2>
+<p>Fix $\beta\in\mathbb Z[i]$ with $|\beta|&gt;1$ and write $N=|\beta|^2$. An ordered list $P=(p_1,\dots,p_q)$ of
+distinct Gaussian integers is an <i>alphabet</i> for $\beta$ if</p>
+<ul>
+<li><b>(A1)</b> no two digits are congruent modulo $\beta$;</li>
+<li><b>(A2)</b> (no carries) if $a,b,c\in P$ and $\beta\mid a+ic-(1+i)b$, then $a+ic-(1+i)b=0$;</li>
+<li><b>(A3)</b> (peeling order) in every non-constant solution of (1) in $P$, an endpoint comes earlier in the list
+than the centre.</li>
+</ul>
+<p>For a word $w=(w_0,\dots,w_{m-1})\in P^m$ put $\Phi(w)=\sum_j w_j\beta^j$.</p>
+<p><b>Lemma 2.</b> Under (A1), (A2): (a) $\Phi$ is injective on $P^m$; (b) if
+$\Phi(A)+i\Phi(C)=(1+i)\Phi(B)$, then $A_j+iC_j=(1+i)B_j$ for every $j$.</p>
+<p><i>Proof.</i> Reduce modulo $\beta$: only position $0$ survives, so $\beta\mid A_0+iC_0-(1+i)B_0$, which is then
+$0$ by (A2). Subtract, divide by $\beta$, repeat. For (a) use (A1) in the same way. $\square$</p>
+
+<h2>3. Levels</h2>
+<p>Give the $t$-th digit weight $h(p_t)=2^{q-t}$ and a word the level $L(w)=\sum_j h(w_j)$.</p>
+<p><b>Lemma 3.</b> If $a,b,c\in P$ solve (1), then $h(a)+h(c)-2h(b)\ge0$, with equality only for constant solutions.</p>
+<p><i>Proof.</i> In a non-constant solution some endpoint is earlier than $b$, so its weight is at least $2h(b)$, and
+the other endpoint has positive weight. $\square$</p>
+<p><b>Proposition 4.</b> For every $\ell$, the set $\{\Phi(w): w\in P^m,\ L(w)=\ell\}$ has no isosceles right triangle.</p>
+<p><i>Proof.</i> A triangle gives words with $\Phi(A)+i\Phi(C)=(1+i)\Phi(B)$, hence (Lemma 2) a solution in every
+position, hence $\sum_j\big(h(A_j)+h(C_j)-2h(B_j)\big)=\ell+\ell-2\ell=0$ with every term $\ge 0$. So every term is $0$,
+every position is constant, $A=B=C$, and the three points are not distinct. $\square$</p>
+
+<h2>4. From an alphabet to the grid</h2>
+<p><b>Lemma 5.</b> If $\sigma^2$ is the variance of $h(p)$ for a uniform random digit, some level contains at least
+$\tfrac34 q^m/(4\sigma\sqrt m+1)$ words of length $m$.</p>
+<p><i>Proof.</i> By Chebyshev, at least $\tfrac34 q^m$ words have level within $2\sigma\sqrt m$ of the mean, an interval
+containing at most $4\sigma\sqrt m+1$ integers. $\square$</p>
+<p><b>Proposition 6.</b> An alphabet with $q\ge2$ digits gives $F(n)\ge c\,n^{\alpha}/\sqrt{\log n}$ with
+$\alpha=2\log q/\log N$.</p>
+<p><i>Proof.</i> With $R=\max|p|$, $|\Phi(w)|&lt;\frac{R}{|\beta|-1}|\beta|^m$, so after a translation all $\Phi(w)$ lie in a
+grid of side $K|\beta|^m$ with $K=\frac{2R}{|\beta|-1}+1$. Take $m$ maximal with $K|\beta|^m\le n$. Then
+$q^m=|\beta|^{m\alpha}&gt;(n/K|\beta|)^{\alpha}$ and $m\le\log n/\log|\beta|$; combine Lemma 5, Lemma 2(a) and
+Proposition 4. $\square$</p>
+<p>So Theorem 1 follows from the existence of the alphabet in Section 6.</p>
+
+<h2>5. New: what the peeling condition really is</h2>
+<p>Call a finite set $S\subset\mathbb Z[i]$ <i>self-centred</i> if every point of $S$ is the centre of a non-constant
+solution of (1) with all three points in $S$.</p>
+<div class="box"><b>Lemma 7.</b> For a finite set $P$ (with the solutions of (1) inside $P$) the following are equivalent:
+<ol>
+<li>$P$ can be ordered so that (A3) holds;</li>
+<li>there are real weights $h$ on $P$ with $h(a)+h(c)-2h(b)&gt;0$ for every non-constant solution;</li>
+<li>no nonzero combination $\sum_T y_T\,(e_a+e_c-2e_b)$ with $y_T\ge0$ over non-constant solutions $T=(a,b,c)$ vanishes;</li>
+<li>$P$ contains no non-empty self-centred subset.</li>
+</ol></div>
+<p><i>Proof.</i> (i)⇒(ii) is Lemma 3. (ii)⇔(iii) is Gordan's theorem of the alternative. (ii)⇒(iv): in a self-centred
+$S$ pick $b$ with maximal $h$; it is the centre of some $(a,b,c)$ in $S$, and $h(a)+h(c)\le 2h(b)$, a contradiction.
+(iv)⇒(i): $P$ itself is not self-centred, so some point is the centre of no solution in $P$; put it first, delete it,
+and repeat with the rest (a subset of $P$ again has no self-centred subset). $\square$</p>
+<p><b>Consequences.</b> (a) Replacing the level by any other weight, or by fixing the full digit composition of the
+words (whose triangles are exactly the vanishing combinations in (iii)), does not enlarge the class of usable
+alphabets: the peeling order of [KS] is already the exact condition for this kind of argument. (b) Every square
+(in any orientation) is self-centred: each corner is the right-angle vertex of the triangle formed with its two
+neighbours. Hence alphabets are square-free sets. (c) Condition (iv) gives a fast test, used in the search: repeatedly
+delete points that are not centres; what remains is the largest self-centred subset (the <i>core</i>), and $P$ is
+peelable iff the core is empty. The deletion order is a valid peeling order.</p>
+
+<p><b>The search.</b> Candidates are the lattice points in a disk $|z|\le\rho$ with $\rho\approx0.42|\beta|$.
+The state is always a valid alphabet. A move adds a random candidate $x$, removes its (A1) partner and one point of
+every "carry" triple it completes (a triple with $\beta\mid a+ic-(1+i)b\neq0$), then, while the core is non-empty,
+removes the core point whose deletion shrinks the core most. Moves with more than three deletions are discarded; the
+rest are accepted by a Metropolis rule on the size with a slowly decreasing temperature. Runs of a few minutes up to about an hour on one core (the longest in three stages, each restarted from the previous
+best) reach the values below (each verified by both programs of Section 6).</p>
+<table><tr><th>base $\beta$</th><th>norm $N$</th><th>digits $q$</th><th>exponent $2\log q/\log N$</th><th>source</th></tr>
+{{TABLE}}
+</table>
+<p><b>Geometry.</b> The best alphabets are not discs or annuli. They consist of a few thick arms that wind from the
+rim towards the centre, and the peeling order runs along each arm from its outer tip inwards (figure). The digits fill 15 to 20 percent of the lattice points of the disk they live in.</p>
+<div class="fig">{{SVG}}
+<div class="cap">The {{Q}} digits in base {{U}}+{{V}}i. Colour is the position in the peeling order, from first (blue) to
+last (amber). Grey dots are unused lattice points. Largest digit modulus {{RMAX}}.</div></div>
+
+<h2>6. The certificate</h2>
+<p>$\beta={{U}}+{{V}}i$, $N={{N}}$, $q={{Q}}$, and $\alpha=2\cdot{{LOGQ}}/{{LOGN}}={{ALPHA}}$.
+Two programs, sharing no code, check (A1) to (A3) in exact integer arithmetic:</p>
+<ul>
+<li><code>verify.py</code>: (A1) by comparing residues $\big((ux+vy)\bmod N,\ (uy-vx)\bmod N\big)$ (which identify the
+class of $x+iy$ modulo $\beta=u+iv$); (A2) by computing, for each of the $q^2$ pairs $(b,c)$, the value $a=(1+i)b-ic$
+and checking that a digit congruent to it equals it; (A3) by checking the order in every non-constant solution.</li>
+<li><code>verify2.py</code>: runs through all $q^3={{Q3}}$ ordered triples, tests $\beta\mid a+ic-(1+i)b$ directly, and
+checks (A2) and (A3) on every hit.</li>
+</ul>
+<p>Both report {{NSOL}} solutions, {{NTRI}} of them non-constant, and no violation. The digits in peeling order
+(read row by row; $(x,y)$ means $x+iy$):</p>
+<div class="digits">{{DIGITS}}</div>
+
+<h2>7. Formal verification in Lean</h2>
+<p>The folder <code>lean/</code> contains a Lean 4 project (Mathlib) that proves the following statement, in which
+<code>IRTFree S</code> says: whenever $a,b,c\in S$ and the vector $b\to a$ is the vector $b\to c$ rotated by
+$90^\circ$, then $a=b$.</p>
+<div class="box"><b>Theorem 2 (Lean: <code>IRT.main</code>).</b> For all natural numbers $m,n$ with ${{N}}^m\le n^2$ there is a
+set $S\subseteq\{0,\dots,n-1\}^2$ without isosceles right triangles and with
+$$|S|\;\ge\;\Big\lfloor \frac{ {{Q}}^m}{m\cdot 2^{ {{Q}}-1}+1}\Big\rfloor .$$</div>
+<p>Taking $m=\lfloor 2\log n/\log {{N}}\rfloor$ gives $F(n)\ge c\,n^{\alpha}/\log n$ with the same exponent
+$\alpha$ as in Theorem 1. What is and is not covered:</p>
+<ul>
+<li><b>Covered:</b> Lemmas 2 and 3, Proposition 4 (Lemma 1 is replaced by the definition of <code>IRTFree</code>), the embedding into the grid (Proposition 6 in the discrete form
+above), and the certificate of Section 6 for all {{Q3}} triples.</li>
+<li><b>Weaker than Theorem 1 by a factor $\sqrt{\log n}$:</b> Lean uses the pigeonhole principle over all levels
+instead of Chebyshev's inequality (Lemma 5), so the formal bound has $\log n$ in place of $\sqrt{\log n}$.</li>
+<li><b>Not formalized:</b> the elementary step from Theorem 2 to the real-exponent form, and Lemma 7 (which is not
+needed for the bound).</li>
+<li><b>Trust:</b> <code>#print axioms IRT.main</code> shows the three standard axioms and one more, created by
+<code>native_decide</code>: the triple check is run as compiled code and not inside the Lean kernel.</li>
+</ul>
+
+<h2>8. Status and honesty</h2>
+<ul>
+<li>Theorem 1 is a modest but genuine improvement of the best bound we know of. A web search on 20 November 2026 found
+only [KS] for this lower bound; [KS] states the best upper bound as $n^2/(\log n)^{1+c}$. Unpublished work by others
+cannot be excluded.</li>
+<li>The constant $c$ is astronomically small (weights up to $2^{q-1}$). This is a statement about growth rates only.</li>
+<li>Open: does the best exponent of this method tend to $2$ as $N\to\infty$, or does it saturate? The flat table
+does not decide whether the method or the search is the bottleneck; a structured family of arm-shaped alphabets
+might settle it.</li>
+<li><b>How this was made.</b> The search program, the proofs, the Lean formalization and this text were written by
+AI coding agents (Anthropic's Claude Code; an earlier 253-digit alphabet in the same base, exponent 1.3445, came
+from OpenAI's Codex one day before and is included in the repository) at the request of the author, who is not a
+professional mathematician. The correctness of Theorem 2 does not depend on trusting any of them: it rests on
+the Lean proof and on the certificate, which anyone can re-run.</li>
+</ul>
+<p><b>Reference.</b> [KS] G. Károlyi, J. Solymosi, <i>A Salem-Spencer-type construction for large subsets of integer
+grids with no isosceles right triangles</i>, arXiv:2607.22828 (2026).</p>
+</body>
+</html>
