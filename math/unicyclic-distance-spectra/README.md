@@ -10,10 +10,13 @@ having precisely three distinct distance eigenvalues."
 ## Contents
 
 - `Unicyclic_distance_spectra.pdf`: the full proof (7 pages).
+- `lean/`: target statement for the Lean 4 formalization (work in progress).
 
 ## Status
 
-- The proof is a paper proof. It is not formalized.
+- The proof is a paper proof. It is not formalized yet. `lean/` contains the frozen target
+  statement for a Lean 4 formalization (`lean/Unicyclic/Statement.lean`) and the rules for
+  it (`lean/TASK.md`); the proofs there are still open.
 - The note reports an exact computer check of all 7872 unicyclic graphs with 3 to 12
   vertices, which finds only C4 and C5. The script for that check is not in this folder
   yet.
